@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "window_system.h"
 
 namespace Smooth
@@ -12,7 +14,8 @@ namespace Smooth
     {
         if(!glfwInit())
         {
-            std::cout<<""
+            std::cout<<"无法初始化GLFW";
+            return;
         }
     }
 }

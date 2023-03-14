@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\particles.dir/objects.a
+F:\QT\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\particles.dir/objects.a @CMakeFiles\particles.dir\objects1.rsp
+F:\QT\Tools\mingw810_64\bin\gcc.exe -g -mwindows -Wl,--whole-archive CMakeFiles\particles.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\..\..\out\particles.exe -Wl,--out-implib,..\..\..\..\..\out\libparticles.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\particles.dir\linklibs.rsp

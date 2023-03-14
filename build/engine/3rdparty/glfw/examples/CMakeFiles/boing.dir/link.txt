@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\boing.dir/objects.a
+F:\QT\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\boing.dir/objects.a @CMakeFiles\boing.dir\objects1.rsp
+F:\QT\Tools\mingw810_64\bin\gcc.exe -g -mwindows -Wl,--whole-archive CMakeFiles\boing.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\..\..\out\boing.exe -Wl,--out-implib,..\..\..\..\..\out\libboing.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\boing.dir\linklibs.rsp
