@@ -153,6 +153,30 @@ source/editor.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.s
 .PHONY : source/editor.cpp.s
 
+source/editor_global_context.obj: source/editor_global_context.cpp.obj
+.PHONY : source/editor_global_context.obj
+
+# target to build an object file
+source/editor_global_context.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj
+.PHONY : source/editor_global_context.cpp.obj
+
+source/editor_global_context.i: source/editor_global_context.cpp.i
+.PHONY : source/editor_global_context.i
+
+# target to preprocess a source file
+source/editor_global_context.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.i
+.PHONY : source/editor_global_context.cpp.i
+
+source/editor_global_context.s: source/editor_global_context.cpp.s
+.PHONY : source/editor_global_context.s
+
+# target to generate assembly for a file
+source/editor_global_context.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.s
+.PHONY : source/editor_global_context.cpp.s
+
 source/main.obj: source/main.cpp.obj
 .PHONY : source/main.obj
 
@@ -189,6 +213,9 @@ help:
 	@echo ... source/editor.obj
 	@echo ... source/editor.i
 	@echo ... source/editor.s
+	@echo ... source/editor_global_context.obj
+	@echo ... source/editor_global_context.i
+	@echo ... source/editor_global_context.s
 	@echo ... source/main.obj
 	@echo ... source/main.i
 	@echo ... source/main.s

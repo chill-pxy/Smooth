@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../../../../out/libSmoothEditor.dll.a"
   "CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj"
   "CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj.d"
+  "CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj"
+  "CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj.d"
   "CMakeFiles/SmoothEditor.dir/source/main.cpp.obj"
   "CMakeFiles/SmoothEditor.dir/source/main.cpp.obj.d"
 )

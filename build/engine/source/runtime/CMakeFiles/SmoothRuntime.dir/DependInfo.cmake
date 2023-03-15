@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "G:/Project/VsCode_project/Smooth.0.0.1/build/engine/3rdparty/CMakeFiles/glad.dir/DependInfo.cmake"
   "G:/Project/VsCode_project/Smooth.0.0.1/build/engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 

@@ -5,6 +5,7 @@ add_executable(${TARGET_NAME})
 target_sources(${TARGET_NAME} PRIVATE
  source/main.cpp
  source/editor.cpp
+ source/editor_global_context.cpp
 )
 
 target_include_directories(${TARGET_NAME} PRIVATE

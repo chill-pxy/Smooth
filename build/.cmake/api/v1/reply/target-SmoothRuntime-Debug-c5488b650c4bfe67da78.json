@@ -39,13 +39,13 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 15,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 21,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -74,6 +74,10 @@
 				},
 				{
 					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth.0.0.1/engine/3rdparty/glad/include"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "G:/Project/VsCode_project/Smooth.0.0.1/engine/3rdparty/glfw/include"
 				}
 			],
@@ -97,6 +101,10 @@
 	],
 	"dependencies" : 
 	[
+		{
+			"backtrace" : 2,
+			"id" : "glad::@e01f7ddb2d9853d51791"
+		},
 		{
 			"backtrace" : 2,
 			"id" : "glfw::@5aec3c3994f13e9ca945"
