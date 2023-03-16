@@ -18,8 +18,10 @@ namespace Smooth
         ~WindowSystem();
 
         void        initialize(WindowInfo window_info);
-        bool        ShouldClose() const;
-        GLFWwindow* getWindow() const;
+
+        bool        shouldClose() const { return glfwWindowShouldClose(m_window); }
+        GLFWwindow* getWindow() const { return m_window; }
+        void        pollEvents() const { glfwPollEvents(); }
 
     private:
         GLFWwindow* m_window {nullptr};

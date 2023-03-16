@@ -34,8 +34,5 @@ namespace Smooth
             return;
         }
     }
-
-    bool WindowSystem::ShouldClose() const { return glfwWindowShouldClose(m_window); }
-
-    GLFWwindow* WindowSystem::getWindow() const { return m_window; }
+    
 }

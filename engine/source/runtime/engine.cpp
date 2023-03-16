@@ -20,20 +20,31 @@ namespace Smooth
         std::cout<<"ÒýÇæ¹Ø±Õ"<<std::endl;
     }
 
+    //--------------------------------------------------------------------------
+
     void SmoothEngine::run()
     {
         std::shared_ptr<WindowSystem> window_system = g_runtime_global_context.m_window_system;
         
-        while (!window_system->ShouldClose())
+        while (!window_system->shouldClose())
         {
             const float delta_time = calculateDeltaTime();
-
-        // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
-        // -------------------------------------------------------------------------------
-            glfwSwapBuffers(window_system->getWindow());
-            glfwPollEvents();
+            tickOneFrame(delta_time);
         }
     }
+
+    bool SmoothEngine::tickOneFrame(float delta_time)
+    {
+        logicalTick(delta_time);
+        calculateFPS(delta_time);
+
+        g_runtime_global_context.m_window_system->pollEvents();
+
+        const bool should_window_close = g_runtime_global_context.m_window_system->shouldClose();
+        return !should_window_close;
+    }
+
+    //---------------------------------------------------------------------------
 
     float SmoothEngine::calculateDeltaTime()
     {
@@ -49,4 +60,21 @@ namespace Smooth
 
         return delta_time;
     }
+
+    void SmoothEngine::calculateFPS(float delta_time)
+    {
+
+    }
+
+    void SmoothEngine::logicalTick(float delta_time)
+    {
+        
+    }
+
+    bool SmoothEngine::rendererTick()
+    {
+        return true;
+    }
+
+
 }

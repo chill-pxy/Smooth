@@ -8,7 +8,6 @@ int main()
     Smooth::SmoothEngine* engine=new Smooth::SmoothEngine();
 
     engine->startEngine();
-    engine->run();
 
     Smooth::SmoothEditor* editor=new Smooth::SmoothEditor();
     
