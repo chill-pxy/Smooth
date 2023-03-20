@@ -1,5 +1,7 @@
 #pragma once
 
+#include <functional>
+
 #include "GLFW/glfw3.h"
 
 namespace Smooth
@@ -18,12 +20,28 @@ namespace Smooth
         ~WindowSystem();
 
         void        initialize(WindowInfo window_info);
-
         bool        shouldClose() const { return glfwWindowShouldClose(m_window); }
         GLFWwindow* getWindow() const { return m_window; }
         void        pollEvents() const { glfwPollEvents(); }
+        void        swapBuffers() const { glfwSwapBuffers(m_window); }
+
+        typedef std::function<void(int,int,int,int)> onKeyFunc;
+
+        void registerOnKeyFunc(onKeyFunc func) { m_onKeyFunc.push_back(func); }
+
+    protected:
+        static void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
+        static void windowSizeCallback(GLFWwindow* window, int width, int height);
+        static void windowCloseCallback(GLFWwindow* window);
+
+        void onKey(int key, int scancode, int action, int mods);
+        
 
     private:
         GLFWwindow* m_window {nullptr};
+        int         m_width {0};
+        int         m_height {0};
+
+        std::vector<onKeyFunc> m_onKeyFunc;
     };
 }

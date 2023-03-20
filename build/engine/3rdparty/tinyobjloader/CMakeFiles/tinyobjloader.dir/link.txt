@@ -1,2 +1,0 @@
-F:\QT\Tools\mingw810_64\bin\ar.exe qc libtinyobjloader.a CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.obj
-F:\QT\Tools\mingw810_64\bin\ranlib.exe libtinyobjloader.a

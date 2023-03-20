@@ -33,6 +33,40 @@ namespace Smooth
             std::cout<<"无法创建窗口"<<std::endl;
             return;
         }
+
+        glfwSetWindowUserPointer(m_window,this);
+        glfwSetKeyCallback(m_window,keyCallback);
+        glfwSetWindowSizeCallback(m_window,windowSizeCallback);
+        glfwSetWindowCloseCallback(m_window,windowCloseCallback);
+    }
+
+    //-------------------------------------------------------------------------------
+    
+    void WindowSystem::keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
+    {
+        WindowSystem* app = (WindowSystem*)glfwGetWindowUserPointer(window);
+        if(app){ app->onKey(key,scancode,action,mods); }
+    }
+
+    void WindowSystem::windowSizeCallback(GLFWwindow* window, int width, int height)
+    {
+        WindowSystem* app = (WindowSystem*)glfwGetWindowUserPointer(window);
+        if(app)
+        { 
+            app->m_width  = width;
+            app->m_height = height;    
+        }
+    }
+    
+    void WindowSystem::windowCloseCallback(GLFWwindow* window)
+    {
+        glfwSetWindowShouldClose(window,true);
+    }
+
+    void  WindowSystem::onKey(int key, int scancode, int action, int mods)
+    {
+        for(auto& func : m_onKeyFunc)
+            func(key,scancode,action,mods);
     }
     
 }

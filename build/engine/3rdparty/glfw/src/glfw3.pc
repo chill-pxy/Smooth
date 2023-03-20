@@ -1,7 +1,7 @@
-prefix=G:/Project/VsCode_project/Smooth.0.0.1/bin
+prefix=G:/Project/VsCode_project/Smooth/bin
 exec_prefix=${prefix}
-includedir=G:/Project/VsCode_project/Smooth.0.0.1/bin/include
-libdir=G:/Project/VsCode_project/Smooth.0.0.1/bin/lib
+includedir=G:/Project/VsCode_project/Smooth/bin/include
+libdir=G:/Project/VsCode_project/Smooth/bin/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

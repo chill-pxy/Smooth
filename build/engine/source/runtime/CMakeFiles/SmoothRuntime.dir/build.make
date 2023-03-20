@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth.0.0.1
+CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth.0.0.1\build
+CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth\build
 
 # Include any dependencies generated for this target.
 include engine/source/runtime/CMakeFiles/SmoothRuntime.dir/depend.make
@@ -72,66 +72,98 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj: engine/source
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj: ../engine/source/runtime/engine.cpp
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\engine.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\engine.cpp.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\engine.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\engine.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\runtime\engine.cpp
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothRuntime.dir/engine.cpp.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\engine.cpp > CMakeFiles\SmoothRuntime.dir\engine.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\runtime\engine.cpp > CMakeFiles\SmoothRuntime.dir\engine.cpp.i
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothRuntime.dir/engine.cpp.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\engine.cpp -o CMakeFiles\SmoothRuntime.dir\engine.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\runtime\engine.cpp -o CMakeFiles\SmoothRuntime.dir\engine.cpp.s
+
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/flags.make
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj: ../engine/source/runtime/input/input_system.cpp
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\input\input_system.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\input\input_system.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\runtime\input\input_system.cpp
+
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.i"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\runtime\input\input_system.cpp > CMakeFiles\SmoothRuntime.dir\input\input_system.cpp.i
+
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.s"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\runtime\input\input_system.cpp -o CMakeFiles\SmoothRuntime.dir\input\input_system.cpp.s
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/flags.make
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj: ../engine/source/runtime/tool/global/global_context.cpp
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\tool\global\global_context.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\tool\global\global_context.cpp.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\tool\global\global_context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\tool\global\global_context.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\tool\global\global_context.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\global\global_context.cpp
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\tool\global\global_context.cpp > CMakeFiles\SmoothRuntime.dir\tool\global\global_context.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\global\global_context.cpp > CMakeFiles\SmoothRuntime.dir\tool\global\global_context.cpp.i
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\tool\global\global_context.cpp -o CMakeFiles\SmoothRuntime.dir\tool\global\global_context.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\global\global_context.cpp -o CMakeFiles\SmoothRuntime.dir\tool\global\global_context.cpp.s
+
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/flags.make
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj: ../engine/source/runtime/tool/render/RHI/opengl_rhi.cpp
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\tool\render\RHI\opengl_rhi.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\tool\render\RHI\opengl_rhi.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\render\RHI\opengl_rhi.cpp
+
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.i"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\render\RHI\opengl_rhi.cpp > CMakeFiles\SmoothRuntime.dir\tool\render\RHI\opengl_rhi.cpp.i
+
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.s"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\render\RHI\opengl_rhi.cpp -o CMakeFiles\SmoothRuntime.dir\tool\render\RHI\opengl_rhi.cpp.s
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/flags.make
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj: ../engine/source/runtime/tool/render/render_system.cpp
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\tool\render\render_system.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\tool\render\render_system.cpp.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\tool\render\render_system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\tool\render\render_system.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\tool\render\render_system.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\render\render_system.cpp
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\tool\render\render_system.cpp > CMakeFiles\SmoothRuntime.dir\tool\render\render_system.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\render\render_system.cpp > CMakeFiles\SmoothRuntime.dir\tool\render\render_system.cpp.i
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\tool\render\render_system.cpp -o CMakeFiles\SmoothRuntime.dir\tool\render\render_system.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\render\render_system.cpp -o CMakeFiles\SmoothRuntime.dir\tool\render\render_system.cpp.s
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/flags.make
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj: ../engine/source/runtime/tool/render/window_system.cpp
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\tool\render\window_system.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\tool\render\window_system.cpp.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\tool\render\window_system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj -MF CMakeFiles\SmoothRuntime.dir\tool\render\window_system.cpp.obj.d -o CMakeFiles\SmoothRuntime.dir\tool\render\window_system.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\render\window_system.cpp
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\tool\render\window_system.cpp > CMakeFiles\SmoothRuntime.dir\tool\render\window_system.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\render\window_system.cpp > CMakeFiles\SmoothRuntime.dir\tool\render\window_system.cpp.i
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime\tool\render\window_system.cpp -o CMakeFiles\SmoothRuntime.dir\tool\render\window_system.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\runtime\tool\render\window_system.cpp -o CMakeFiles\SmoothRuntime.dir\tool\render\window_system.cpp.s
 
 # Object files for target SmoothRuntime
 SmoothRuntime_OBJECTS = \
 "CMakeFiles/SmoothRuntime.dir/engine.cpp.obj" \
+"CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj" \
 "CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj" \
+"CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj" \
 "CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj" \
 "CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj"
 
@@ -139,24 +171,26 @@ SmoothRuntime_OBJECTS = \
 SmoothRuntime_EXTERNAL_OBJECTS =
 
 ../out/libSmoothRuntime.a: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj
+../out/libSmoothRuntime.a: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj
 ../out/libSmoothRuntime.a: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj
+../out/libSmoothRuntime.a: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj
 ../out/libSmoothRuntime.a: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj
 ../out/libSmoothRuntime.a: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj
 ../out/libSmoothRuntime.a: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/build.make
 ../out/libSmoothRuntime.a: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ..\..\..\..\out\libSmoothRuntime.a"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && $(CMAKE_COMMAND) -P CMakeFiles\SmoothRuntime.dir\cmake_clean_target.cmake
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SmoothRuntime.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ..\..\..\..\out\libSmoothRuntime.a"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && $(CMAKE_COMMAND) -P CMakeFiles\SmoothRuntime.dir\cmake_clean_target.cmake
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SmoothRuntime.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/build: ../out/libSmoothRuntime.a
 .PHONY : engine/source/runtime/CMakeFiles/SmoothRuntime.dir/build
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/clean:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime && $(CMAKE_COMMAND) -P CMakeFiles\SmoothRuntime.dir\cmake_clean.cmake
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\runtime && $(CMAKE_COMMAND) -P CMakeFiles\SmoothRuntime.dir\cmake_clean.cmake
 .PHONY : engine/source/runtime/CMakeFiles/SmoothRuntime.dir/clean
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\Project\VsCode_project\Smooth.0.0.1 G:\Project\VsCode_project\Smooth.0.0.1\engine\source\runtime G:\Project\VsCode_project\Smooth.0.0.1\build G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime\CMakeFiles\SmoothRuntime.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\Project\VsCode_project\Smooth G:\Project\VsCode_project\Smooth\engine\source\runtime G:\Project\VsCode_project\Smooth\build G:\Project\VsCode_project\Smooth\build\engine\source\runtime G:\Project\VsCode_project\Smooth\build\engine\source\runtime\CMakeFiles\SmoothRuntime.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/source/runtime/CMakeFiles/SmoothRuntime.dir/depend
 

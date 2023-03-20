@@ -1,8 +1,8 @@
-# Install script for directory: G:/Project/VsCode_project/Smooth.0.0.1/engine/source/editor
+# Install script for directory: G:/Project/VsCode_project/Smooth/engine/source/editor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "G:/Project/VsCode_project/Smooth.0.0.1/bin")
+  set(CMAKE_INSTALL_PREFIX "G:/Project/VsCode_project/Smooth/bin")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

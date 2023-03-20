@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth.0.0.1
+CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth.0.0.1\build
+CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth\build
 
 # Include any dependencies generated for this target.
 include engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/depend.make
@@ -72,226 +72,226 @@ engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: engine/3rdparty/glfw
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: ../engine/3rdparty/glfw/src/context.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj -MF CMakeFiles\glfw.dir\context.c.obj.d -o CMakeFiles\glfw.dir\context.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj -MF CMakeFiles\glfw.dir\context.c.obj.d -o CMakeFiles\glfw.dir\context.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\context.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\context.c > CMakeFiles\glfw.dir\context.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\context.c > CMakeFiles\glfw.dir\context.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\context.c -o CMakeFiles\glfw.dir\context.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\context.c -o CMakeFiles\glfw.dir\context.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: ../engine/3rdparty/glfw/src/init.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj -MF CMakeFiles\glfw.dir\init.c.obj.d -o CMakeFiles\glfw.dir\init.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj -MF CMakeFiles\glfw.dir\init.c.obj.d -o CMakeFiles\glfw.dir\init.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\init.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\init.c > CMakeFiles\glfw.dir\init.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\init.c > CMakeFiles\glfw.dir\init.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\init.c -o CMakeFiles\glfw.dir\init.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\init.c -o CMakeFiles\glfw.dir\init.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: ../engine/3rdparty/glfw/src/input.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj -MF CMakeFiles\glfw.dir\input.c.obj.d -o CMakeFiles\glfw.dir\input.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj -MF CMakeFiles\glfw.dir\input.c.obj.d -o CMakeFiles\glfw.dir\input.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\input.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\input.c > CMakeFiles\glfw.dir\input.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\input.c > CMakeFiles\glfw.dir\input.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\input.c -o CMakeFiles\glfw.dir\input.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\input.c -o CMakeFiles\glfw.dir\input.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: ../engine/3rdparty/glfw/src/monitor.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj -MF CMakeFiles\glfw.dir\monitor.c.obj.d -o CMakeFiles\glfw.dir\monitor.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj -MF CMakeFiles\glfw.dir\monitor.c.obj.d -o CMakeFiles\glfw.dir\monitor.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\monitor.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\monitor.c > CMakeFiles\glfw.dir\monitor.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\monitor.c > CMakeFiles\glfw.dir\monitor.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\monitor.c -o CMakeFiles\glfw.dir\monitor.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\monitor.c -o CMakeFiles\glfw.dir\monitor.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: ../engine/3rdparty/glfw/src/vulkan.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj -MF CMakeFiles\glfw.dir\vulkan.c.obj.d -o CMakeFiles\glfw.dir\vulkan.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\vulkan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj -MF CMakeFiles\glfw.dir\vulkan.c.obj.d -o CMakeFiles\glfw.dir\vulkan.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\vulkan.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/vulkan.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\vulkan.c > CMakeFiles\glfw.dir\vulkan.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\vulkan.c > CMakeFiles\glfw.dir\vulkan.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/vulkan.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\vulkan.c -o CMakeFiles\glfw.dir\vulkan.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\vulkan.c -o CMakeFiles\glfw.dir\vulkan.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: ../engine/3rdparty/glfw/src/window.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj -MF CMakeFiles\glfw.dir\window.c.obj.d -o CMakeFiles\glfw.dir\window.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj -MF CMakeFiles\glfw.dir\window.c.obj.d -o CMakeFiles\glfw.dir\window.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\window.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\window.c > CMakeFiles\glfw.dir\window.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\window.c > CMakeFiles\glfw.dir\window.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\window.c -o CMakeFiles\glfw.dir\window.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\window.c -o CMakeFiles\glfw.dir\window.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: ../engine/3rdparty/glfw/src/win32_init.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj -MF CMakeFiles\glfw.dir\win32_init.c.obj.d -o CMakeFiles\glfw.dir\win32_init.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj -MF CMakeFiles\glfw.dir\win32_init.c.obj.d -o CMakeFiles\glfw.dir\win32_init.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_init.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_init.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_init.c > CMakeFiles\glfw.dir\win32_init.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_init.c > CMakeFiles\glfw.dir\win32_init.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_init.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_init.c -o CMakeFiles\glfw.dir\win32_init.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_init.c -o CMakeFiles\glfw.dir\win32_init.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: ../engine/3rdparty/glfw/src/win32_joystick.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj -MF CMakeFiles\glfw.dir\win32_joystick.c.obj.d -o CMakeFiles\glfw.dir\win32_joystick.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_joystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj -MF CMakeFiles\glfw.dir\win32_joystick.c.obj.d -o CMakeFiles\glfw.dir\win32_joystick.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_joystick.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_joystick.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_joystick.c > CMakeFiles\glfw.dir\win32_joystick.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_joystick.c > CMakeFiles\glfw.dir\win32_joystick.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_joystick.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_joystick.c -o CMakeFiles\glfw.dir\win32_joystick.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_joystick.c -o CMakeFiles\glfw.dir\win32_joystick.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: ../engine/3rdparty/glfw/src/win32_monitor.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj -MF CMakeFiles\glfw.dir\win32_monitor.c.obj.d -o CMakeFiles\glfw.dir\win32_monitor.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj -MF CMakeFiles\glfw.dir\win32_monitor.c.obj.d -o CMakeFiles\glfw.dir\win32_monitor.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_monitor.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_monitor.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_monitor.c > CMakeFiles\glfw.dir\win32_monitor.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_monitor.c > CMakeFiles\glfw.dir\win32_monitor.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_monitor.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_monitor.c -o CMakeFiles\glfw.dir\win32_monitor.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_monitor.c -o CMakeFiles\glfw.dir\win32_monitor.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: ../engine/3rdparty/glfw/src/win32_time.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj -MF CMakeFiles\glfw.dir\win32_time.c.obj.d -o CMakeFiles\glfw.dir\win32_time.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj -MF CMakeFiles\glfw.dir\win32_time.c.obj.d -o CMakeFiles\glfw.dir\win32_time.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_time.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_time.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_time.c > CMakeFiles\glfw.dir\win32_time.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_time.c > CMakeFiles\glfw.dir\win32_time.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_time.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_time.c -o CMakeFiles\glfw.dir\win32_time.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_time.c -o CMakeFiles\glfw.dir\win32_time.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: ../engine/3rdparty/glfw/src/win32_thread.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj -MF CMakeFiles\glfw.dir\win32_thread.c.obj.d -o CMakeFiles\glfw.dir\win32_thread.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj -MF CMakeFiles\glfw.dir\win32_thread.c.obj.d -o CMakeFiles\glfw.dir\win32_thread.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_thread.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_thread.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_thread.c > CMakeFiles\glfw.dir\win32_thread.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_thread.c > CMakeFiles\glfw.dir\win32_thread.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_thread.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_thread.c -o CMakeFiles\glfw.dir\win32_thread.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_thread.c -o CMakeFiles\glfw.dir\win32_thread.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: ../engine/3rdparty/glfw/src/win32_window.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj -MF CMakeFiles\glfw.dir\win32_window.c.obj.d -o CMakeFiles\glfw.dir\win32_window.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj -MF CMakeFiles\glfw.dir\win32_window.c.obj.d -o CMakeFiles\glfw.dir\win32_window.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_window.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_window.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_window.c > CMakeFiles\glfw.dir\win32_window.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_window.c > CMakeFiles\glfw.dir\win32_window.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_window.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\win32_window.c -o CMakeFiles\glfw.dir\win32_window.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\win32_window.c -o CMakeFiles\glfw.dir\win32_window.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: ../engine/3rdparty/glfw/src/wgl_context.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj -MF CMakeFiles\glfw.dir\wgl_context.c.obj.d -o CMakeFiles\glfw.dir\wgl_context.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\wgl_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj -MF CMakeFiles\glfw.dir\wgl_context.c.obj.d -o CMakeFiles\glfw.dir\wgl_context.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\wgl_context.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wgl_context.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\wgl_context.c > CMakeFiles\glfw.dir\wgl_context.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\wgl_context.c > CMakeFiles\glfw.dir\wgl_context.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wgl_context.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\wgl_context.c -o CMakeFiles\glfw.dir\wgl_context.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\wgl_context.c -o CMakeFiles\glfw.dir\wgl_context.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: ../engine/3rdparty/glfw/src/egl_context.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj -MF CMakeFiles\glfw.dir\egl_context.c.obj.d -o CMakeFiles\glfw.dir\egl_context.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\egl_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj -MF CMakeFiles\glfw.dir\egl_context.c.obj.d -o CMakeFiles\glfw.dir\egl_context.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\egl_context.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/egl_context.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\egl_context.c > CMakeFiles\glfw.dir\egl_context.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\egl_context.c > CMakeFiles\glfw.dir\egl_context.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/egl_context.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\egl_context.c -o CMakeFiles\glfw.dir\egl_context.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\egl_context.c -o CMakeFiles\glfw.dir\egl_context.c.s
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/flags.make
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: ../engine/3rdparty/glfw/src/osmesa_context.c
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj -MF CMakeFiles\glfw.dir\osmesa_context.c.obj.d -o CMakeFiles\glfw.dir\osmesa_context.c.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\osmesa_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj -MF CMakeFiles\glfw.dir\osmesa_context.c.obj.d -o CMakeFiles\glfw.dir\osmesa_context.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\osmesa_context.c
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/osmesa_context.c.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\osmesa_context.c > CMakeFiles\glfw.dir\osmesa_context.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\osmesa_context.c > CMakeFiles\glfw.dir\osmesa_context.c.i
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/osmesa_context.c.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src\osmesa_context.c -o CMakeFiles\glfw.dir\osmesa_context.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src\osmesa_context.c -o CMakeFiles\glfw.dir\osmesa_context.c.s
 
 # Object files for target glfw
 glfw_OBJECTS = \
@@ -331,19 +331,19 @@ glfw_EXTERNAL_OBJECTS =
 ../out/libglfw3.a: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
 ../out/libglfw3.a: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/build.make
 ../out/libglfw3.a: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library ..\..\..\..\..\out\libglfw3.a"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library ..\..\..\..\..\out\libglfw3.a"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/build: ../out/libglfw3.a
 .PHONY : engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/build
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
 .PHONY : engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/clean
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\Project\VsCode_project\Smooth.0.0.1 G:\Project\VsCode_project\Smooth.0.0.1\engine\3rdparty\glfw\src G:\Project\VsCode_project\Smooth.0.0.1\build G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\Project\VsCode_project\Smooth G:\Project\VsCode_project\Smooth\engine\3rdparty\glfw\src G:\Project\VsCode_project\Smooth\build G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/depend
 

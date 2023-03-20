@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth.0.0.1
+CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth.0.0.1\build
+CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor\\CMakeFiles\progress.marks
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles 0
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles G:\Project\VsCode_project\Smooth\build\engine\source\editor\\CMakeFiles\progress.marks
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/clean
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/preinstall
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/preinstall
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/source/editor/CMakeFiles/SmoothEditor.dir/rule:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/CMakeFiles/SmoothEditor.dir/rule
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/CMakeFiles/SmoothEditor.dir/rule
 .PHONY : engine/source/editor/CMakeFiles/SmoothEditor.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ SmoothEditor: engine/source/editor/CMakeFiles/SmoothEditor.dir/rule
 
 # fast build rule for target.
 SmoothEditor/fast:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/build
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/build
 .PHONY : SmoothEditor/fast
 
 source/editor.obj: source/editor.cpp.obj
@@ -134,7 +134,7 @@ source/editor.obj: source/editor.cpp.obj
 
 # target to build an object file
 source/editor.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj
 .PHONY : source/editor.cpp.obj
 
 source/editor.i: source/editor.cpp.i
@@ -142,7 +142,7 @@ source/editor.i: source/editor.cpp.i
 
 # target to preprocess a source file
 source/editor.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.i
 .PHONY : source/editor.cpp.i
 
 source/editor.s: source/editor.cpp.s
@@ -150,7 +150,7 @@ source/editor.s: source/editor.cpp.s
 
 # target to generate assembly for a file
 source/editor.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.s
 .PHONY : source/editor.cpp.s
 
 source/editor_global_context.obj: source/editor_global_context.cpp.obj
@@ -158,7 +158,7 @@ source/editor_global_context.obj: source/editor_global_context.cpp.obj
 
 # target to build an object file
 source/editor_global_context.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj
 .PHONY : source/editor_global_context.cpp.obj
 
 source/editor_global_context.i: source/editor_global_context.cpp.i
@@ -166,7 +166,7 @@ source/editor_global_context.i: source/editor_global_context.cpp.i
 
 # target to preprocess a source file
 source/editor_global_context.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.i
 .PHONY : source/editor_global_context.cpp.i
 
 source/editor_global_context.s: source/editor_global_context.cpp.s
@@ -174,15 +174,39 @@ source/editor_global_context.s: source/editor_global_context.cpp.s
 
 # target to generate assembly for a file
 source/editor_global_context.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.s
 .PHONY : source/editor_global_context.cpp.s
+
+source/editor_input_manager.obj: source/editor_input_manager.cpp.obj
+.PHONY : source/editor_input_manager.obj
+
+# target to build an object file
+source/editor_input_manager.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj
+.PHONY : source/editor_input_manager.cpp.obj
+
+source/editor_input_manager.i: source/editor_input_manager.cpp.i
+.PHONY : source/editor_input_manager.i
+
+# target to preprocess a source file
+source/editor_input_manager.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.i
+.PHONY : source/editor_input_manager.cpp.i
+
+source/editor_input_manager.s: source/editor_input_manager.cpp.s
+.PHONY : source/editor_input_manager.s
+
+# target to generate assembly for a file
+source/editor_input_manager.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.s
+.PHONY : source/editor_input_manager.cpp.s
 
 source/main.obj: source/main.cpp.obj
 .PHONY : source/main.obj
 
 # target to build an object file
 source/main.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj
 .PHONY : source/main.cpp.obj
 
 source/main.i: source/main.cpp.i
@@ -190,7 +214,7 @@ source/main.i: source/main.cpp.i
 
 # target to preprocess a source file
 source/main.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.i
 .PHONY : source/main.cpp.i
 
 source/main.s: source/main.cpp.s
@@ -198,7 +222,7 @@ source/main.s: source/main.cpp.s
 
 # target to generate assembly for a file
 source/main.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
 # Help Target
@@ -216,6 +240,9 @@ help:
 	@echo ... source/editor_global_context.obj
 	@echo ... source/editor_global_context.i
 	@echo ... source/editor_global_context.s
+	@echo ... source/editor_input_manager.obj
+	@echo ... source/editor_input_manager.i
+	@echo ... source/editor_input_manager.s
 	@echo ... source/main.obj
 	@echo ... source/main.i
 	@echo ... source/main.s
@@ -230,6 +257,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

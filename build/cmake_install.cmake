@@ -1,8 +1,8 @@
-# Install script for directory: G:/Project/VsCode_project/Smooth.0.0.1
+# Install script for directory: G:/Project/VsCode_project/Smooth
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "G:/Project/VsCode_project/Smooth.0.0.1/bin")
+  set(CMAKE_INSTALL_PREFIX "G:/Project/VsCode_project/Smooth/bin")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("G:/Project/VsCode_project/Smooth.0.0.1/build/engine/cmake_install.cmake")
+  include("G:/Project/VsCode_project/Smooth/build/engine/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "G:/Project/VsCode_project/Smooth.0.0.1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "G:/Project/VsCode_project/Smooth/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth.0.0.1
+CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth.0.0.1\build
+CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles G:\Project\VsCode_project\Smooth.0.0.1\build\engine\3rdparty\\CMakeFiles\progress.marks
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles 0
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles G:\Project\VsCode_project\Smooth\build\engine\3rdparty\\CMakeFiles\progress.marks
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/all
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/clean
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/preinstall
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/preinstall
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/3rdparty/CMakeFiles/glad.dir/rule:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/CMakeFiles/glad.dir/rule
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/CMakeFiles/glad.dir/rule
 .PHONY : engine/3rdparty/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ glad: engine/3rdparty/CMakeFiles/glad.dir/rule
 
 # fast build rule for target.
 glad/fast:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/build
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
 glad/src/glad.obj: glad/src/glad.c.obj
@@ -134,7 +134,7 @@ glad/src/glad.obj: glad/src/glad.c.obj
 
 # target to build an object file
 glad/src/glad.c.obj:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj
 .PHONY : glad/src/glad.c.obj
 
 glad/src/glad.i: glad/src/glad.c.i
@@ -142,7 +142,7 @@ glad/src/glad.i: glad/src/glad.c.i
 
 # target to preprocess a source file
 glad/src/glad.c.i:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.i
 .PHONY : glad/src/glad.c.i
 
 glad/src/glad.s: glad/src/glad.c.s
@@ -150,7 +150,7 @@ glad/src/glad.s: glad/src/glad.c.s
 
 # target to generate assembly for a file
 glad/src/glad.c.s:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.s
 .PHONY : glad/src/glad.c.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

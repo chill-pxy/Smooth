@@ -1,0 +1,238 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "G:/Project/VsCode_project/Smooth/out/libSmoothRuntime.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"engine/source/runtime/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/source"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/source/runtime"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glad::@e01f7ddb2d9853d51791"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@5aec3c3994f13e9ca945"
+		}
+	],
+	"id" : "SmoothRuntime::@0e9222390ef2a3c3b428",
+	"name" : "SmoothRuntime",
+	"nameOnDisk" : "libSmoothRuntime.a",
+	"paths" : 
+	{
+		"build" : "engine/source/runtime",
+		"source" : "engine/source/runtime"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				6
+			]
+		},
+		{
+			"name" : "input",
+			"sourceIndexes" : 
+			[
+				1,
+				7
+			]
+		},
+		{
+			"name" : "tool\\global",
+			"sourceIndexes" : 
+			[
+				2,
+				8
+			]
+		},
+		{
+			"name" : "tool\\render\\RHI",
+			"sourceIndexes" : 
+			[
+				3,
+				9
+			]
+		},
+		{
+			"name" : "tool\\render",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/engine.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/input/input_system.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/global/global_context.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/RHI/opengl_rhi.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/render_system.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/window_system.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/engine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/input/input_system.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/global/global_context.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/RHI/opengl_rhi.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/render_system.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/window_system.cpp",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

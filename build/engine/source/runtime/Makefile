@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth.0.0.1
+CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth.0.0.1\build
+CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\runtime\\CMakeFiles\progress.marks
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles 0
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles G:\Project\VsCode_project\Smooth\build\engine\source\runtime\\CMakeFiles\progress.marks
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/all
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/clean
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/preinstall
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/preinstall
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/rule:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/rule
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/rule
 .PHONY : engine/source/runtime/CMakeFiles/SmoothRuntime.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ SmoothRuntime: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/rule
 
 # fast build rule for target.
 SmoothRuntime/fast:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/build
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/build
 .PHONY : SmoothRuntime/fast
 
 engine.obj: engine.cpp.obj
@@ -134,7 +134,7 @@ engine.obj: engine.cpp.obj
 
 # target to build an object file
 engine.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj
 .PHONY : engine.cpp.obj
 
 engine.i: engine.cpp.i
@@ -142,7 +142,7 @@ engine.i: engine.cpp.i
 
 # target to preprocess a source file
 engine.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.i
 .PHONY : engine.cpp.i
 
 engine.s: engine.cpp.s
@@ -150,15 +150,39 @@ engine.s: engine.cpp.s
 
 # target to generate assembly for a file
 engine.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.s
 .PHONY : engine.cpp.s
+
+input/input_system.obj: input/input_system.cpp.obj
+.PHONY : input/input_system.obj
+
+# target to build an object file
+input/input_system.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj
+.PHONY : input/input_system.cpp.obj
+
+input/input_system.i: input/input_system.cpp.i
+.PHONY : input/input_system.i
+
+# target to preprocess a source file
+input/input_system.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.i
+.PHONY : input/input_system.cpp.i
+
+input/input_system.s: input/input_system.cpp.s
+.PHONY : input/input_system.s
+
+# target to generate assembly for a file
+input/input_system.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.s
+.PHONY : input/input_system.cpp.s
 
 tool/global/global_context.obj: tool/global/global_context.cpp.obj
 .PHONY : tool/global/global_context.obj
 
 # target to build an object file
 tool/global/global_context.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj
 .PHONY : tool/global/global_context.cpp.obj
 
 tool/global/global_context.i: tool/global/global_context.cpp.i
@@ -166,7 +190,7 @@ tool/global/global_context.i: tool/global/global_context.cpp.i
 
 # target to preprocess a source file
 tool/global/global_context.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.i
 .PHONY : tool/global/global_context.cpp.i
 
 tool/global/global_context.s: tool/global/global_context.cpp.s
@@ -174,15 +198,39 @@ tool/global/global_context.s: tool/global/global_context.cpp.s
 
 # target to generate assembly for a file
 tool/global/global_context.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.s
 .PHONY : tool/global/global_context.cpp.s
+
+tool/render/RHI/opengl_rhi.obj: tool/render/RHI/opengl_rhi.cpp.obj
+.PHONY : tool/render/RHI/opengl_rhi.obj
+
+# target to build an object file
+tool/render/RHI/opengl_rhi.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj
+.PHONY : tool/render/RHI/opengl_rhi.cpp.obj
+
+tool/render/RHI/opengl_rhi.i: tool/render/RHI/opengl_rhi.cpp.i
+.PHONY : tool/render/RHI/opengl_rhi.i
+
+# target to preprocess a source file
+tool/render/RHI/opengl_rhi.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.i
+.PHONY : tool/render/RHI/opengl_rhi.cpp.i
+
+tool/render/RHI/opengl_rhi.s: tool/render/RHI/opengl_rhi.cpp.s
+.PHONY : tool/render/RHI/opengl_rhi.s
+
+# target to generate assembly for a file
+tool/render/RHI/opengl_rhi.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.s
+.PHONY : tool/render/RHI/opengl_rhi.cpp.s
 
 tool/render/render_system.obj: tool/render/render_system.cpp.obj
 .PHONY : tool/render/render_system.obj
 
 # target to build an object file
 tool/render/render_system.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj
 .PHONY : tool/render/render_system.cpp.obj
 
 tool/render/render_system.i: tool/render/render_system.cpp.i
@@ -190,7 +238,7 @@ tool/render/render_system.i: tool/render/render_system.cpp.i
 
 # target to preprocess a source file
 tool/render/render_system.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.i
 .PHONY : tool/render/render_system.cpp.i
 
 tool/render/render_system.s: tool/render/render_system.cpp.s
@@ -198,7 +246,7 @@ tool/render/render_system.s: tool/render/render_system.cpp.s
 
 # target to generate assembly for a file
 tool/render/render_system.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.s
 .PHONY : tool/render/render_system.cpp.s
 
 tool/render/window_system.obj: tool/render/window_system.cpp.obj
@@ -206,7 +254,7 @@ tool/render/window_system.obj: tool/render/window_system.cpp.obj
 
 # target to build an object file
 tool/render/window_system.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.obj
 .PHONY : tool/render/window_system.cpp.obj
 
 tool/render/window_system.i: tool/render/window_system.cpp.i
@@ -214,7 +262,7 @@ tool/render/window_system.i: tool/render/window_system.cpp.i
 
 # target to preprocess a source file
 tool/render/window_system.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.i
 .PHONY : tool/render/window_system.cpp.i
 
 tool/render/window_system.s: tool/render/window_system.cpp.s
@@ -222,7 +270,7 @@ tool/render/window_system.s: tool/render/window_system.cpp.s
 
 # target to generate assembly for a file
 tool/render/window_system.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp.s
 .PHONY : tool/render/window_system.cpp.s
 
 # Help Target
@@ -237,9 +285,15 @@ help:
 	@echo ... engine.obj
 	@echo ... engine.i
 	@echo ... engine.s
+	@echo ... input/input_system.obj
+	@echo ... input/input_system.i
+	@echo ... input/input_system.s
 	@echo ... tool/global/global_context.obj
 	@echo ... tool/global/global_context.i
 	@echo ... tool/global/global_context.s
+	@echo ... tool/render/RHI/opengl_rhi.obj
+	@echo ... tool/render/RHI/opengl_rhi.i
+	@echo ... tool/render/RHI/opengl_rhi.s
 	@echo ... tool/render/render_system.obj
 	@echo ... tool/render/render_system.i
 	@echo ... tool/render/render_system.s
@@ -257,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

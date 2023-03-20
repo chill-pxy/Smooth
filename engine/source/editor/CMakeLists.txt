@@ -6,6 +6,7 @@ target_sources(${TARGET_NAME} PRIVATE
  source/main.cpp
  source/editor.cpp
  source/editor_global_context.cpp
+ source/editor_input_manager.cpp
 )
 
 target_include_directories(${TARGET_NAME} PRIVATE

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth.0.0.1
+CMAKE_SOURCE_DIR = G:\Project\VsCode_project\Smooth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth.0.0.1\build
+CMAKE_BINARY_DIR = G:\Project\VsCode_project\Smooth\build
 
 # Include any dependencies generated for this target.
 include engine/source/editor/CMakeFiles/SmoothEditor.dir/depend.make
@@ -72,52 +72,68 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj: engine/sou
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/includes_CXX.rsp
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj: ../engine/source/editor/source/main.cpp
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj -MF CMakeFiles\SmoothEditor.dir\source\main.cpp.obj.d -o CMakeFiles\SmoothEditor.dir\source\main.cpp.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor\source\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj -MF CMakeFiles\SmoothEditor.dir\source\main.cpp.obj.d -o CMakeFiles\SmoothEditor.dir\source\main.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\editor\source\main.cpp
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothEditor.dir/source/main.cpp.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor\source\main.cpp > CMakeFiles\SmoothEditor.dir\source\main.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\editor\source\main.cpp > CMakeFiles\SmoothEditor.dir\source\main.cpp.i
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothEditor.dir/source/main.cpp.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor\source\main.cpp -o CMakeFiles\SmoothEditor.dir\source\main.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\editor\source\main.cpp -o CMakeFiles\SmoothEditor.dir\source\main.cpp.s
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/flags.make
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/includes_CXX.rsp
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj: ../engine/source/editor/source/editor.cpp
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj -MF CMakeFiles\SmoothEditor.dir\source\editor.cpp.obj.d -o CMakeFiles\SmoothEditor.dir\source\editor.cpp.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor\source\editor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj -MF CMakeFiles\SmoothEditor.dir\source\editor.cpp.obj.d -o CMakeFiles\SmoothEditor.dir\source\editor.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\editor\source\editor.cpp
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothEditor.dir/source/editor.cpp.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor\source\editor.cpp > CMakeFiles\SmoothEditor.dir\source\editor.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\editor\source\editor.cpp > CMakeFiles\SmoothEditor.dir\source\editor.cpp.i
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothEditor.dir/source/editor.cpp.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor\source\editor.cpp -o CMakeFiles\SmoothEditor.dir\source\editor.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\editor\source\editor.cpp -o CMakeFiles\SmoothEditor.dir\source\editor.cpp.s
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/flags.make
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/includes_CXX.rsp
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj: ../engine/source/editor/source/editor_global_context.cpp
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj -MF CMakeFiles\SmoothEditor.dir\source\editor_global_context.cpp.obj.d -o CMakeFiles\SmoothEditor.dir\source\editor_global_context.cpp.obj -c G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor\source\editor_global_context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj -MF CMakeFiles\SmoothEditor.dir\source\editor_global_context.cpp.obj.d -o CMakeFiles\SmoothEditor.dir\source\editor_global_context.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\editor\source\editor_global_context.cpp
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.i"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor\source\editor_global_context.cpp > CMakeFiles\SmoothEditor.dir\source\editor_global_context.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\editor\source\editor_global_context.cpp > CMakeFiles\SmoothEditor.dir\source\editor_global_context.cpp.i
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.s"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor\source\editor_global_context.cpp -o CMakeFiles\SmoothEditor.dir\source\editor_global_context.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\editor\source\editor_global_context.cpp -o CMakeFiles\SmoothEditor.dir\source\editor_global_context.cpp.s
+
+engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/flags.make
+engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/includes_CXX.rsp
+engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj: ../engine/source/editor/source/editor_input_manager.cpp
+engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj: engine/source/editor/CMakeFiles/SmoothEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj -MF CMakeFiles\SmoothEditor.dir\source\editor_input_manager.cpp.obj.d -o CMakeFiles\SmoothEditor.dir\source\editor_input_manager.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\source\editor\source\editor_input_manager.cpp
+
+engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.i"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\source\editor\source\editor_input_manager.cpp > CMakeFiles\SmoothEditor.dir\source\editor_input_manager.cpp.i
+
+engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.s"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\source\editor\source\editor_input_manager.cpp -o CMakeFiles\SmoothEditor.dir\source\editor_input_manager.cpp.s
 
 # Object files for target SmoothEditor
 SmoothEditor_OBJECTS = \
 "CMakeFiles/SmoothEditor.dir/source/main.cpp.obj" \
 "CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj" \
-"CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj"
+"CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj" \
+"CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj"
 
 # External object files for target SmoothEditor
 SmoothEditor_EXTERNAL_OBJECTS =
@@ -125,6 +141,7 @@ SmoothEditor_EXTERNAL_OBJECTS =
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/source/main.cpp.obj
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj
+../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/build.make
 ../out/SmoothEditor.exe: ../out/libSmoothRuntime.a
 ../out/SmoothEditor.exe: ../out/libglad.dll.a
@@ -132,18 +149,18 @@ SmoothEditor_EXTERNAL_OBJECTS =
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/linklibs.rsp
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/objects1.rsp
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Project\VsCode_project\Smooth.0.0.1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ..\..\..\..\out\SmoothEditor.exe"
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SmoothEditor.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ..\..\..\..\out\SmoothEditor.exe"
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SmoothEditor.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/source/editor/CMakeFiles/SmoothEditor.dir/build: ../out/SmoothEditor.exe
 .PHONY : engine/source/editor/CMakeFiles/SmoothEditor.dir/build
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/clean:
-	cd /d G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor && $(CMAKE_COMMAND) -P CMakeFiles\SmoothEditor.dir\cmake_clean.cmake
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\source\editor && $(CMAKE_COMMAND) -P CMakeFiles\SmoothEditor.dir\cmake_clean.cmake
 .PHONY : engine/source/editor/CMakeFiles/SmoothEditor.dir/clean
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\Project\VsCode_project\Smooth.0.0.1 G:\Project\VsCode_project\Smooth.0.0.1\engine\source\editor G:\Project\VsCode_project\Smooth.0.0.1\build G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor G:\Project\VsCode_project\Smooth.0.0.1\build\engine\source\editor\CMakeFiles\SmoothEditor.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\Project\VsCode_project\Smooth G:\Project\VsCode_project\Smooth\engine\source\editor G:\Project\VsCode_project\Smooth\build G:\Project\VsCode_project\Smooth\build\engine\source\editor G:\Project\VsCode_project\Smooth\build\engine\source\editor\CMakeFiles\SmoothEditor.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/source/editor/CMakeFiles/SmoothEditor.dir/depend
 

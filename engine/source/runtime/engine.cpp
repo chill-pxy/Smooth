@@ -38,6 +38,7 @@ namespace Smooth
         logicalTick(delta_time);
         calculateFPS(delta_time);
 
+        g_runtime_global_context.m_window_system->swapBuffers();
         g_runtime_global_context.m_window_system->pollEvents();
 
         const bool should_window_close = g_runtime_global_context.m_window_system->shouldClose();

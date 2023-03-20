@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "G:/Project/VsCode_project/Smooth.0.0.1/engine/3rdparty/glad/src/glad.c" "engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj" "gcc" "engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj.d"
+  "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/src/glad.c" "engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj" "gcc" "engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj.d"
   )
 
 # Targets to which this target links.
