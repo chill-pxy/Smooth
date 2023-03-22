@@ -1,3 +1,7 @@
+#include <memory>
+
+#include "runtime/tool/render/default_camera.h"
+
 namespace Smooth
 {
     class SmoothEditor;
@@ -32,5 +36,9 @@ namespace Smooth
 
     private:
         unsigned int m_editor_command {0};
+
+        float m_mouse_x {0.0f};
+        float m_mouse_y {0.0f};
+        float m_camera_speed {0.05f};
     };
 }

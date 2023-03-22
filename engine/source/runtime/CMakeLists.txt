@@ -14,6 +14,7 @@ target_link_libraries(
   ${TARGET_NAME} PUBLIC 
   glad
   glfw
+  glm
 )
 
 target_include_directories(

@@ -225,6 +225,54 @@ tool/render/RHI/opengl_rhi.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.s
 .PHONY : tool/render/RHI/opengl_rhi.cpp.s
 
+tool/render/default_camera.obj: tool/render/default_camera.cpp.obj
+.PHONY : tool/render/default_camera.obj
+
+# target to build an object file
+tool/render/default_camera.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cpp.obj
+.PHONY : tool/render/default_camera.cpp.obj
+
+tool/render/default_camera.i: tool/render/default_camera.cpp.i
+.PHONY : tool/render/default_camera.i
+
+# target to preprocess a source file
+tool/render/default_camera.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cpp.i
+.PHONY : tool/render/default_camera.cpp.i
+
+tool/render/default_camera.s: tool/render/default_camera.cpp.s
+.PHONY : tool/render/default_camera.s
+
+# target to generate assembly for a file
+tool/render/default_camera.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cpp.s
+.PHONY : tool/render/default_camera.cpp.s
+
+tool/render/render_camera.obj: tool/render/render_camera.cpp.obj
+.PHONY : tool/render/render_camera.obj
+
+# target to build an object file
+tool/render/render_camera.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_camera.cpp.obj
+.PHONY : tool/render/render_camera.cpp.obj
+
+tool/render/render_camera.i: tool/render/render_camera.cpp.i
+.PHONY : tool/render/render_camera.i
+
+# target to preprocess a source file
+tool/render/render_camera.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_camera.cpp.i
+.PHONY : tool/render/render_camera.cpp.i
+
+tool/render/render_camera.s: tool/render/render_camera.cpp.s
+.PHONY : tool/render/render_camera.s
+
+# target to generate assembly for a file
+tool/render/render_camera.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_camera.cpp.s
+.PHONY : tool/render/render_camera.cpp.s
+
 tool/render/render_system.obj: tool/render/render_system.cpp.obj
 .PHONY : tool/render/render_system.obj
 
@@ -294,6 +342,12 @@ help:
 	@echo ... tool/render/RHI/opengl_rhi.obj
 	@echo ... tool/render/RHI/opengl_rhi.i
 	@echo ... tool/render/RHI/opengl_rhi.s
+	@echo ... tool/render/default_camera.obj
+	@echo ... tool/render/default_camera.i
+	@echo ... tool/render/default_camera.s
+	@echo ... tool/render/render_camera.obj
+	@echo ... tool/render/render_camera.i
+	@echo ... tool/render/render_camera.s
 	@echo ... tool/render/render_system.obj
 	@echo ... tool/render/render_system.i
 	@echo ... tool/render/render_system.s

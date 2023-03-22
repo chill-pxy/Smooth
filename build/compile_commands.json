@@ -5,6 +5,11 @@
   "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/src/glad.c"
 },
 {
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glm/glm",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/glm_static.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\glm_static.dir\\detail\\glm.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\glm\\glm\\detail\\glm.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/detail/glm.cpp"
+},
+{
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glfw/src",
   "command": "F:\\QT\\Tools\\mingw810_64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\glfw\\src\\context.c",
   "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/src/context.c"
@@ -98,6 +103,16 @@
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
   "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\render\\RHI\\opengl_rhi.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\render\\RHI\\opengl_rhi.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/RHI/opengl_rhi.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\render\\default_camera.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\render\\default_camera.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\render\\render_camera.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\render\\render_camera.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_camera.cpp"
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",

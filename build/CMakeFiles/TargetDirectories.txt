@@ -5,6 +5,11 @@ G:/Project/VsCode_project/Smooth/build/engine/CMakeFiles/rebuild_cache.dir
 G:/Project/VsCode_project/Smooth/build/engine/3rdparty/CMakeFiles/glad.dir
 G:/Project/VsCode_project/Smooth/build/engine/3rdparty/CMakeFiles/edit_cache.dir
 G:/Project/VsCode_project/Smooth/build/engine/3rdparty/CMakeFiles/rebuild_cache.dir
+G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glm/CMakeFiles/edit_cache.dir
+G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glm/CMakeFiles/rebuild_cache.dir
+G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir
+G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glm/glm/CMakeFiles/edit_cache.dir
+G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glm/glm/CMakeFiles/rebuild_cache.dir
 G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glfw/CMakeFiles/edit_cache.dir
 G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glfw/CMakeFiles/rebuild_cache.dir
 G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glfw/src/CMakeFiles/update_mappings.dir

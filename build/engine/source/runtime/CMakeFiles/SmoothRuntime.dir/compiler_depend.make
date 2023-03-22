@@ -515,6 +515,271 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cp
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj: ../engine/source/runtime/tool/render/RHI/opengl_rhi.cpp
 
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_camera.cpp.obj: ../engine/source/runtime/tool/render/render_camera.cpp \
+  ../engine/source/runtime/tool/render/render_camera.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  ../engine/source/runtime/core/math.h \
+  ../engine/3rdparty/glm/glm/glm.hpp \
+  ../engine/3rdparty/glm/glm/detail/_fixes.hpp \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/math.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
+  ../engine/3rdparty/glm/glm/detail/setup.hpp \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+  ../engine/3rdparty/glm/glm/simd/platform.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat \
+  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
+  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/float.h \
+  ../engine/3rdparty/glm/glm/fwd.hpp \
+  ../engine/3rdparty/glm/glm/detail/qualifier.hpp \
+  ../engine/3rdparty/glm/glm/detail/setup.hpp \
+  ../engine/3rdparty/glm/glm/vec2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec2.inl \
+  ../engine/3rdparty/glm/glm/detail/compute_vector_relational.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int2_sized.hpp \
+  ../engine/3rdparty/glm/glm/ext/scalar_int_sized.hpp \
+  ../engine/3rdparty/glm/glm/detail/setup.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint2_sized.hpp \
+  ../engine/3rdparty/glm/glm/ext/scalar_uint_sized.hpp \
+  ../engine/3rdparty/glm/glm/vec3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec3.inl \
+  ../engine/3rdparty/glm/glm/ext/vector_bool3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int3_sized.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint3_sized.hpp \
+  ../engine/3rdparty/glm/glm/vec4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec4.inl \
+  ../engine/3rdparty/glm/glm/ext/vector_bool4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int4_sized.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint4_sized.hpp \
+  ../engine/3rdparty/glm/glm/mat2x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x2.inl \
+  ../engine/3rdparty/glm/glm/matrix.hpp \
+  ../engine/3rdparty/glm/glm/mat2x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x3.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat2x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x4.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat3x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x2.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat3x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x3.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat3x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x4.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat4x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x2.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat4x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x3.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat4x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x4.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_matrix.inl \
+  ../engine/3rdparty/glm/glm/geometric.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_geometric.inl \
+  ../engine/3rdparty/glm/glm/exponential.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec1.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec1.inl \
+  ../engine/3rdparty/glm/glm/detail/func_exponential.inl \
+  ../engine/3rdparty/glm/glm/vector_relational.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_vector_relational.inl \
+  ../engine/3rdparty/glm/glm/detail/_vectorize.hpp \
+  ../engine/3rdparty/glm/glm/common.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_common.inl \
+  ../engine/3rdparty/glm/glm/detail/compute_common.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/trigonometric.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_trigonometric.inl \
+  ../engine/3rdparty/glm/glm/packing.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_packing.inl \
+  ../engine/3rdparty/glm/glm/detail/type_half.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_half.inl \
+  ../engine/3rdparty/glm/glm/integer.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_integer.inl \
+  ../engine/3rdparty/glm/glm/gtc/matrix_transform.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_projection.hpp \
+  ../engine/3rdparty/glm/glm/gtc/constants.hpp \
+  ../engine/3rdparty/glm/glm/ext/scalar_constants.hpp \
+  ../engine/3rdparty/glm/glm/ext/scalar_constants.inl \
+  ../engine/3rdparty/glm/glm/gtc/constants.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_projection.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_clip_space.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_clip_space.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_transform.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_transform.inl \
+  ../engine/3rdparty/glm/glm/gtc/matrix_transform.inl \
+  ../engine/3rdparty/glm/glm/gtc/quaternion.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_relational.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_relational.inl \
+  ../engine/3rdparty/glm/glm/detail/type_float.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_common.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_geometric.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_geometric.inl \
+  ../engine/3rdparty/glm/glm/ext/quaternion_common.inl \
+  ../engine/3rdparty/glm/glm/ext/quaternion_float.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_quat.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_relational.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_relational.inl \
+  ../engine/3rdparty/glm/glm/detail/type_quat.inl \
+  ../engine/3rdparty/glm/glm/ext/quaternion_float_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_double.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_double_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_trigonometric.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_trigonometric.inl \
+  ../engine/3rdparty/glm/glm/ext/quaternion_transform.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_transform.inl \
+  ../engine/3rdparty/glm/glm/gtc/quaternion.inl \
+  ../engine/3rdparty/glm/glm/gtc/epsilon.hpp \
+  ../engine/3rdparty/glm/glm/detail/setup.hpp \
+  ../engine/3rdparty/glm/glm/gtc/epsilon.inl
+
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj: ../engine/source/runtime/tool/render/render_system.cpp \
   ../engine/source/runtime/tool/render/render_system.h \
   F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
@@ -812,9 +1077,15 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/window_system.cpp
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdio.h:
 
+../engine/3rdparty/glm/glm/ext/matrix_float3x2_precision.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h:
 
 ../engine/source/runtime/engine.cpp:
+
+../engine/3rdparty/glm/glm/detail/type_float.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_mat3x3.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
 
@@ -822,11 +1093,15 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:
 
+../engine/3rdparty/glm/glm/mat3x4.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+../engine/3rdparty/glm/glm/ext/vector_int2.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
@@ -840,11 +1115,15 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h:
 
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+../engine/3rdparty/glm/glm/ext/vector_bool4.hpp:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h:
 
@@ -858,7 +1137,11 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h:
 
+../engine/3rdparty/glm/glm/ext/matrix_double2x2.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h:
+
+../engine/3rdparty/glm/glm/ext/matrix_double4x3_precision.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar:
 
@@ -867,6 +1150,8 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/asser
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h:
+
+../engine/3rdparty/glm/glm/ext/matrix_double3x4.hpp:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h:
 
@@ -878,7 +1163,11 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
+../engine/3rdparty/glm/glm/ext/quaternion_float_precision.hpp:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h:
+
+../engine/3rdparty/glm/glm/mat2x3.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc:
 
@@ -886,11 +1175,15 @@ F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_push.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
+../engine/3rdparty/glm/glm/ext/matrix_double4x2.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/node_handle.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/swprintf.inl:
+
+../engine/3rdparty/glm/glm/detail/type_mat2x2.hpp:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
@@ -900,9 +1193,13 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_pop.h:
 
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception:
+
+../engine/3rdparty/glm/glm/ext/matrix_float3x2.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
 
@@ -912,19 +1209,27 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istrea
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h:
 
+../engine/3rdparty/glm/glm/detail/type_mat4x3.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h:
 
+../engine/3rdparty/glm/glm/ext/vector_relational.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h:
 
+../engine/3rdparty/glm/glm/gtc/epsilon.hpp:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale:
+
+../engine/3rdparty/glm/glm/mat2x2.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:
 
@@ -940,15 +1245,21 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/au
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h:
 
+../engine/3rdparty/glm/glm/detail/type_mat4x4.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
 
+../engine/3rdparty/glm/glm/ext/scalar_constants.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint:
+
+../engine/3rdparty/glm/glm/detail/type_mat3x2.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h:
 
@@ -957,6 +1268,10 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pa
 ../engine/source/runtime/tool/render/window_system.cpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+../engine/3rdparty/glm/glm/detail/type_mat4x4.inl:
+
+../engine/3rdparty/glm/glm/detail/type_mat3x4.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h:
 
@@ -972,13 +1287,25 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/locale.h:
 
+../engine/3rdparty/glm/glm/ext/matrix_double3x3.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_uint3_sized.hpp:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
+../engine/3rdparty/glm/glm/ext/scalar_int_sized.hpp:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h:
+
+../engine/3rdparty/glm/glm/ext/vector_int4.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:
+
+../engine/3rdparty/glm/glm/mat2x4.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_vec4.inl:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
 
@@ -986,19 +1313,31 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
+../engine/3rdparty/glm/glm/detail/type_mat4x2.hpp:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/signal.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h:
 
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/process.h:
 
+../engine/3rdparty/glm/glm/detail/func_exponential.inl:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/corecrt_startup.h:
+
+../engine/3rdparty/glm/glm/detail/type_mat2x3.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h:
+
+../engine/3rdparty/glm/glm/detail/type_vec1.inl:
+
+../engine/3rdparty/glm/glm/mat4x3.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:
 
@@ -1006,15 +1345,21 @@ F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread_signal.h:
 
+../engine/3rdparty/glm/glm/ext/matrix_float4x2.hpp:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/timeb.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
+../engine/3rdparty/glm/glm/detail/func_trigonometric.inl:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread_compat.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread_unistd.h:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
@@ -1025,6 +1370,8 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h:
+
+../engine/3rdparty/glm/glm/ext/vector_int3.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
 
@@ -1046,9 +1393,13 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:
 
+../engine/3rdparty/glm/glm/detail/type_mat3x3.inl:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h:
+
+../engine/3rdparty/glm/glm/ext/matrix_double4x4_precision.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string_view:
 
@@ -1058,13 +1409,19 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib:
 
+../engine/3rdparty/glm/glm/ext/quaternion_geometric.inl:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
+../engine/3rdparty/glm/glm/ext/matrix_float4x2_precision.hpp:
+
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
 
@@ -1072,11 +1429,17 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc:
 
+../engine/3rdparty/glm/glm/ext/vector_uint3.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:
+
+../engine/3rdparty/glm/glm/ext/matrix_double2x3.hpp:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/time.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/math.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h:
 
@@ -1086,6 +1449,8 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc:
 
+../engine/3rdparty/glm/glm/detail/type_vec3.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h:
@@ -1093,6 +1458,8 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+../engine/3rdparty/glm/glm/detail/compute_vector_relational.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc:
 
@@ -1102,11 +1469,23 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 ../engine/source/runtime/engine.h:
 
+../engine/3rdparty/glm/glm/gtc/epsilon.inl:
+
+../engine/3rdparty/glm/glm/ext/quaternion_common.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_transform.hpp:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono:
+
+../engine/3rdparty/glm/glm/detail/type_vec1.hpp:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_timeval.h:
 
@@ -1123,6 +1502,8 @@ F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h:
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h:
+
+../engine/3rdparty/glm/glm/gtc/constants.inl:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h:
 
@@ -1154,7 +1535,13 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional:
 
+../engine/3rdparty/glm/glm/ext/matrix_projection.inl:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map:
+
+../engine/3rdparty/glm/glm/gtc/constants.hpp:
+
+../engine/3rdparty/glm/glm/integer.hpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h:
 
@@ -1168,13 +1555,21 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unorde
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
 
+../engine/source/runtime/tool/render/render_camera.h:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h:
 
+../engine/3rdparty/glm/glm/ext/matrix_projection.hpp:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc:
+
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h:
+
+../engine/3rdparty/glm/glm/ext/matrix_float2x4.hpp:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/GL/gl.h:
 
@@ -1183,6 +1578,260 @@ F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/GL/gl.h:
 ../engine/source/runtime/tool/global/global_context.cpp:
 
 ../engine/source/runtime/tool/render/RHI/opengl_rhi.cpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_double3x2.hpp:
+
+../engine/source/runtime/tool/render/render_camera.cpp:
+
+../engine/source/runtime/core/math.h:
+
+../engine/3rdparty/glm/glm/ext/matrix_double2x4_precision.hpp:
+
+../engine/3rdparty/glm/glm/glm.hpp:
+
+../engine/3rdparty/glm/glm/detail/_fixes.hpp:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc:
+
+../engine/3rdparty/glm/glm/vector_relational.hpp:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc:
+
+../engine/3rdparty/glm/glm/detail/setup.hpp:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef:
+
+../engine/3rdparty/glm/glm/fwd.hpp:
+
+../engine/3rdparty/glm/glm/simd/platform.h:
+
+../engine/3rdparty/glm/glm/ext/matrix_float4x3_precision.hpp:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits:
+
+F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h:
+
+F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/float.h:
+
+../engine/3rdparty/glm/glm/ext/vector_uint2_sized.hpp:
+
+../engine/3rdparty/glm/glm/detail/qualifier.hpp:
+
+../engine/3rdparty/glm/glm/vec2.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_double2x2_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_bool2.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_vec2.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_vec2.inl:
+
+../engine/3rdparty/glm/glm/ext/vector_bool2_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_float2.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_float3.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_float2_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_double2.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_double2_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_int2_sized.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_uint2.hpp:
+
+../engine/3rdparty/glm/glm/ext/scalar_uint_sized.hpp:
+
+../engine/3rdparty/glm/glm/vec3.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_bool3.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_vec3.inl:
+
+../engine/3rdparty/glm/glm/ext/vector_bool3_precision.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_mat4x2.inl:
+
+../engine/3rdparty/glm/glm/ext/vector_float3_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_double3.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_double3_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_int3_sized.hpp:
+
+../engine/3rdparty/glm/glm/vec4.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_mat4x3.inl:
+
+../engine/3rdparty/glm/glm/detail/type_vec4.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_bool4_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_float4.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_float4_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_double4.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_double4_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_int4_sized.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_uint4.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_uint4_sized.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_mat2x2.inl:
+
+../engine/3rdparty/glm/glm/matrix.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_mat2x3.inl:
+
+../engine/3rdparty/glm/glm/ext/matrix_double2x3_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float2x3.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float2x3_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_double2x4.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_mat2x4.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_mat2x4.inl:
+
+../engine/3rdparty/glm/glm/ext/matrix_float2x4_precision.hpp:
+
+../engine/3rdparty/glm/glm/mat3x2.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_mat3x2.inl:
+
+../engine/3rdparty/glm/glm/ext/matrix_double3x2_precision.hpp:
+
+../engine/3rdparty/glm/glm/mat3x3.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_double3x3_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float3x3.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float3x3_precision.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_mat3x4.inl:
+
+../engine/3rdparty/glm/glm/ext/matrix_double3x4_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float3x4.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float3x4_precision.hpp:
+
+../engine/3rdparty/glm/glm/mat4x2.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_double4x2_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_double4x3.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float4x3.hpp:
+
+../engine/3rdparty/glm/glm/mat4x4.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_double4x4.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float4x4.hpp:
+
+../engine/3rdparty/glm/glm/detail/func_vector_relational.inl:
+
+../engine/3rdparty/glm/glm/ext/matrix_float4x4_precision.hpp:
+
+../engine/3rdparty/glm/glm/detail/func_matrix.inl:
+
+../engine/3rdparty/glm/glm/geometric.hpp:
+
+../engine/3rdparty/glm/glm/detail/func_common.inl:
+
+../engine/3rdparty/glm/glm/detail/func_geometric.inl:
+
+../engine/3rdparty/glm/glm/exponential.hpp:
+
+../engine/3rdparty/glm/glm/detail/_vectorize.hpp:
+
+../engine/3rdparty/glm/glm/common.hpp:
+
+../engine/3rdparty/glm/glm/detail/compute_common.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float2x2.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_float2x2_precision.hpp:
+
+../engine/3rdparty/glm/glm/trigonometric.hpp:
+
+../engine/3rdparty/glm/glm/packing.hpp:
+
+../engine/3rdparty/glm/glm/detail/func_packing.inl:
+
+../engine/3rdparty/glm/glm/detail/type_half.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_half.inl:
+
+../engine/3rdparty/glm/glm/detail/func_integer.inl:
+
+../engine/3rdparty/glm/glm/gtc/matrix_transform.hpp:
+
+../engine/3rdparty/glm/glm/ext/scalar_constants.inl:
+
+../engine/3rdparty/glm/glm/ext/matrix_clip_space.hpp:
+
+../engine/3rdparty/glm/glm/ext/matrix_clip_space.inl:
+
+../engine/3rdparty/glm/glm/ext/quaternion_common.inl:
+
+../engine/3rdparty/glm/glm/ext/matrix_transform.inl:
+
+../engine/3rdparty/glm/glm/gtc/matrix_transform.inl:
+
+../engine/3rdparty/glm/glm/gtc/quaternion.hpp:
+
+../engine/3rdparty/glm/glm/ext/vector_relational.inl:
+
+../engine/3rdparty/glm/glm/ext/quaternion_geometric.hpp:
+
+../engine/3rdparty/glm/glm/ext/quaternion_float.hpp:
+
+../engine/3rdparty/glm/glm/detail/type_quat.hpp:
+
+../engine/3rdparty/glm/glm/ext/quaternion_relational.hpp:
+
+../engine/3rdparty/glm/glm/ext/quaternion_relational.inl:
+
+../engine/3rdparty/glm/glm/detail/type_quat.inl:
+
+../engine/3rdparty/glm/glm/ext/quaternion_double.hpp:
+
+../engine/3rdparty/glm/glm/ext/quaternion_double_precision.hpp:
+
+../engine/3rdparty/glm/glm/ext/quaternion_trigonometric.hpp:
+
+../engine/3rdparty/glm/glm/ext/quaternion_trigonometric.inl:
+
+../engine/3rdparty/glm/glm/ext/quaternion_transform.hpp:
+
+../engine/3rdparty/glm/glm/ext/quaternion_transform.inl:
+
+../engine/3rdparty/glm/glm/gtc/quaternion.inl:
 
 ../engine/source/runtime/tool/render/render_system.cpp:
 

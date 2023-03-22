@@ -20,7 +20,7 @@ namespace Smooth
 
     void EditorInputManager::processEditorCommand()
     {
-
+        float camera_speed = m_camera_speed;
     }
 
     void EditorInputManager::onKey(int key, int scancode, int action, int mods)
@@ -55,7 +55,7 @@ namespace Smooth
                 break;
             case GLFW_KEY_C:
                 m_editor_command |= (unsigned int)EditorCommand::scale_mode;
-                break;
+                break;     
             case GLFW_KEY_DELETE:
                 m_editor_command |= (unsigned int)EditorCommand::delete_object;
                 break;           

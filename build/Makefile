@@ -129,6 +129,19 @@ glad/fast:
 .PHONY : glad/fast
 
 #=============================================================================
+# Target rules for targets named glm_static
+
+# Build rule for target.
+glm_static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glm_static
+.PHONY : glm_static
+
+# fast build rule for target.
+glm_static/fast:
+	$(MAKE) $(MAKESILENT) -f engine\3rdparty\glm\glm\CMakeFiles\glm_static.dir\build.make engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/build
+.PHONY : glm_static/fast
+
+#=============================================================================
 # Target rules for targets named update_mappings
 
 # Build rule for target.
@@ -193,6 +206,7 @@ help:
 	@echo ... SmoothRuntime
 	@echo ... glad
 	@echo ... glfw
+	@echo ... glm_static
 .PHONY : help
 
 

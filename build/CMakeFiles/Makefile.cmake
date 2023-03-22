@@ -56,6 +56,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../engine/3rdparty/glfw/src/glfw3.pc.in"
   "../engine/3rdparty/glfw/src/glfw3Config.cmake.in"
   "../engine/3rdparty/glfw/src/glfw_config.h.in"
+  "../engine/3rdparty/glm/CMakeLists.txt"
+  "../engine/3rdparty/glm/glm/CMakeLists.txt"
   "../engine/CMakeLists.txt"
   "../engine/source/editor/CMakeLists.txt"
   "../engine/source/runtime/CMakeLists.txt"
@@ -72,6 +74,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "engine/CMakeFiles/CMakeDirectoryInformation.cmake"
   "engine/3rdparty/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "engine/3rdparty/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "engine/3rdparty/glm/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
   "engine/3rdparty/glfw/src/glfw3Config.cmake"
   "engine/3rdparty/glfw/src/glfw3ConfigVersion.cmake"
   "engine/3rdparty/glfw/src/glfw_config.h"
@@ -85,6 +89,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "engine/3rdparty/CMakeFiles/glad.dir/DependInfo.cmake"
+  "engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/DependInfo.cmake"
   "engine/3rdparty/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
   "engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/DependInfo.cmake"
