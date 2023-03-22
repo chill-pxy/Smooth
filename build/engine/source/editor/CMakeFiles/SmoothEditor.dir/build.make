@@ -146,6 +146,7 @@ SmoothEditor_EXTERNAL_OBJECTS =
 ../out/SmoothEditor.exe: ../out/libSmoothRuntime.a
 ../out/SmoothEditor.exe: ../out/libglad.dll.a
 ../out/SmoothEditor.exe: ../out/libglfw3.a
+../out/SmoothEditor.exe: ../out/libtinyobjloader.a
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/linklibs.rsp
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/objects1.rsp
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/link.txt

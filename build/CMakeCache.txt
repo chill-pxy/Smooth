@@ -343,6 +343,15 @@ Smooth_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Smooth_SOURCE_DIR:STATIC=G:/Project/VsCode_project/Smooth
 
+//Build OBJ Sticher Application
+TINYOBJLOADER_BUILD_OBJ_STICHER:BOOL=OFF
+
+//Build Example Loader Application
+TINYOBJLOADER_BUILD_TEST_LOADER:BOOL=OFF
+
+//Build library with double precision instead of single (float)
+TINYOBJLOADER_USE_DOUBLE:BOOL=OFF
+
 //Value Computed by CMake
 glm_BINARY_DIR:STATIC=G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glm
 
@@ -351,6 +360,15 @@ glm_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 glm_SOURCE_DIR:STATIC=G:/Project/VsCode_project/Smooth/engine/3rdparty/glm
+
+//Value Computed by CMake
+tinyobjloader_BINARY_DIR:STATIC=G:/Project/VsCode_project/Smooth/build/engine/3rdparty/tinyobjloader
+
+//Value Computed by CMake
+tinyobjloader_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+tinyobjloader_SOURCE_DIR:STATIC=G:/Project/VsCode_project/Smooth/engine/3rdparty/tinyobjloader
 
 
 ########################
@@ -495,7 +513,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

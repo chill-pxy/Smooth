@@ -19,6 +19,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "G:/Project/VsCode_project/Smooth/build/engine/source/runtime/CMakeFiles/SmoothRuntime.dir/DependInfo.cmake"
   "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/CMakeFiles/glad.dir/DependInfo.cmake"
   "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

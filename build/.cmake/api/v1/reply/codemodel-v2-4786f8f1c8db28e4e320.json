@@ -10,6 +10,7 @@
 					[
 						1
 					],
+					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
@@ -23,9 +24,10 @@
 					"childIndexes" : 
 					[
 						2,
-						7,
-						8
+						8,
+						9
 					],
+					"hasInstallRule" : true,
 					"jsonFile" : "directory-engine-Debug-776e2b00c6520ab49d05.json",
 					"minimumCMakeVersion" : 
 					{
@@ -40,8 +42,10 @@
 					"childIndexes" : 
 					[
 						3,
-						5
+						5,
+						7
 					],
+					"hasInstallRule" : true,
 					"jsonFile" : "directory-engine.3rdparty-Debug-a01bddc6c96620f7cf58.json",
 					"minimumCMakeVersion" : 
 					{
@@ -52,7 +56,8 @@
 					"source" : "engine/3rdparty",
 					"targetIndexes" : 
 					[
-						2
+						2,
+						5
 					]
 				},
 				{
@@ -113,7 +118,24 @@
 					"targetIndexes" : 
 					[
 						3,
-						5
+						8
+					]
+				},
+				{
+					"build" : "engine/3rdparty/tinyobjloader",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-engine.3rdparty.tinyobjloader-Debug-6711a320fac8a1ad32d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "engine/3rdparty/tinyobjloader",
+					"targetIndexes" : 
+					[
+						6,
+						7
 					]
 				},
 				{
@@ -154,22 +176,24 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"directoryIndexes" : 
 					[
 						0,
 						1,
 						2,
-						7,
-						8
+						8,
+						9
 					],
 					"name" : "Smooth",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						5
 					]
 				},
 				{
@@ -196,23 +220,36 @@
 					"targetIndexes" : 
 					[
 						3,
-						5
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "tinyobjloader",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "SmoothEditor::@a2a08a0b55f399eba4b5",
-					"jsonFile" : "target-SmoothEditor-Debug-ff0cba1a1322b2ae263a.json",
+					"jsonFile" : "target-SmoothEditor-Debug-ff6618108bd18a3f07c8.json",
 					"name" : "SmoothEditor",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 8,
 					"id" : "SmoothRuntime::@0e9222390ef2a3c3b428",
-					"jsonFile" : "target-SmoothRuntime-Debug-88fad356ea75d4b2040c.json",
+					"jsonFile" : "target-SmoothRuntime-Debug-4c44a237aeba64e948bd.json",
 					"name" : "SmoothRuntime",
 					"projectIndex" : 0
 				},
@@ -236,6 +273,27 @@
 					"jsonFile" : "target-glm_static-Debug-9f731d65a81d097a5e51.json",
 					"name" : "glm_static",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "stb::@e01f7ddb2d9853d51791",
+					"jsonFile" : "target-stb-Debug-e77a91cc269af0a744f3.json",
+					"name" : "stb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "tinyobjloader::@2040b85fa92506764563",
+					"jsonFile" : "target-tinyobjloader-Debug-26dd7dea295fba594aa5.json",
+					"name" : "tinyobjloader",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "uninstall::@2040b85fa92506764563",
+					"jsonFile" : "target-uninstall-Debug-0c8a7c514143671f90a4.json",
+					"name" : "uninstall",
+					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 6,

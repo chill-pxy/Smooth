@@ -84,6 +84,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles G:\Project\VsCode_project\Smooth\build\engine\source\runtime\\CMakeFiles\progress.marks
@@ -112,6 +157,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -P G:\Project\VsCode_project\Smooth\build\CMakeFiles\VerifyGlobs.cmake
 	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
@@ -249,6 +295,54 @@ tool/render/default_camera.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cpp.s
 .PHONY : tool/render/default_camera.cpp.s
 
+tool/render/mesh.obj: tool/render/mesh.cpp.obj
+.PHONY : tool/render/mesh.obj
+
+# target to build an object file
+tool/render/mesh.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/mesh.cpp.obj
+.PHONY : tool/render/mesh.cpp.obj
+
+tool/render/mesh.i: tool/render/mesh.cpp.i
+.PHONY : tool/render/mesh.i
+
+# target to preprocess a source file
+tool/render/mesh.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/mesh.cpp.i
+.PHONY : tool/render/mesh.cpp.i
+
+tool/render/mesh.s: tool/render/mesh.cpp.s
+.PHONY : tool/render/mesh.s
+
+# target to generate assembly for a file
+tool/render/mesh.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/mesh.cpp.s
+.PHONY : tool/render/mesh.cpp.s
+
+tool/render/model.obj: tool/render/model.cpp.obj
+.PHONY : tool/render/model.obj
+
+# target to build an object file
+tool/render/model.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/model.cpp.obj
+.PHONY : tool/render/model.cpp.obj
+
+tool/render/model.i: tool/render/model.cpp.i
+.PHONY : tool/render/model.i
+
+# target to preprocess a source file
+tool/render/model.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/model.cpp.i
+.PHONY : tool/render/model.cpp.i
+
+tool/render/model.s: tool/render/model.cpp.s
+.PHONY : tool/render/model.s
+
+# target to generate assembly for a file
+tool/render/model.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/model.cpp.s
+.PHONY : tool/render/model.cpp.s
+
 tool/render/render_camera.obj: tool/render/render_camera.cpp.obj
 .PHONY : tool/render/render_camera.obj
 
@@ -297,6 +391,30 @@ tool/render/render_system.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.s
 .PHONY : tool/render/render_system.cpp.s
 
+tool/render/shader.obj: tool/render/shader.cpp.obj
+.PHONY : tool/render/shader.obj
+
+# target to build an object file
+tool/render/shader.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/shader.cpp.obj
+.PHONY : tool/render/shader.cpp.obj
+
+tool/render/shader.i: tool/render/shader.cpp.i
+.PHONY : tool/render/shader.i
+
+# target to preprocess a source file
+tool/render/shader.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/shader.cpp.i
+.PHONY : tool/render/shader.cpp.i
+
+tool/render/shader.s: tool/render/shader.cpp.s
+.PHONY : tool/render/shader.s
+
+# target to generate assembly for a file
+tool/render/shader.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/shader.cpp.s
+.PHONY : tool/render/shader.cpp.s
+
 tool/render/window_system.obj: tool/render/window_system.cpp.obj
 .PHONY : tool/render/window_system.obj
 
@@ -328,6 +446,10 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... SmoothRuntime
 	@echo ... engine.obj
@@ -345,12 +467,21 @@ help:
 	@echo ... tool/render/default_camera.obj
 	@echo ... tool/render/default_camera.i
 	@echo ... tool/render/default_camera.s
+	@echo ... tool/render/mesh.obj
+	@echo ... tool/render/mesh.i
+	@echo ... tool/render/mesh.s
+	@echo ... tool/render/model.obj
+	@echo ... tool/render/model.i
+	@echo ... tool/render/model.s
 	@echo ... tool/render/render_camera.obj
 	@echo ... tool/render/render_camera.i
 	@echo ... tool/render/render_camera.s
 	@echo ... tool/render/render_system.obj
 	@echo ... tool/render/render_system.i
 	@echo ... tool/render/render_system.s
+	@echo ... tool/render/shader.obj
+	@echo ... tool/render/shader.i
+	@echo ... tool/render/shader.s
 	@echo ... tool/render/window_system.obj
 	@echo ... tool/render/window_system.i
 	@echo ... tool/render/window_system.s
@@ -365,6 +496,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -P G:\Project\VsCode_project\Smooth\build\CMakeFiles\VerifyGlobs.cmake
 	cd /d G:\Project\VsCode_project\Smooth\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

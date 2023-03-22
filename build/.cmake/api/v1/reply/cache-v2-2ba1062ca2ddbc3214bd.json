@@ -1115,7 +1115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "9"
+			"value" : "10"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1814,6 +1814,42 @@
 			"value" : "G:/Project/VsCode_project/Smooth"
 		},
 		{
+			"name" : "TINYOBJLOADER_BUILD_OBJ_STICHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build OBJ Sticher Application"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "TINYOBJLOADER_BUILD_TEST_LOADER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build Example Loader Application"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "TINYOBJLOADER_USE_DOUBLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build library with double precision instead of single (float)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "XINPUT_H_FOUND",
 			"properties" : 
 			[
@@ -1908,6 +1944,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glm"
+		},
+		{
+			"name" : "tinyobjloader_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/tinyobjloader"
+		},
+		{
+			"name" : "tinyobjloader_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "tinyobjloader_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/tinyobjloader"
 		}
 	],
 	"kind" : "cache",

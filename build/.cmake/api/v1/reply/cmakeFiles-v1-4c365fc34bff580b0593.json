@@ -160,6 +160,9 @@
 			"path" : "engine/3rdparty/glad.cmake"
 		},
 		{
+			"path" : "engine/3rdparty/stb.cmake"
+		},
+		{
 			"path" : "engine/3rdparty/glm/CMakeLists.txt"
 		},
 		{
@@ -274,6 +277,38 @@
 		},
 		{
 			"path" : "engine/3rdparty/glfw/src/CMakeLists.txt"
+		},
+		{
+			"path" : "engine/3rdparty/tinyobjloader/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "engine/3rdparty/tinyobjloader/tinyobjloader-config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "engine/3rdparty/tinyobjloader/tinyobjloader.pc.in"
+		},
+		{
+			"path" : "engine/3rdparty/tinyobjloader/cmake_uninstall.cmake.in"
 		},
 		{
 			"path" : "engine/source/runtime/CMakeLists.txt"

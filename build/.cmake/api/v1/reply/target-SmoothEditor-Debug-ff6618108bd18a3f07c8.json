@@ -50,6 +50,12 @@
 				"parent" : 3
 			},
 			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 3
+			},
+			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 12,
@@ -78,7 +84,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/source/editor/include"
 				},
 				{
@@ -128,6 +134,14 @@
 		},
 		{
 			"backtrace" : 2,
+			"id" : "stb::@e01f7ddb2d9853d51791"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "tinyobjloader::@2040b85fa92506764563"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "glfw::@5aec3c3994f13e9ca945"
 		},
 		{
@@ -164,6 +178,11 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 5,
+				"fragment" : "..\\..\\..\\..\\out\\libtinyobjloader.a",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
@@ -193,25 +212,25 @@
 	"sources" : 
 	[
 		{
-			"backtrace" : 6,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/editor/source/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 6,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/editor/source/editor.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 6,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/editor/source/editor_global_context.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 6,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/editor/source/editor_input_manager.cpp",
 			"sourceGroupIndex" : 0
