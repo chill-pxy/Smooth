@@ -4,6 +4,7 @@
 #include "runtime/tool/global/global_context.h"
 
 #include "runtime/tool/render/window_system.h"
+#include "runtime/tool/render/render_system.h"
 
 
 namespace Smooth
@@ -74,6 +75,7 @@ namespace Smooth
 
     bool SmoothEngine::rendererTick()
     {
+        g_runtime_global_context.m_render_system->tick();
         return true;
     }
 

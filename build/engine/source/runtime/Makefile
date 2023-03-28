@@ -199,30 +199,6 @@ engine.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.s
 .PHONY : engine.cpp.s
 
-input/input_system.obj: input/input_system.cpp.obj
-.PHONY : input/input_system.obj
-
-# target to build an object file
-input/input_system.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.obj
-.PHONY : input/input_system.cpp.obj
-
-input/input_system.i: input/input_system.cpp.i
-.PHONY : input/input_system.i
-
-# target to preprocess a source file
-input/input_system.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.i
-.PHONY : input/input_system.cpp.i
-
-input/input_system.s: input/input_system.cpp.s
-.PHONY : input/input_system.s
-
-# target to generate assembly for a file
-input/input_system.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/input/input_system.cpp.s
-.PHONY : input/input_system.cpp.s
-
 tool/global/global_context.obj: tool/global/global_context.cpp.obj
 .PHONY : tool/global/global_context.obj
 
@@ -246,6 +222,30 @@ tool/global/global_context.s: tool/global/global_context.cpp.s
 tool/global/global_context.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.s
 .PHONY : tool/global/global_context.cpp.s
+
+tool/input/input_system.obj: tool/input/input_system.cpp.obj
+.PHONY : tool/input/input_system.obj
+
+# target to build an object file
+tool/input/input_system.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/input/input_system.cpp.obj
+.PHONY : tool/input/input_system.cpp.obj
+
+tool/input/input_system.i: tool/input/input_system.cpp.i
+.PHONY : tool/input/input_system.i
+
+# target to preprocess a source file
+tool/input/input_system.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/input/input_system.cpp.i
+.PHONY : tool/input/input_system.cpp.i
+
+tool/input/input_system.s: tool/input/input_system.cpp.s
+.PHONY : tool/input/input_system.s
+
+# target to generate assembly for a file
+tool/input/input_system.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/input/input_system.cpp.s
+.PHONY : tool/input/input_system.cpp.s
 
 tool/render/RHI/opengl_rhi.obj: tool/render/RHI/opengl_rhi.cpp.obj
 .PHONY : tool/render/RHI/opengl_rhi.obj
@@ -415,6 +415,30 @@ tool/render/shader.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/shader.cpp.s
 .PHONY : tool/render/shader.cpp.s
 
+tool/render/texture.obj: tool/render/texture.cpp.obj
+.PHONY : tool/render/texture.obj
+
+# target to build an object file
+tool/render/texture.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/texture.cpp.obj
+.PHONY : tool/render/texture.cpp.obj
+
+tool/render/texture.i: tool/render/texture.cpp.i
+.PHONY : tool/render/texture.i
+
+# target to preprocess a source file
+tool/render/texture.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/texture.cpp.i
+.PHONY : tool/render/texture.cpp.i
+
+tool/render/texture.s: tool/render/texture.cpp.s
+.PHONY : tool/render/texture.s
+
+# target to generate assembly for a file
+tool/render/texture.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/texture.cpp.s
+.PHONY : tool/render/texture.cpp.s
+
 tool/render/window_system.obj: tool/render/window_system.cpp.obj
 .PHONY : tool/render/window_system.obj
 
@@ -455,12 +479,12 @@ help:
 	@echo ... engine.obj
 	@echo ... engine.i
 	@echo ... engine.s
-	@echo ... input/input_system.obj
-	@echo ... input/input_system.i
-	@echo ... input/input_system.s
 	@echo ... tool/global/global_context.obj
 	@echo ... tool/global/global_context.i
 	@echo ... tool/global/global_context.s
+	@echo ... tool/input/input_system.obj
+	@echo ... tool/input/input_system.i
+	@echo ... tool/input/input_system.s
 	@echo ... tool/render/RHI/opengl_rhi.obj
 	@echo ... tool/render/RHI/opengl_rhi.i
 	@echo ... tool/render/RHI/opengl_rhi.s
@@ -482,6 +506,9 @@ help:
 	@echo ... tool/render/shader.obj
 	@echo ... tool/render/shader.i
 	@echo ... tool/render/shader.s
+	@echo ... tool/render/texture.obj
+	@echo ... tool/render/texture.i
+	@echo ... tool/render/texture.s
 	@echo ... tool/render/window_system.obj
 	@echo ... tool/render/window_system.i
 	@echo ... tool/render/window_system.s

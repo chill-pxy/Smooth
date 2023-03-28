@@ -96,13 +96,13 @@
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
-  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\input\\input_system.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\input\\input_system.cpp",
-  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/input/input_system.cpp"
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\global\\global_context.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\global\\global_context.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/global/global_context.cpp"
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
-  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\global\\global_context.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\global\\global_context.cpp",
-  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/global/global_context.cpp"
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\input\\input_system.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\input\\input_system.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/input/input_system.cpp"
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
@@ -138,6 +138,11 @@
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
   "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\render\\shader.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\render\\shader.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/shader.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\render\\texture.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\render\\texture.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/texture.cpp"
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
