@@ -8,6 +8,8 @@ namespace Smooth
     {
         friend class SmoothEditor;
 
+        static const float s_fps_alpha;
+
     public:
         void startEngine();
         void shutdownEngine();
@@ -21,7 +23,7 @@ namespace Smooth
         float calculateDeltaTime();
         void  calculateFPS(float delta_time);
         void  logicalTick(float delta_time);
-        bool  rendererTick();
+        bool  rendererTick(float delta_time);
 
     protected:
         bool  m_is_quit {false};

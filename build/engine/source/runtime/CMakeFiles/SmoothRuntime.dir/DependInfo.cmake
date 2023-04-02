@@ -15,7 +15,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/mesh.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/mesh.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/mesh.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/model.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/model.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/model.cpp.obj.d"
+  "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/passes/ui_pass.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/passes/ui_pass.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/passes/ui_pass.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_camera.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_camera.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_camera.cpp.obj.d"
+  "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline.cpp.obj.d"
+  "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline_base.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline_base.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline_base.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_system.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/shader.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/shader.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/shader.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/texture.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/texture.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/texture.cpp.obj.d"
@@ -24,9 +27,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/CMakeFiles/glad.dir/DependInfo.cmake"
   "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/CMakeFiles/imgui.dir/DependInfo.cmake"
   "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/DependInfo.cmake"
+  "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

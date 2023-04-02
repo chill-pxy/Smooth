@@ -162,6 +162,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named imgui
+
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+#=============================================================================
 # Target rules for targets named glad
 
 # Build rule for target.
@@ -297,6 +310,7 @@ help:
 	@echo ... glad
 	@echo ... glfw
 	@echo ... glm_static
+	@echo ... imgui
 	@echo ... stb
 	@echo ... tinyobjloader
 .PHONY : help

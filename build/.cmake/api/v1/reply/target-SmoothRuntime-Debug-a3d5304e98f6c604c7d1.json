@@ -39,19 +39,19 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 20,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 26,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 32,
+				"line" : 33,
 				"parent" : 0
 			}
 		]
@@ -91,6 +91,14 @@
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/.."
 				},
 				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/backends"
+				},
+				{
 					"backtrace" : 3,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/stb"
 				},
@@ -110,10 +118,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				13,
-				14,
-				15,
-				16,
 				17,
 				18,
 				19,
@@ -121,12 +125,23 @@
 				21,
 				22,
 				23,
-				24
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
 			]
 		}
 	],
 	"dependencies" : 
 	[
+		{
+			"backtrace" : 2,
+			"id" : "imgui::@e01f7ddb2d9853d51791"
+		},
 		{
 			"backtrace" : 2,
 			"id" : "glad::@e01f7ddb2d9853d51791"
@@ -166,7 +181,7 @@
 			"sourceIndexes" : 
 			[
 				1,
-				13
+				17
 			]
 		},
 		{
@@ -174,7 +189,7 @@
 			"sourceIndexes" : 
 			[
 				2,
-				14
+				18
 			]
 		},
 		{
@@ -182,7 +197,7 @@
 			"sourceIndexes" : 
 			[
 				3,
-				15
+				19
 			]
 		},
 		{
@@ -190,7 +205,7 @@
 			"sourceIndexes" : 
 			[
 				4,
-				16
+				20
 			]
 		},
 		{
@@ -200,19 +215,38 @@
 				5,
 				6,
 				7,
-				8,
 				9,
 				10,
 				11,
 				12,
-				17,
-				18,
-				19,
-				20,
+				13,
+				14,
+				15,
 				21,
 				22,
 				23,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		},
+		{
+			"name" : "tool\\render\\passes",
+			"sourceIndexes" : 
+			[
+				8,
 				24
+			]
+		},
+		{
+			"name" : "tool\\ui",
+			"sourceIndexes" : 
+			[
+				16
 			]
 		}
 	],
@@ -260,7 +294,22 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/passes/ui_pass.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/render/render_camera.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/render_pipeline.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/render_piprline_base.h",
 			"sourceGroupIndex" : 5
 		},
 		{
@@ -282,6 +331,11 @@
 			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/render/window_system.h",
 			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/ui/window_ui.h",
+			"sourceGroupIndex" : 7
 		},
 		{
 			"backtrace" : 1,
@@ -328,7 +382,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/passes/ui_pass.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/tool/render/render_camera.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/render_pipeline.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/render_pipeline_base.cpp",
 			"sourceGroupIndex" : 5
 		},
 		{

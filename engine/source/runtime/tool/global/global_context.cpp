@@ -34,6 +34,8 @@ namespace Smooth
     {
         m_window_system.reset();
 
+        m_input_system.reset();
+
         m_render_system.reset();
 
         std::cout<<"ÏµÍ³¹Ø±Õ"<<std::endl;

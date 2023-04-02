@@ -5,6 +5,41 @@
   "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/src/glad.c"
 },
 {
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui\\imgui.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\imgui\\imgui.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/imgui.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui\\imgui_demo.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\imgui\\imgui_demo.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui\\imgui_draw.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\imgui\\imgui_draw.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui\\imgui_tables.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\imgui\\imgui_tables.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui\\imgui_widgets.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\imgui\\imgui_widgets.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/backends/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\imgui\\backends\\imgui_impl_opengl3.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/backends/imgui_impl_opengl3.cpp"
+},
+{
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glm/glm",
   "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/glm_static.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\glm_static.dir\\detail\\glm.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\glm\\glm\\detail\\glm.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/detail/glm.cpp"
@@ -126,8 +161,23 @@
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\render\\passes\\ui_pass.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\render\\passes\\ui_pass.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/passes/ui_pass.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
   "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\render\\render_camera.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\render\\render_camera.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_camera.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\render\\render_pipeline.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\render\\render_pipeline.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\render\\render_pipeline_base.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\render\\render_pipeline_base.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline_base.cpp"
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
@@ -168,5 +218,10 @@
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/editor",
   "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothEditor.dir\\source\\editor_input_manager.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\editor\\source\\editor_input_manager.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_input_manager.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/editor",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothEditor.dir\\source\\editor_ui.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\editor\\source\\editor_ui.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_ui.cpp"
 }
 ]

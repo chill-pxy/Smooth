@@ -63,9 +63,21 @@ namespace Smooth
         return delta_time;
     }
 
+    const float SmoothEngine::s_fps_alpha = 1.f / 100;
     void SmoothEngine::calculateFPS(float delta_time)
     {
+        m_frame_count++;
 
+        if(m_frame_count == 1)
+        {
+            m_average_duration = delta_time;
+        }
+        else
+        {
+            m_average_duration = m_average_duration * (1 - s_fps_alpha) + delta_time * s_fps_alpha;
+        }
+
+        m_fps = static_cast<int>(1.f / m_average_duration);
     }
 
     void SmoothEngine::logicalTick(float delta_time)
@@ -73,9 +85,9 @@ namespace Smooth
         
     }
 
-    bool SmoothEngine::rendererTick()
+    bool SmoothEngine::rendererTick(float delta_time)
     {
-        g_runtime_global_context.m_render_system->tick();
+        g_runtime_global_context.m_render_system->tick(delta_time);
         return true;
     }
 

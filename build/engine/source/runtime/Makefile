@@ -343,6 +343,30 @@ tool/render/model.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/model.cpp.s
 .PHONY : tool/render/model.cpp.s
 
+tool/render/passes/ui_pass.obj: tool/render/passes/ui_pass.cpp.obj
+.PHONY : tool/render/passes/ui_pass.obj
+
+# target to build an object file
+tool/render/passes/ui_pass.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/passes/ui_pass.cpp.obj
+.PHONY : tool/render/passes/ui_pass.cpp.obj
+
+tool/render/passes/ui_pass.i: tool/render/passes/ui_pass.cpp.i
+.PHONY : tool/render/passes/ui_pass.i
+
+# target to preprocess a source file
+tool/render/passes/ui_pass.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/passes/ui_pass.cpp.i
+.PHONY : tool/render/passes/ui_pass.cpp.i
+
+tool/render/passes/ui_pass.s: tool/render/passes/ui_pass.cpp.s
+.PHONY : tool/render/passes/ui_pass.s
+
+# target to generate assembly for a file
+tool/render/passes/ui_pass.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/passes/ui_pass.cpp.s
+.PHONY : tool/render/passes/ui_pass.cpp.s
+
 tool/render/render_camera.obj: tool/render/render_camera.cpp.obj
 .PHONY : tool/render/render_camera.obj
 
@@ -366,6 +390,54 @@ tool/render/render_camera.s: tool/render/render_camera.cpp.s
 tool/render/render_camera.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_camera.cpp.s
 .PHONY : tool/render/render_camera.cpp.s
+
+tool/render/render_pipeline.obj: tool/render/render_pipeline.cpp.obj
+.PHONY : tool/render/render_pipeline.obj
+
+# target to build an object file
+tool/render/render_pipeline.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline.cpp.obj
+.PHONY : tool/render/render_pipeline.cpp.obj
+
+tool/render/render_pipeline.i: tool/render/render_pipeline.cpp.i
+.PHONY : tool/render/render_pipeline.i
+
+# target to preprocess a source file
+tool/render/render_pipeline.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline.cpp.i
+.PHONY : tool/render/render_pipeline.cpp.i
+
+tool/render/render_pipeline.s: tool/render/render_pipeline.cpp.s
+.PHONY : tool/render/render_pipeline.s
+
+# target to generate assembly for a file
+tool/render/render_pipeline.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline.cpp.s
+.PHONY : tool/render/render_pipeline.cpp.s
+
+tool/render/render_pipeline_base.obj: tool/render/render_pipeline_base.cpp.obj
+.PHONY : tool/render/render_pipeline_base.obj
+
+# target to build an object file
+tool/render/render_pipeline_base.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline_base.cpp.obj
+.PHONY : tool/render/render_pipeline_base.cpp.obj
+
+tool/render/render_pipeline_base.i: tool/render/render_pipeline_base.cpp.i
+.PHONY : tool/render/render_pipeline_base.i
+
+# target to preprocess a source file
+tool/render/render_pipeline_base.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline_base.cpp.i
+.PHONY : tool/render/render_pipeline_base.cpp.i
+
+tool/render/render_pipeline_base.s: tool/render/render_pipeline_base.cpp.s
+.PHONY : tool/render/render_pipeline_base.s
+
+# target to generate assembly for a file
+tool/render/render_pipeline_base.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pipeline_base.cpp.s
+.PHONY : tool/render/render_pipeline_base.cpp.s
 
 tool/render/render_system.obj: tool/render/render_system.cpp.obj
 .PHONY : tool/render/render_system.obj
@@ -497,9 +569,18 @@ help:
 	@echo ... tool/render/model.obj
 	@echo ... tool/render/model.i
 	@echo ... tool/render/model.s
+	@echo ... tool/render/passes/ui_pass.obj
+	@echo ... tool/render/passes/ui_pass.i
+	@echo ... tool/render/passes/ui_pass.s
 	@echo ... tool/render/render_camera.obj
 	@echo ... tool/render/render_camera.i
 	@echo ... tool/render/render_camera.s
+	@echo ... tool/render/render_pipeline.obj
+	@echo ... tool/render/render_pipeline.i
+	@echo ... tool/render/render_pipeline.s
+	@echo ... tool/render/render_pipeline_base.obj
+	@echo ... tool/render/render_pipeline_base.i
+	@echo ... tool/render/render_pipeline_base.s
 	@echo ... tool/render/render_system.obj
 	@echo ... tool/render/render_system.i
 	@echo ... tool/render/render_system.s

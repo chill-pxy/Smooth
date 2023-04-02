@@ -57,7 +57,8 @@
 					"targetIndexes" : 
 					[
 						2,
-						5
+						5,
+						6
 					]
 				},
 				{
@@ -118,13 +119,13 @@
 					"targetIndexes" : 
 					[
 						3,
-						8
+						9
 					]
 				},
 				{
 					"build" : "engine/3rdparty/tinyobjloader",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-engine.3rdparty.tinyobjloader-Debug-6711a320fac8a1ad32d0.json",
+					"jsonFile" : "directory-engine.3rdparty.tinyobjloader-Debug-7bcab44c901c55e10c41.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.2"
@@ -134,8 +135,8 @@
 					"source" : "engine/3rdparty/tinyobjloader",
 					"targetIndexes" : 
 					[
-						6,
-						7
+						7,
+						8
 					]
 				},
 				{
@@ -193,7 +194,8 @@
 						0,
 						1,
 						2,
-						5
+						5,
+						6
 					]
 				},
 				{
@@ -220,7 +222,7 @@
 					"targetIndexes" : 
 					[
 						3,
-						8
+						9
 					]
 				},
 				{
@@ -232,8 +234,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -242,14 +244,14 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "SmoothEditor::@a2a08a0b55f399eba4b5",
-					"jsonFile" : "target-SmoothEditor-Debug-761b36bce1bcfd273b63.json",
+					"jsonFile" : "target-SmoothEditor-Debug-2ff69aab9ce3d436aa0b.json",
 					"name" : "SmoothEditor",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "SmoothRuntime::@0e9222390ef2a3c3b428",
-					"jsonFile" : "target-SmoothRuntime-Debug-f98ca952b4b48eb02acc.json",
+					"jsonFile" : "target-SmoothRuntime-Debug-a3d5304e98f6c604c7d1.json",
 					"name" : "SmoothRuntime",
 					"projectIndex" : 0
 				},
@@ -273,6 +275,13 @@
 					"jsonFile" : "target-glm_static-Debug-9f731d65a81d097a5e51.json",
 					"name" : "glm_static",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "imgui::@e01f7ddb2d9853d51791",
+					"jsonFile" : "target-imgui-Debug-fae884859e164ab4f5fe.json",
+					"name" : "imgui",
+					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,

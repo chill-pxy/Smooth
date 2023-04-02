@@ -60,6 +60,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../engine/3rdparty/glfw/src/glfw_config.h.in"
   "../engine/3rdparty/glm/CMakeLists.txt"
   "../engine/3rdparty/glm/glm/CMakeLists.txt"
+  "../engine/3rdparty/imgui.cmake"
   "../engine/3rdparty/stb.cmake"
   "../engine/3rdparty/tinyobjloader/CMakeLists.txt"
   "../engine/3rdparty/tinyobjloader/cmake_uninstall.cmake.in"
@@ -100,6 +101,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "engine/3rdparty/CMakeFiles/imgui.dir/DependInfo.cmake"
   "engine/3rdparty/CMakeFiles/glad.dir/DependInfo.cmake"
   "engine/3rdparty/CMakeFiles/stb.dir/DependInfo.cmake"
   "engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/DependInfo.cmake"

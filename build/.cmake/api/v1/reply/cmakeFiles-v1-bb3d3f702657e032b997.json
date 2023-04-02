@@ -157,6 +157,9 @@
 			"path" : "engine/3rdparty/CMakeLists.txt"
 		},
 		{
+			"path" : "engine/3rdparty/imgui.cmake"
+		},
+		{
 			"path" : "engine/3rdparty/glad.cmake"
 		},
 		{

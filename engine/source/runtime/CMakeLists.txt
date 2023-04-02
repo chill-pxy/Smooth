@@ -15,6 +15,7 @@ target_link_libraries(
   glad
   glfw
   glm
+  imgui
 )
 
 target_link_libraries(

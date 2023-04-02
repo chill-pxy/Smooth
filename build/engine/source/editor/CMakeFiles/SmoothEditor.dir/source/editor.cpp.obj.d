@@ -152,6 +152,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj: \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_ui.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/ui/window_ui.h \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_global_context.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.h \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono \

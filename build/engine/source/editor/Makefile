@@ -247,6 +247,30 @@ source/editor_input_manager.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.s
 .PHONY : source/editor_input_manager.cpp.s
 
+source/editor_ui.obj: source/editor_ui.cpp.obj
+.PHONY : source/editor_ui.obj
+
+# target to build an object file
+source/editor_ui.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj
+.PHONY : source/editor_ui.cpp.obj
+
+source/editor_ui.i: source/editor_ui.cpp.i
+.PHONY : source/editor_ui.i
+
+# target to preprocess a source file
+source/editor_ui.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.i
+.PHONY : source/editor_ui.cpp.i
+
+source/editor_ui.s: source/editor_ui.cpp.s
+.PHONY : source/editor_ui.s
+
+# target to generate assembly for a file
+source/editor_ui.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.s
+.PHONY : source/editor_ui.cpp.s
+
 source/main.obj: source/main.cpp.obj
 .PHONY : source/main.obj
 
@@ -293,6 +317,9 @@ help:
 	@echo ... source/editor_input_manager.obj
 	@echo ... source/editor_input_manager.i
 	@echo ... source/editor_input_manager.s
+	@echo ... source/editor_ui.obj
+	@echo ... source/editor_ui.i
+	@echo ... source/editor_ui.s
 	@echo ... source/main.obj
 	@echo ... source/main.i
 	@echo ... source/main.s

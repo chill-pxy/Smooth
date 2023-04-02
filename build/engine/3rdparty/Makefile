@@ -162,6 +162,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+engine/3rdparty/CMakeFiles/imgui.dir/rule:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/CMakeFiles/imgui.dir/rule
+.PHONY : engine/3rdparty/CMakeFiles/imgui.dir/rule
+
+# Convenience name for target.
+imgui: engine/3rdparty/CMakeFiles/imgui.dir/rule
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+# Convenience name for target.
 engine/3rdparty/CMakeFiles/glad.dir/rule:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/3rdparty/CMakeFiles/glad.dir/rule
 .PHONY : engine/3rdparty/CMakeFiles/glad.dir/rule
@@ -199,6 +213,174 @@ glad/src/glad.c.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.s
 .PHONY : glad/src/glad.c.s
 
+imgui/backends/imgui_impl_glfw.obj: imgui/backends/imgui_impl_glfw.cpp.obj
+.PHONY : imgui/backends/imgui_impl_glfw.obj
+
+# target to build an object file
+imgui/backends/imgui_impl_glfw.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.obj
+.PHONY : imgui/backends/imgui_impl_glfw.cpp.obj
+
+imgui/backends/imgui_impl_glfw.i: imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : imgui/backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+imgui/backends/imgui_impl_glfw.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : imgui/backends/imgui_impl_glfw.cpp.i
+
+imgui/backends/imgui_impl_glfw.s: imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : imgui/backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+imgui/backends/imgui_impl_glfw.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : imgui/backends/imgui_impl_glfw.cpp.s
+
+imgui/backends/imgui_impl_opengl3.obj: imgui/backends/imgui_impl_opengl3.cpp.obj
+.PHONY : imgui/backends/imgui_impl_opengl3.obj
+
+# target to build an object file
+imgui/backends/imgui_impl_opengl3.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.obj
+.PHONY : imgui/backends/imgui_impl_opengl3.cpp.obj
+
+imgui/backends/imgui_impl_opengl3.i: imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : imgui/backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+imgui/backends/imgui_impl_opengl3.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : imgui/backends/imgui_impl_opengl3.cpp.i
+
+imgui/backends/imgui_impl_opengl3.s: imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : imgui/backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+imgui/backends/imgui_impl_opengl3.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : imgui/backends/imgui_impl_opengl3.cpp.s
+
+imgui/imgui.obj: imgui/imgui.cpp.obj
+.PHONY : imgui/imgui.obj
+
+# target to build an object file
+imgui/imgui.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui.cpp.obj
+.PHONY : imgui/imgui.cpp.obj
+
+imgui/imgui.i: imgui/imgui.cpp.i
+.PHONY : imgui/imgui.i
+
+# target to preprocess a source file
+imgui/imgui.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui.cpp.i
+.PHONY : imgui/imgui.cpp.i
+
+imgui/imgui.s: imgui/imgui.cpp.s
+.PHONY : imgui/imgui.s
+
+# target to generate assembly for a file
+imgui/imgui.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui.cpp.s
+.PHONY : imgui/imgui.cpp.s
+
+imgui/imgui_demo.obj: imgui/imgui_demo.cpp.obj
+.PHONY : imgui/imgui_demo.obj
+
+# target to build an object file
+imgui/imgui_demo.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.obj
+.PHONY : imgui/imgui_demo.cpp.obj
+
+imgui/imgui_demo.i: imgui/imgui_demo.cpp.i
+.PHONY : imgui/imgui_demo.i
+
+# target to preprocess a source file
+imgui/imgui_demo.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.i
+.PHONY : imgui/imgui_demo.cpp.i
+
+imgui/imgui_demo.s: imgui/imgui_demo.cpp.s
+.PHONY : imgui/imgui_demo.s
+
+# target to generate assembly for a file
+imgui/imgui_demo.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.s
+.PHONY : imgui/imgui_demo.cpp.s
+
+imgui/imgui_draw.obj: imgui/imgui_draw.cpp.obj
+.PHONY : imgui/imgui_draw.obj
+
+# target to build an object file
+imgui/imgui_draw.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.obj
+.PHONY : imgui/imgui_draw.cpp.obj
+
+imgui/imgui_draw.i: imgui/imgui_draw.cpp.i
+.PHONY : imgui/imgui_draw.i
+
+# target to preprocess a source file
+imgui/imgui_draw.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.i
+.PHONY : imgui/imgui_draw.cpp.i
+
+imgui/imgui_draw.s: imgui/imgui_draw.cpp.s
+.PHONY : imgui/imgui_draw.s
+
+# target to generate assembly for a file
+imgui/imgui_draw.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.s
+.PHONY : imgui/imgui_draw.cpp.s
+
+imgui/imgui_tables.obj: imgui/imgui_tables.cpp.obj
+.PHONY : imgui/imgui_tables.obj
+
+# target to build an object file
+imgui/imgui_tables.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.obj
+.PHONY : imgui/imgui_tables.cpp.obj
+
+imgui/imgui_tables.i: imgui/imgui_tables.cpp.i
+.PHONY : imgui/imgui_tables.i
+
+# target to preprocess a source file
+imgui/imgui_tables.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.i
+.PHONY : imgui/imgui_tables.cpp.i
+
+imgui/imgui_tables.s: imgui/imgui_tables.cpp.s
+.PHONY : imgui/imgui_tables.s
+
+# target to generate assembly for a file
+imgui/imgui_tables.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.s
+.PHONY : imgui/imgui_tables.cpp.s
+
+imgui/imgui_widgets.obj: imgui/imgui_widgets.cpp.obj
+.PHONY : imgui/imgui_widgets.obj
+
+# target to build an object file
+imgui/imgui_widgets.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.obj
+.PHONY : imgui/imgui_widgets.cpp.obj
+
+imgui/imgui_widgets.i: imgui/imgui_widgets.cpp.i
+.PHONY : imgui/imgui_widgets.i
+
+# target to preprocess a source file
+imgui/imgui_widgets.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.i
+.PHONY : imgui/imgui_widgets.cpp.i
+
+imgui/imgui_widgets.s: imgui/imgui_widgets.cpp.s
+.PHONY : imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+imgui/imgui_widgets.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.s
+.PHONY : imgui/imgui_widgets.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,10 +394,32 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... glad
+	@echo ... imgui
 	@echo ... stb
 	@echo ... glad/src/glad.obj
 	@echo ... glad/src/glad.i
 	@echo ... glad/src/glad.s
+	@echo ... imgui/backends/imgui_impl_glfw.obj
+	@echo ... imgui/backends/imgui_impl_glfw.i
+	@echo ... imgui/backends/imgui_impl_glfw.s
+	@echo ... imgui/backends/imgui_impl_opengl3.obj
+	@echo ... imgui/backends/imgui_impl_opengl3.i
+	@echo ... imgui/backends/imgui_impl_opengl3.s
+	@echo ... imgui/imgui.obj
+	@echo ... imgui/imgui.i
+	@echo ... imgui/imgui.s
+	@echo ... imgui/imgui_demo.obj
+	@echo ... imgui/imgui_demo.i
+	@echo ... imgui/imgui_demo.s
+	@echo ... imgui/imgui_draw.obj
+	@echo ... imgui/imgui_draw.i
+	@echo ... imgui/imgui_draw.s
+	@echo ... imgui/imgui_tables.obj
+	@echo ... imgui/imgui_tables.i
+	@echo ... imgui/imgui_tables.s
+	@echo ... imgui/imgui_widgets.obj
+	@echo ... imgui/imgui_widgets.i
+	@echo ... imgui/imgui_widgets.s
 .PHONY : help
 
 

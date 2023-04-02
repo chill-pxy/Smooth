@@ -19,11 +19,12 @@ namespace Smooth
         WindowSystem() = default;
         ~WindowSystem();
 
-        void        initialize(WindowInfo window_info);
-        bool        shouldClose() const { return glfwWindowShouldClose(m_window); }
-        GLFWwindow* getWindow() const { return m_window; }
-        void        pollEvents() const { glfwPollEvents(); }
-        void        swapBuffers() const { glfwSwapBuffers(m_window); }
+        void              initialize(WindowInfo window_info);
+        bool              shouldClose() const { return glfwWindowShouldClose(m_window); }
+        GLFWwindow*       getWindow() const { return m_window; }
+        std::array<int,2> getWindowSize() const { return std::array<int,2>({m_width, m_height}); }
+        void              pollEvents() const { glfwPollEvents(); }
+        void              swapBuffers() const { glfwSwapBuffers(m_window); }
 
         typedef std::function<void(int,int,int,int)> onKeyFunc;
 

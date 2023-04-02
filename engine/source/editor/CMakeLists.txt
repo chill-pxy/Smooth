@@ -7,6 +7,7 @@ target_sources(${TARGET_NAME} PRIVATE
  source/editor.cpp
  source/editor_global_context.cpp
  source/editor_input_manager.cpp
+ source/editor_ui.cpp
 )
 
 target_include_directories(${TARGET_NAME} PRIVATE
@@ -15,4 +16,5 @@ target_include_directories(${TARGET_NAME} PRIVATE
 
 target_link_libraries(${TARGET_NAME} PUBLIC
   SmoothRuntime
+  imgui
 )
