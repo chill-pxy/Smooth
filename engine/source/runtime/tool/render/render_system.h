@@ -1,5 +1,7 @@
 #include <memory>
 
+#include "runtime/tool/render/render_piprline_base.h"
+
 namespace Smooth
 {
     class WindowSystem;
@@ -26,6 +28,9 @@ namespace Smooth
         void initialize(RenderSystemInitInfo init_info);
         void tick(float delta_time);
         void clear();
+    
+    private:
+        std::shared_ptr<RenderPipelineBase> m_render_pipeline;
 
     };
 }

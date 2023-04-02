@@ -15,6 +15,7 @@ namespace Smooth
 
     void RenderPipeline::deferredRender()
     {
-        UIPass& ui_pass = *(static_cast<UIPass*>(m_ui_pass.get()));
+        //UIPass& ui_pass = *(static_cast<UIPass*>(m_ui_pass.get()));
+        static_cast<UIPass*>(m_ui_pass.get())->draw();
     }
 }

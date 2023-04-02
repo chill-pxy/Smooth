@@ -6,10 +6,10 @@ namespace Smooth
 {
     class WindowUI;
 
-    class UIPass : RenderPass
+    class UIPass : public RenderPass
     {
     public:
-        void draw();
+        void draw() override final;
     private:
         WindowUI* m_window_ui;
     };

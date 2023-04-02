@@ -1,6 +1,6 @@
 #include "stb_image.h"
 
-#include "runtime/tool/render/mesh.h"
+#include "runtime/tool/render/legacy/mesh.h"
 
 namespace Smooth
 {

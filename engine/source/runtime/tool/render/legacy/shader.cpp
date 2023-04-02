@@ -1,4 +1,4 @@
-#include "runtime/tool/render/shader.h"
+#include "runtime/tool/render/legacy/shader.h"
 
 namespace Smooth
 {

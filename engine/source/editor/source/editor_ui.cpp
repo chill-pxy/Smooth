@@ -2,6 +2,8 @@
 
 #include "imgui.h"
 #include "imgui_internal.h"
+#include "imgui_impl_glfw.h"
+#include "imgui_impl_opengl3.h"
 
 #include "editor_ui.h"
 #include "editor_global_context.h"
@@ -34,6 +36,8 @@ namespace Smooth
         //create imgui context
         IMGUI_CHECKVERSION();
         ImGui::CreateContext();
+        ImGui_ImplGlfw_InitForOpenGL(init_info.window_system->getWindow(), true);
+        ImGui_ImplOpenGL3_Init("#version 330");
 
         //set ui content scale
         float x_scale,y_scale;

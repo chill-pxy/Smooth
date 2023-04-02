@@ -129,4 +129,6 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
- F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h
+ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_piprline_base.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pass_base.h

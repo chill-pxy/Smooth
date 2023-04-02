@@ -2,8 +2,8 @@
 
 #include "tiny_obj_loader.h"
 
-#include "runtime/tool/render/mesh.h"
-#include "runtime/tool/render/shader.h"
+#include "runtime/tool/render/legacy/mesh.h"
+#include "runtime/tool/render/legacy/shader.h"
 
 namespace Smooth
 {

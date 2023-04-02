@@ -2,7 +2,7 @@
 
 #include "stb_image.h"
 
-#include "runtime/tool/render/texture.h"
+#include "runtime/tool/render/legacy/texture.h"
 
 namespace Smooth
 {

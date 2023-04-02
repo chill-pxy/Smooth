@@ -14,6 +14,11 @@ namespace Smooth
 
     void RenderSystem::tick(float delta_time)
     {
-        
+        m_render_pipeline->deferredRender();
+    }
+
+    void RenderSystem::clear()
+    {
+        m_render_pipeline.reset();
     }
 }

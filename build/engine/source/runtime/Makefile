@@ -295,53 +295,101 @@ tool/render/default_camera.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cpp.s
 .PHONY : tool/render/default_camera.cpp.s
 
-tool/render/mesh.obj: tool/render/mesh.cpp.obj
-.PHONY : tool/render/mesh.obj
+tool/render/legacy/mesh.obj: tool/render/legacy/mesh.cpp.obj
+.PHONY : tool/render/legacy/mesh.obj
 
 # target to build an object file
-tool/render/mesh.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/mesh.cpp.obj
-.PHONY : tool/render/mesh.cpp.obj
+tool/render/legacy/mesh.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/mesh.cpp.obj
+.PHONY : tool/render/legacy/mesh.cpp.obj
 
-tool/render/mesh.i: tool/render/mesh.cpp.i
-.PHONY : tool/render/mesh.i
+tool/render/legacy/mesh.i: tool/render/legacy/mesh.cpp.i
+.PHONY : tool/render/legacy/mesh.i
 
 # target to preprocess a source file
-tool/render/mesh.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/mesh.cpp.i
-.PHONY : tool/render/mesh.cpp.i
+tool/render/legacy/mesh.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/mesh.cpp.i
+.PHONY : tool/render/legacy/mesh.cpp.i
 
-tool/render/mesh.s: tool/render/mesh.cpp.s
-.PHONY : tool/render/mesh.s
+tool/render/legacy/mesh.s: tool/render/legacy/mesh.cpp.s
+.PHONY : tool/render/legacy/mesh.s
 
 # target to generate assembly for a file
-tool/render/mesh.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/mesh.cpp.s
-.PHONY : tool/render/mesh.cpp.s
+tool/render/legacy/mesh.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/mesh.cpp.s
+.PHONY : tool/render/legacy/mesh.cpp.s
 
-tool/render/model.obj: tool/render/model.cpp.obj
-.PHONY : tool/render/model.obj
+tool/render/legacy/model.obj: tool/render/legacy/model.cpp.obj
+.PHONY : tool/render/legacy/model.obj
 
 # target to build an object file
-tool/render/model.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/model.cpp.obj
-.PHONY : tool/render/model.cpp.obj
+tool/render/legacy/model.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/model.cpp.obj
+.PHONY : tool/render/legacy/model.cpp.obj
 
-tool/render/model.i: tool/render/model.cpp.i
-.PHONY : tool/render/model.i
+tool/render/legacy/model.i: tool/render/legacy/model.cpp.i
+.PHONY : tool/render/legacy/model.i
 
 # target to preprocess a source file
-tool/render/model.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/model.cpp.i
-.PHONY : tool/render/model.cpp.i
+tool/render/legacy/model.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/model.cpp.i
+.PHONY : tool/render/legacy/model.cpp.i
 
-tool/render/model.s: tool/render/model.cpp.s
-.PHONY : tool/render/model.s
+tool/render/legacy/model.s: tool/render/legacy/model.cpp.s
+.PHONY : tool/render/legacy/model.s
 
 # target to generate assembly for a file
-tool/render/model.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/model.cpp.s
-.PHONY : tool/render/model.cpp.s
+tool/render/legacy/model.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/model.cpp.s
+.PHONY : tool/render/legacy/model.cpp.s
+
+tool/render/legacy/shader.obj: tool/render/legacy/shader.cpp.obj
+.PHONY : tool/render/legacy/shader.obj
+
+# target to build an object file
+tool/render/legacy/shader.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/shader.cpp.obj
+.PHONY : tool/render/legacy/shader.cpp.obj
+
+tool/render/legacy/shader.i: tool/render/legacy/shader.cpp.i
+.PHONY : tool/render/legacy/shader.i
+
+# target to preprocess a source file
+tool/render/legacy/shader.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/shader.cpp.i
+.PHONY : tool/render/legacy/shader.cpp.i
+
+tool/render/legacy/shader.s: tool/render/legacy/shader.cpp.s
+.PHONY : tool/render/legacy/shader.s
+
+# target to generate assembly for a file
+tool/render/legacy/shader.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/shader.cpp.s
+.PHONY : tool/render/legacy/shader.cpp.s
+
+tool/render/legacy/texture.obj: tool/render/legacy/texture.cpp.obj
+.PHONY : tool/render/legacy/texture.obj
+
+# target to build an object file
+tool/render/legacy/texture.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/texture.cpp.obj
+.PHONY : tool/render/legacy/texture.cpp.obj
+
+tool/render/legacy/texture.i: tool/render/legacy/texture.cpp.i
+.PHONY : tool/render/legacy/texture.i
+
+# target to preprocess a source file
+tool/render/legacy/texture.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/texture.cpp.i
+.PHONY : tool/render/legacy/texture.cpp.i
+
+tool/render/legacy/texture.s: tool/render/legacy/texture.cpp.s
+.PHONY : tool/render/legacy/texture.s
+
+# target to generate assembly for a file
+tool/render/legacy/texture.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/texture.cpp.s
+.PHONY : tool/render/legacy/texture.cpp.s
 
 tool/render/passes/ui_pass.obj: tool/render/passes/ui_pass.cpp.obj
 .PHONY : tool/render/passes/ui_pass.obj
@@ -390,6 +438,54 @@ tool/render/render_camera.s: tool/render/render_camera.cpp.s
 tool/render/render_camera.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_camera.cpp.s
 .PHONY : tool/render/render_camera.cpp.s
+
+tool/render/render_pass.obj: tool/render/render_pass.cpp.obj
+.PHONY : tool/render/render_pass.obj
+
+# target to build an object file
+tool/render/render_pass.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pass.cpp.obj
+.PHONY : tool/render/render_pass.cpp.obj
+
+tool/render/render_pass.i: tool/render/render_pass.cpp.i
+.PHONY : tool/render/render_pass.i
+
+# target to preprocess a source file
+tool/render/render_pass.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pass.cpp.i
+.PHONY : tool/render/render_pass.cpp.i
+
+tool/render/render_pass.s: tool/render/render_pass.cpp.s
+.PHONY : tool/render/render_pass.s
+
+# target to generate assembly for a file
+tool/render/render_pass.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pass.cpp.s
+.PHONY : tool/render/render_pass.cpp.s
+
+tool/render/render_pass_base.obj: tool/render/render_pass_base.cpp.obj
+.PHONY : tool/render/render_pass_base.obj
+
+# target to build an object file
+tool/render/render_pass_base.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pass_base.cpp.obj
+.PHONY : tool/render/render_pass_base.cpp.obj
+
+tool/render/render_pass_base.i: tool/render/render_pass_base.cpp.i
+.PHONY : tool/render/render_pass_base.i
+
+# target to preprocess a source file
+tool/render/render_pass_base.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pass_base.cpp.i
+.PHONY : tool/render/render_pass_base.cpp.i
+
+tool/render/render_pass_base.s: tool/render/render_pass_base.cpp.s
+.PHONY : tool/render/render_pass_base.s
+
+# target to generate assembly for a file
+tool/render/render_pass_base.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_pass_base.cpp.s
+.PHONY : tool/render/render_pass_base.cpp.s
 
 tool/render/render_pipeline.obj: tool/render/render_pipeline.cpp.obj
 .PHONY : tool/render/render_pipeline.obj
@@ -463,54 +559,6 @@ tool/render/render_system.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp.s
 .PHONY : tool/render/render_system.cpp.s
 
-tool/render/shader.obj: tool/render/shader.cpp.obj
-.PHONY : tool/render/shader.obj
-
-# target to build an object file
-tool/render/shader.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/shader.cpp.obj
-.PHONY : tool/render/shader.cpp.obj
-
-tool/render/shader.i: tool/render/shader.cpp.i
-.PHONY : tool/render/shader.i
-
-# target to preprocess a source file
-tool/render/shader.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/shader.cpp.i
-.PHONY : tool/render/shader.cpp.i
-
-tool/render/shader.s: tool/render/shader.cpp.s
-.PHONY : tool/render/shader.s
-
-# target to generate assembly for a file
-tool/render/shader.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/shader.cpp.s
-.PHONY : tool/render/shader.cpp.s
-
-tool/render/texture.obj: tool/render/texture.cpp.obj
-.PHONY : tool/render/texture.obj
-
-# target to build an object file
-tool/render/texture.cpp.obj:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/texture.cpp.obj
-.PHONY : tool/render/texture.cpp.obj
-
-tool/render/texture.i: tool/render/texture.cpp.i
-.PHONY : tool/render/texture.i
-
-# target to preprocess a source file
-tool/render/texture.cpp.i:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/texture.cpp.i
-.PHONY : tool/render/texture.cpp.i
-
-tool/render/texture.s: tool/render/texture.cpp.s
-.PHONY : tool/render/texture.s
-
-# target to generate assembly for a file
-tool/render/texture.cpp.s:
-	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/texture.cpp.s
-.PHONY : tool/render/texture.cpp.s
-
 tool/render/window_system.obj: tool/render/window_system.cpp.obj
 .PHONY : tool/render/window_system.obj
 
@@ -563,18 +611,30 @@ help:
 	@echo ... tool/render/default_camera.obj
 	@echo ... tool/render/default_camera.i
 	@echo ... tool/render/default_camera.s
-	@echo ... tool/render/mesh.obj
-	@echo ... tool/render/mesh.i
-	@echo ... tool/render/mesh.s
-	@echo ... tool/render/model.obj
-	@echo ... tool/render/model.i
-	@echo ... tool/render/model.s
+	@echo ... tool/render/legacy/mesh.obj
+	@echo ... tool/render/legacy/mesh.i
+	@echo ... tool/render/legacy/mesh.s
+	@echo ... tool/render/legacy/model.obj
+	@echo ... tool/render/legacy/model.i
+	@echo ... tool/render/legacy/model.s
+	@echo ... tool/render/legacy/shader.obj
+	@echo ... tool/render/legacy/shader.i
+	@echo ... tool/render/legacy/shader.s
+	@echo ... tool/render/legacy/texture.obj
+	@echo ... tool/render/legacy/texture.i
+	@echo ... tool/render/legacy/texture.s
 	@echo ... tool/render/passes/ui_pass.obj
 	@echo ... tool/render/passes/ui_pass.i
 	@echo ... tool/render/passes/ui_pass.s
 	@echo ... tool/render/render_camera.obj
 	@echo ... tool/render/render_camera.i
 	@echo ... tool/render/render_camera.s
+	@echo ... tool/render/render_pass.obj
+	@echo ... tool/render/render_pass.i
+	@echo ... tool/render/render_pass.s
+	@echo ... tool/render/render_pass_base.obj
+	@echo ... tool/render/render_pass_base.i
+	@echo ... tool/render/render_pass_base.s
 	@echo ... tool/render/render_pipeline.obj
 	@echo ... tool/render/render_pipeline.i
 	@echo ... tool/render/render_pipeline.s
@@ -584,12 +644,6 @@ help:
 	@echo ... tool/render/render_system.obj
 	@echo ... tool/render/render_system.i
 	@echo ... tool/render/render_system.s
-	@echo ... tool/render/shader.obj
-	@echo ... tool/render/shader.i
-	@echo ... tool/render/shader.s
-	@echo ... tool/render/texture.obj
-	@echo ... tool/render/texture.i
-	@echo ... tool/render/texture.s
 	@echo ... tool/render/window_system.obj
 	@echo ... tool/render/window_system.i
 	@echo ... tool/render/window_system.s

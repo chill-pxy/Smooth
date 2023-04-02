@@ -121,6 +121,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/imstb_textedit.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/backends/imgui_impl_glfw.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/backends/imgui_impl_opengl3.h \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_ui.h \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \

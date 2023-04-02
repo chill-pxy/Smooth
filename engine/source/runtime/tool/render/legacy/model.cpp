@@ -3,7 +3,7 @@
 #include "stb_image.h"
 
 #include "runtime/core/math.h"
-#include "runtime/tool/render/model.h"
+#include "runtime/tool/render/legacy/model.h"
 
 namespace std
 {

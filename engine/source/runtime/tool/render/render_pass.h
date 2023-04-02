@@ -6,6 +6,9 @@ namespace Smooth
 {
     class RenderPass : public RenderPassBase
     {
+    public:
+        void initialize() override;
 
+        virtual void draw();
     };
 }
