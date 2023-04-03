@@ -36,6 +36,7 @@ namespace Smooth
         //create imgui context
         IMGUI_CHECKVERSION();
         ImGui::CreateContext();
+
         ImGui_ImplGlfw_InitForOpenGL(init_info.window_system->getWindow(), true);
         ImGui_ImplOpenGL3_Init("#version 330");
 

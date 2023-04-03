@@ -18,6 +18,7 @@ namespace Smooth
             m_window_ui->preRender();  //turn to EditorUI::draw()
 
             ImGui::Render();
+            ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
         }
     }
 }
