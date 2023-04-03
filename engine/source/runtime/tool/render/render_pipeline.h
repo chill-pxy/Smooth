@@ -1,6 +1,6 @@
 #pragma once
 
-#include "render_piprline_base.h"
+#include "runtime/tool/render/render_pipeline_base.h"
 
 namespace Smooth
 {
@@ -9,6 +9,5 @@ namespace Smooth
         virtual void initialize() override final;
         virtual void forwardRender() override final;
         virtual void deferredRender() override final;
-
     };
 }

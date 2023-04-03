@@ -10,6 +10,7 @@ namespace Smooth
     {
     public:
         void draw() override final;
+        void initializeUIRenderBackend(WindowUI* window_ui) override final;
     private:
         WindowUI* m_window_ui;
     };

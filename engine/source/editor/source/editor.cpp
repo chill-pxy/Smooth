@@ -36,8 +36,7 @@ namespace Smooth
     void SmoothEditor::run()
     {
         assert(m_engine_runtime);
-        
-        m_editor_ui->preRender();
+        assert(m_editor_ui);
 
         std::cout<<"±à¼­Æ÷Æô¶¯"<<std::endl;
 

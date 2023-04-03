@@ -766,6 +766,9 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: ../en
   F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
   F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/GL/gl.h \
+  ../engine/source/runtime/tool/render/render_system.h \
+  ../engine/source/runtime/tool/render/render_pipeline_base.h \
+  ../engine/source/runtime/tool/render/render_pass_base.h \
   ../engine/source/runtime/engine.h \
   F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono \
   F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio \
@@ -1073,6 +1076,8 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception:
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
 
 F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h:
+
+../engine/source/runtime/tool/render/render_pass_base.h:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
 
@@ -1849,3 +1854,7 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h:
 ../engine/3rdparty/imgui/imstb_textedit.h:
 
 ../engine/3rdparty/imgui/backends/imgui_impl_glfw.h:
+
+../engine/source/runtime/tool/render/render_system.h:
+
+../engine/source/runtime/tool/render/render_pipeline_base.h:

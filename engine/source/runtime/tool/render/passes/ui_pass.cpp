@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
@@ -9,8 +11,11 @@ namespace Smooth
 {
     void UIPass::draw()
     {
+        std::cout<<"UIpass begin to draw"<<std::endl;
+        assert(m_window_ui);
         if(m_window_ui)
         {
+            std::cout<<"m_window_ui is true"<<std::endl;
             ImGui_ImplOpenGL3_NewFrame();
             ImGui_ImplGlfw_NewFrame();
             ImGui::NewFrame();
@@ -20,5 +25,10 @@ namespace Smooth
             ImGui::Render();
             ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
         }
+    }
+
+    void UIPass::initializeUIRenderBackend(WindowUI* window_ui)
+    {
+        m_window_ui = window_ui;
     }
 }

@@ -39,6 +39,8 @@ namespace Smooth
         logicalTick(delta_time);
         calculateFPS(delta_time);
 
+        rendererTick(delta_time);
+
         g_runtime_global_context.m_window_system->swapBuffers();
         g_runtime_global_context.m_window_system->pollEvents();
 
@@ -87,6 +89,7 @@ namespace Smooth
 
     bool SmoothEngine::rendererTick(float delta_time)
     {
+        std::cout<<"render tick"<<std::endl;
         g_runtime_global_context.m_render_system->tick(delta_time);
         return true;
     }

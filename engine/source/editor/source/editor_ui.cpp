@@ -7,7 +7,10 @@
 
 #include "editor_ui.h"
 #include "editor_global_context.h"
+
 #include "runtime/tool/render/window_system.h"
+#include "runtime/tool/render/render_system.h"
+
 #include "engine.h"
 
 namespace Smooth
@@ -47,6 +50,8 @@ namespace Smooth
         float content_scake = fmaxf(1.0f,fmaxf(x_scale,y_scale));
         windowContentScaleUpdate(content_scake);
         glfwSetWindowContentScaleCallback(init_info.window_system->getWindow(),windowContentScaleCallback); 
+    
+        init_info.render_system->initializeUIRenderBackend(this);
     }
 
     void EditorUI::preRender(){showEditorUI();}

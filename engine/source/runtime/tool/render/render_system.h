@@ -1,10 +1,11 @@
 #include <memory>
 
-#include "runtime/tool/render/render_piprline_base.h"
+#include "runtime/tool/render/render_pipeline_base.h"
 
 namespace Smooth
 {
     class WindowSystem;
+    class WindowUI;
 
     struct RenderSystemInitInfo
     {
@@ -28,6 +29,8 @@ namespace Smooth
         void initialize(RenderSystemInitInfo init_info);
         void tick(float delta_time);
         void clear();
+
+        void initializeUIRenderBackend(WindowUI* window_ui);
     
     private:
         std::shared_ptr<RenderPipelineBase> m_render_pipeline;
