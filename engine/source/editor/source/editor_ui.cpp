@@ -1,4 +1,5 @@
 #include <math.h>
+#include <iostream>
 
 #include "imgui.h"
 #include "imgui_internal.h"
@@ -43,6 +44,8 @@ namespace Smooth
         ImGui_ImplGlfw_InitForOpenGL(init_info.window_system->getWindow(), true);
         ImGui_ImplOpenGL3_Init("#version 330");
 
+        std::cout<<"imgui opengl success"<<std::endl;
+
         //set ui content scale
         float x_scale,y_scale;
         glfwGetWindowContentScale(init_info.window_system->getWindow(),&x_scale,&y_scale);
@@ -63,6 +66,8 @@ namespace Smooth
 
     void EditorUI::showEditorMenu(bool* p_open)
     {
+        std::cout<<"show EditorMenu"<<std::endl;
+
         ImGuiDockNodeFlags dock_flags   = ImGuiDockNodeFlags_DockSpace;
         ImGuiWindowFlags window_flags = ImGuiWindowFlags_MenuBar | ImGuiWindowFlags_NoTitleBar |
                                         ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
@@ -72,11 +77,13 @@ namespace Smooth
         const ImGuiViewport* main_viewport = ImGui::GetMainViewport();
         ImGui::SetNextWindowPos(main_viewport->WorkPos, ImGuiCond_Always);
         std::array<int,2> window_size = g_editor_global_context.m_window_system->getWindowSize();
-        
         ImGui::SetNextWindowViewport(main_viewport->ID);
 
         ImGui::Begin("Editor Menu",p_open,window_flags);
         ImGuiID main_docking_id = ImGui::GetID("Main Docking");
+
+        assert(ImGui::DockBuilderGetNode(main_docking_id));
+
         if(ImGui::DockBuilderGetNode(main_docking_id) == nullptr)
         {
             ImGui::DockBuilderRemoveNode(main_docking_id);
@@ -86,7 +93,7 @@ namespace Smooth
                                             ImVec2(main_viewport->WorkPos.x, main_viewport->WorkPos.y + 18.0f));
             ImGui::DockBuilderSetNodeSize(main_docking_id,
                                             ImVec2((float)window_size[0], (float)window_size[1] - 18.0f));
-            
+
             ImGuiID center = main_docking_id;
             ImGuiID left;
             ImGuiID right = ImGui::DockBuilderSplitNode(center, ImGuiDir_Right, 0.25f, nullptr, &left);
