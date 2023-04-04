@@ -1,6 +1,7 @@
 #pragma once
 
 #include "runtime/tool/render/render_pass.h"
+#include "runtime/tool/render/window_system.h"
 
 namespace Smooth
 {

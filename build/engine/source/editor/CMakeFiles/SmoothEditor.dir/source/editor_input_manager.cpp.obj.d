@@ -360,5 +360,6 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_global_context.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/window_system.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h \
- F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/GL/gl.h
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h

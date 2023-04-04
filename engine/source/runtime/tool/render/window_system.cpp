@@ -21,9 +21,8 @@ namespace Smooth
         glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
         glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-        //glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
         
-        m_window=glfwCreateWindow(window_info.width,
+        m_window = glfwCreateWindow(window_info.width,
                                   window_info.height,
                                   window_info.title,
                                   nullptr,
@@ -38,6 +37,9 @@ namespace Smooth
         glfwSetKeyCallback(m_window,keyCallback);
         glfwSetWindowSizeCallback(m_window,windowSizeCallback);
         glfwSetWindowCloseCallback(m_window,windowCloseCallback);
+
+        glfwMakeContextCurrent(m_window);
+        glfwSwapInterval(1);
     }
 
     //-------------------------------------------------------------------------------

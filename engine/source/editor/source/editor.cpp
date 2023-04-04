@@ -12,7 +12,7 @@ namespace Smooth
     void SmoothEditor::initialize(SmoothEngine* engine_runtime)
     {
         assert(engine_runtime);
-        m_engine_runtime=engine_runtime;
+        m_engine_runtime = engine_runtime;
 
         EditorGlobalContextInitInfo init_info = {g_runtime_global_context.m_window_system.get(),
                                                  engine_runtime};

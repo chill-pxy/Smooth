@@ -25,6 +25,7 @@ namespace Smooth
             ImGui::Render();
             ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
         }
+        std::cout<<"UIpass end draw"<<std::endl;
     }
 
     void UIPass::initializeUIRenderBackend(WindowUI* window_ui)
