@@ -89,7 +89,6 @@ namespace Smooth
 
     bool SmoothEngine::rendererTick(float delta_time)
     {
-        std::cout<<"render tick"<<std::endl;
         g_runtime_global_context.m_render_system->tick(delta_time);
         return true;
     }
