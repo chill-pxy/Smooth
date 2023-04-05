@@ -34,11 +34,21 @@ namespace Smooth
 
         void onKey(int key, int scancode, int action, int mods);
 
+    public:
+        vec2 getEngineWindowPos() const {return m_engine_window_pos;}
+        vec2 getEngineWindowSize() const {return m_engine_window_size;}
+
+        void setEngineWindowPos(vec2 new_window_pos) {m_engine_window_pos = new_window_pos;}
+        void setEngineWinowSize(vec2 new_window_size) {m_engine_window_size = new_window_size;}
+
     private:
         unsigned int m_editor_command {0};
 
         float m_mouse_x {0.0f};
         float m_mouse_y {0.0f};
         float m_camera_speed {0.05f};
+
+        vec2 m_engine_window_pos {0.0f, 0.0f};
+        vec2 m_engine_window_size {1280.0f, 768.0f};
     };
 }

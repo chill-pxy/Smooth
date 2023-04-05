@@ -1,4 +1,5 @@
 #include "editor_global_context.h"
+#include "editor_input_manager.h"
 
 namespace Smooth
 {
@@ -7,11 +8,16 @@ namespace Smooth
     void EditorGlobalContext::initialize(const EditorGlobalContextInitInfo& init_info)
     {
         g_editor_global_context.m_window_system  = init_info.window_system;
+        g_editor_global_context.m_render_system  = init_info.render_system;
         g_editor_global_context.m_engine_runtime = init_info.engine_runtime;
+        
+        m_input_manager = new EditorInputManager();
+        m_input_manager->initialize();
     }
 
     void EditorGlobalContext::clear()
     {
+        delete(m_input_manager);
         return;
     }
 }
