@@ -21,12 +21,18 @@ namespace Smooth
         void showEditorUI();
         void showEditorMenu(bool* p_open);
         void showEditorSceneWindow(bool* p_open);
+        void showEditorWorldObjectsWindow(bool* p_open);
+        void showEditorFileContentWindow(bool* p_open);
+        void showEditorDetailWindow(bool* p_open);
 
         void showTestWindow(bool* p_open);
     
     private:
-        bool m_editor_menu_window_open  = true;
-        bool m_editor_scene_window_open = true;
+        bool m_editor_menu_window_open         = true;
+        bool m_editor_scene_window_open        = true;
+        bool m_editor_worldObjects_window_open = true;
+        bool m_editor_fileContent_window_open  = true;
+        bool m_editor_detail_window_open       = true;
     };
 
 }

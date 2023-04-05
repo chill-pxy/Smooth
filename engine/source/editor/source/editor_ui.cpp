@@ -77,6 +77,9 @@ namespace Smooth
     {
         showEditorMenu(&m_editor_menu_window_open);
         showEditorSceneWindow(&m_editor_scene_window_open);
+        showEditorWorldObjectsWindow(&m_editor_worldObjects_window_open);
+        showEditorFileContentWindow(&m_editor_fileContent_window_open);
+        showEditorDetailWindow(&m_editor_detail_window_open);
         //showTestWindow(&m_editor_menu_window_open);
     }
 
@@ -156,7 +159,7 @@ namespace Smooth
             if(ImGui::BeginMenu("Window"))
             {
                 ImGui::MenuItem("World Objects", nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem("Game", nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem("Scene", nullptr, &m_editor_menu_window_open);
                 ImGui::MenuItem("File Content", nullptr, &m_editor_menu_window_open);
                 ImGui::MenuItem("Details", nullptr, &m_editor_menu_window_open);
                 ImGui::EndMenu();
@@ -217,6 +220,57 @@ namespace Smooth
 
         ImGui::End();
        
+    }
+
+    void EditorUI::showEditorWorldObjectsWindow(bool* p_open)
+    {
+        ImGuiWindowFlags window_flags      = ImGuiWindowFlags_None;
+        const ImGuiViewport* main_viewport = ImGui::GetMainViewport();
+
+        if(!*p_open)
+            return;
+
+        if(!ImGui::Begin("World Objects", p_open, window_flags))
+        {
+            ImGui::End();
+            return;
+        }
+
+        ImGui::End();
+    }
+
+    void EditorUI::showEditorFileContentWindow(bool* p_open)
+    {
+        ImGuiWindowFlags window_flags      = ImGuiWindowFlags_None;
+        const ImGuiViewport* main_viewport = ImGui::GetMainViewport();
+
+        if(!*p_open)
+            return;
+
+        if(!ImGui::Begin("File Content", p_open, window_flags))
+        {
+            ImGui::End();
+            return;
+        }
+
+        ImGui::End();
+    }
+
+    void EditorUI::showEditorDetailWindow(bool* p_open)
+    {
+        ImGuiWindowFlags window_flags      = ImGuiWindowFlags_None;
+        const ImGuiViewport* main_viewport = ImGui::GetMainViewport();
+
+        if(!*p_open)
+            return;
+
+        if(!ImGui::Begin("Details", p_open, window_flags))
+        {
+            ImGui::End();
+            return;
+        }
+
+        ImGui::End();
     }
 
     void EditorUI::showTestWindow(bool* p_open)
