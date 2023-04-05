@@ -20,7 +20,6 @@ namespace Smooth
 
     void RenderSystem::tick(float delta_time)
     {
-        std::cout<<"render system tick"<<std::endl;
         assert(m_render_pipeline);
         m_render_pipeline->deferredRender();
     }

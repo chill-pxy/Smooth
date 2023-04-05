@@ -44,7 +44,7 @@ namespace Smooth
         ImGui_ImplGlfw_InitForOpenGL(init_info.window_system->getWindow(), true);
         ImGui_ImplOpenGL3_Init("#version 330");
 
-        std::cout<<"imgui opengl success"<<std::endl;
+        //std::cout<<"imgui opengl success"<<std::endl;
 
         //set ui content scale
         float x_scale,y_scale;
@@ -54,6 +54,12 @@ namespace Smooth
         windowContentScaleUpdate(content_scake);
         glfwSetWindowContentScaleCallback(init_info.window_system->getWindow(),windowContentScaleCallback); 
     
+        //docking space
+        ImGuiIO& io = ImGui::GetIO();
+        io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
+        io.ConfigDockingAlwaysTabBar         = true;
+        io.ConfigWindowsMoveFromTitleBarOnly = true;
+
         init_info.render_system->initializeUIRenderBackend(this);
     }
 
@@ -62,12 +68,11 @@ namespace Smooth
     void EditorUI::showEditorUI()
     {
         showEditorMenu(&m_editor_menu_window_open);
+        //showTestDock(&m_editor_menu_window_open);
     }
 
     void EditorUI::showEditorMenu(bool* p_open)
     {
-        std::cout<<"show EditorMenu"<<std::endl;
-
         ImGuiDockNodeFlags dock_flags   = ImGuiDockNodeFlags_DockSpace;
         ImGuiWindowFlags window_flags = ImGuiWindowFlags_MenuBar | ImGuiWindowFlags_NoTitleBar |
                                         ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
@@ -79,11 +84,9 @@ namespace Smooth
         std::array<int,2> window_size = g_editor_global_context.m_window_system->getWindowSize();
         ImGui::SetNextWindowViewport(main_viewport->ID);
 
-        ImGui::Begin("Editor Menu",p_open,window_flags);
+        ImGui::Begin("Editor Menu", p_open, window_flags);
+        
         ImGuiID main_docking_id = ImGui::GetID("Main Docking");
-
-        assert(ImGui::DockBuilderGetNode(main_docking_id));
-
         if(ImGui::DockBuilderGetNode(main_docking_id) == nullptr)
         {
             ImGui::DockBuilderRemoveNode(main_docking_id);
@@ -114,18 +117,14 @@ namespace Smooth
 
         ImGui::DockSpace(main_docking_id);
 
-        if(ImGui::BeginMainMenuBar())
+        if(ImGui::BeginMenuBar())
         {
             if(ImGui::BeginMenu("Menu"))
             {
-                if(ImGui::MenuItem("Reload Current Scene"))
-                {
+                if(ImGui::MenuItem("Reload Current Scene")){}
 
-                }
-                if(ImGui::MenuItem("Save Current Scene"))
-                {
+                if(ImGui::MenuItem("Save Current Scene")){}
 
-                }
                 if(ImGui::MenuItem("Exit"))
                 {
                     g_editor_global_context.m_engine_runtime->shutdownEngine();
@@ -142,6 +141,52 @@ namespace Smooth
                 ImGui::MenuItem("Details", nullptr, &m_editor_menu_window_open);
                 ImGui::EndMenu();
             }
+            ImGui::EndMenuBar();
+        }
+
+        ImGui::End();
+    }
+
+    void EditorUI::showTestDock(bool* p_open)
+    {
+        ImGuiDockNodeFlags dock_flags   = ImGuiDockNodeFlags_DockSpace;
+        ImGuiWindowFlags window_flags = ImGuiWindowFlags_MenuBar | ImGuiWindowFlags_NoTitleBar |
+                                        ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
+                                        ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoBackground |
+                                        ImGuiConfigFlags_NoMouseCursorChange | ImGuiWindowFlags_NoBringToFrontOnFocus;
+        
+        const ImGuiViewport* main_viewport = ImGui::GetMainViewport();
+        ImGui::SetNextWindowPos(main_viewport->WorkPos, ImGuiCond_Always);
+        std::array<int,2> window_size = g_editor_global_context.m_window_system->getWindowSize();
+        ImGui::SetNextWindowViewport(main_viewport->ID);
+
+        ImGui::Begin("Editor Menu", p_open, window_flags);
+        
+        ImGuiID main_docking_id = ImGui::GetID("Main Docking");
+        ImGui::DockSpace(main_docking_id, ImVec2(0.0f, 0.0f), dock_flags);
+
+        if (ImGui::BeginMenuBar())
+        {
+            if (ImGui::BeginMenu("Options"))
+            {
+                // Disabling fullscreen would allow the window to be moved to the front of other windows,
+                // which we can't undo at the moment without finer window depth/z control.
+                ImGui::MenuItem("Fullscreen", NULL, true);
+                ImGui::MenuItem("Padding", NULL, false);
+                ImGui::Separator();
+
+                if (ImGui::MenuItem("Flag: NoSplit",                "", (dock_flags & ImGuiDockNodeFlags_NoSplit) != 0))                 { dock_flags ^= ImGuiDockNodeFlags_NoSplit; }
+                if (ImGui::MenuItem("Flag: NoResize",               "", (dock_flags & ImGuiDockNodeFlags_NoResize) != 0))                { dock_flags ^= ImGuiDockNodeFlags_NoResize; }
+                if (ImGui::MenuItem("Flag: NoDockingInCentralNode", "", (dock_flags & ImGuiDockNodeFlags_NoDockingInCentralNode) != 0))  { dock_flags ^= ImGuiDockNodeFlags_NoDockingInCentralNode; }
+                if (ImGui::MenuItem("Flag: AutoHideTabBar",         "", (dock_flags & ImGuiDockNodeFlags_AutoHideTabBar) != 0))          { dock_flags ^= ImGuiDockNodeFlags_AutoHideTabBar; }
+                if (ImGui::MenuItem("Flag: PassthruCentralNode",    "", (dock_flags & ImGuiDockNodeFlags_PassthruCentralNode) != 0, true)) { dock_flags ^= ImGuiDockNodeFlags_PassthruCentralNode; }
+                ImGui::Separator();
+
+                if (ImGui::MenuItem("Close", NULL, false, p_open != NULL))
+                    *p_open = false;
+                ImGui::EndMenu();
+            }
+
             ImGui::EndMenuBar();
         }
 

@@ -20,6 +20,7 @@ namespace Smooth
     private:
         void showEditorUI();
         void showEditorMenu(bool* p_open);
+        void showTestDock(bool* p_open);
     
     private:
         bool m_editor_menu_window_open = true;

@@ -1,0 +1,476 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "G:/Project/VsCode_project/Smooth/out/libSmoothRuntime.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"engine/source/runtime/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/source"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/source/runtime"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/backends"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/stb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/tinyobjloader"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glad::@e01f7ddb2d9853d51791"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "stb::@e01f7ddb2d9853d51791"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "imgui::@e01f7ddb2d9853d51791"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@5aec3c3994f13e9ca945"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "tinyobjloader::@2040b85fa92506764563"
+		}
+	],
+	"id" : "SmoothRuntime::@0e9222390ef2a3c3b428",
+	"name" : "SmoothRuntime",
+	"nameOnDisk" : "libSmoothRuntime.a",
+	"paths" : 
+	{
+		"build" : "engine/source/runtime",
+		"source" : "engine/source/runtime"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "core",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				19
+			]
+		},
+		{
+			"name" : "tool\\global",
+			"sourceIndexes" : 
+			[
+				2,
+				20
+			]
+		},
+		{
+			"name" : "tool\\input",
+			"sourceIndexes" : 
+			[
+				3,
+				21
+			]
+		},
+		{
+			"name" : "tool\\render\\RHI",
+			"sourceIndexes" : 
+			[
+				4,
+				22
+			]
+		},
+		{
+			"name" : "tool\\render",
+			"sourceIndexes" : 
+			[
+				5,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				23,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35
+			]
+		},
+		{
+			"name" : "tool\\render\\legacy",
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8,
+				9,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "tool\\render\\passes",
+			"sourceIndexes" : 
+			[
+				10,
+				28
+			]
+		},
+		{
+			"name" : "tool\\ui",
+			"sourceIndexes" : 
+			[
+				18
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/core/math.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/engine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/global/global_context.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/input/input_system.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/RHI/opengl_rhi.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/default_camera.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/legacy/mesh.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/legacy/model.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/legacy/shader.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/legacy/texture.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/passes/ui_pass.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/render_camera.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/render_pass.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/render_pass_base.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/render_pipeline.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/render_pipeline_base.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/render_system.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/window_system.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/ui/window_ui.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/engine.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/global/global_context.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/input/input_system.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/RHI/opengl_rhi.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/default_camera.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/legacy/mesh.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/legacy/model.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/legacy/shader.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/legacy/texture.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/passes/ui_pass.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/render_camera.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/render_pass.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/render_pass_base.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/render_pipeline.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/render_pipeline_base.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/render_system.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/window_system.cpp",
+			"sourceGroupIndex" : 5
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

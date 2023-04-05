@@ -41,8 +41,8 @@ namespace Smooth
 
     private:
         GLFWwindow* m_window {nullptr};
-        int         m_width {0};
-        int         m_height {0};
+        int         m_width {1280};
+        int         m_height {720};
 
         std::vector<onKeyFunc> m_onKeyFunc;
     };

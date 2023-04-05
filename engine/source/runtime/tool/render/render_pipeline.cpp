@@ -18,7 +18,6 @@ namespace Smooth
     void RenderPipeline::deferredRender()
     {
         //UIPass& ui_pass = *(static_cast<UIPass*>(m_ui_pass.get()));
-        std::cout<<"deferredRender is run"<<std::endl;
         static_cast<UIPass*>(m_ui_pass.get())->draw();
     }
 }
