@@ -1,5 +1,6 @@
 #include <fstream>
 #include <string>
+#include <iostream>
 
 #include "runtime/resource/config_manager/config_manager.h"
 
@@ -9,6 +10,7 @@ namespace Smooth
     {
         std::ifstream config_file(config_file_path);
         std::string   config_line;
+
         while(std::getline(config_file, config_line))
         {
             size_t seperate_pos = config_line.find_first_of('=');
@@ -18,7 +20,7 @@ namespace Smooth
                 std::string value = config_line.substr(seperate_pos + 1, config_line.length() - seperate_pos - 1);
                 if(name == "BinaryRootFolder")
                 {
-                    m_root_folder = config_file_path.parent_path() / value;
+                    m_root_folder = config_file_path.parent_path();
                 }
                 if(name == "AssetFolder")
                 {
@@ -38,6 +40,8 @@ namespace Smooth
                 }
             }
         }
+        std::cout<<m_root_folder<<std::endl;
+        std::cout<<m_editor_big_icon_path<<std::endl;
     }
 
     const std::filesystem::path& ConfigManager::getRootFolder() const { return m_root_folder; }

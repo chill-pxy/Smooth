@@ -19,11 +19,11 @@ target_link_libraries(
   glfw
   glm
   imgui
+  stb
 )
 
 target_link_libraries(
   ${TARGET_NAME} PRIVATE
-  stb
   tinyobjloader
 )
 

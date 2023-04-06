@@ -15,6 +15,11 @@ target_include_directories(${TARGET_NAME} PRIVATE
  include
 )
 
+# target_include_directories(
+#   ${TARGET_NAME} 
+#   PUBLIC $<BUILD_INTERFACE:${THIRD_PARTY_DIR}/stb>
+# )
+
 target_link_libraries(${TARGET_NAME} PUBLIC
   SmoothRuntime
 )

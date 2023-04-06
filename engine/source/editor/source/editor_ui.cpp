@@ -1,3 +1,5 @@
+#define STB_IMAGE_IMPLEMENTATION
+
 #include <math.h>
 #include <iostream>
 
@@ -6,10 +8,19 @@
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
 
+#include "stb_image.h"
+
 #include "editor_ui.h"
 #include "editor_global_context.h"
 #include "editor_input_manager.h"
 #include "editor_scene_manager.h"
+#include "editor_global_context.h"
+
+#include "runtime/tool/global/global_context.h"
+
+#include "runtime/resource/config_manager/config_manager.h"
+
+#include "engine.h"
 
 #include "runtime/tool/render/window_system.h"
 #include "runtime/tool/render/render_system.h"
@@ -39,6 +50,9 @@ namespace Smooth
 
     void EditorUI::initialize(WindowUIInitInfo init_info)
     {
+        std::shared_ptr<ConfigManager> config_manager = g_runtime_global_context.m_config_manager;
+        assert(config_manager);
+
         //create imgui context
         IMGUI_CHECKVERSION();
         ImGui::CreateContext();
@@ -50,8 +64,8 @@ namespace Smooth
         float x_scale,y_scale;
         glfwGetWindowContentScale(init_info.window_system->getWindow(),&x_scale,&y_scale);
         
-        float content_scake = fmaxf(1.0f,fmaxf(x_scale,y_scale));
-        windowContentScaleUpdate(content_scake);
+        float content_scale = fmaxf(1.0f,fmaxf(x_scale,y_scale));
+        windowContentScaleUpdate(content_scale);
         glfwSetWindowContentScaleCallback(init_info.window_system->getWindow(),windowContentScaleCallback); 
     
         //docking space
@@ -59,7 +73,12 @@ namespace Smooth
         io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
         io.ConfigDockingAlwaysTabBar         = true;
         io.ConfigWindowsMoveFromTitleBarOnly = true;
+        //load font
 
+        io.Fonts->AddFontFromFileTTF(
+            config_manager->getEditorFontPath().generic_string().data(), content_scale * 16, nullptr, nullptr);
+        io.Fonts->Build();
+        
         ImGuiStyle& style     = ImGui::GetStyle();
         style.WindowPadding   = ImVec2(1.0, 0);
         style.FramePadding    = ImVec2(14.0, 2.0f);
@@ -68,6 +87,18 @@ namespace Smooth
         style.FrameBorderSize = 1.5f;
 
         ImGui::StyleColorsDark();
+
+        //setup window icon
+        GLFWimage window_icon[2];
+        std::string big_icon_path_string   = config_manager->getEditorBigIconPath().generic_string();
+        std::string small_icon_path_string = config_manager->getEditorSmallIconPath().generic_string();
+        window_icon[0].pixels = 
+            stbi_load(big_icon_path_string.data(), &window_icon[0].width, &window_icon[0].height, 0, 4);
+        window_icon[1].pixels =
+            stbi_load(small_icon_path_string.data(), &window_icon[1].width, &window_icon[1].height, 0, 4);
+        glfwSetWindowIcon(init_info.window_system->getWindow(), 2, window_icon);
+        stbi_image_free(window_icon[0].pixels);
+        stbi_image_free(window_icon[1].pixels);
 
         init_info.render_system->initializeUIRenderBackend(this);
     }

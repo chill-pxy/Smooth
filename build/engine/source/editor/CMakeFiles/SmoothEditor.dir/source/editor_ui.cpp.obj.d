@@ -241,6 +241,7 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/imstb_textedit.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/backends/imgui_impl_glfw.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/backends/imgui_impl_opengl3.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/stb/stb_image.h \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_ui.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/memory \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_uninitialized.h \
@@ -477,15 +478,10 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/window_system.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_system.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline_base.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pass_base.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.h \
- F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/global/global_context.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/config_manager/config_manager.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/filesystem \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_fwd.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ratio \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime \
@@ -494,4 +490,28 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: \
  F:/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
  F:/MinGW/x86_64-w64-mingw32/include/_timeval.h \
  F:/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
- F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/parse_numbers.h
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/parse_numbers.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_path.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/locale \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_facets_nonio.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/codecvt.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_facets_nonio.tcc \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_conv.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iomanip \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/quoted_string.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/sstream \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/sstream.tcc \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/codecvt \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_dir.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_ops.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/window_system.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_system.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline_base.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pass_base.h
