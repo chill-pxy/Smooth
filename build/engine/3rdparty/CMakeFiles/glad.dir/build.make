@@ -73,15 +73,15 @@ engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj: engine/3rdparty/CMakeFi
 engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj: ../engine/3rdparty/glad/src/glad.c
 engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj: engine/3rdparty/CMakeFiles/glad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj"
-	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj -MF CMakeFiles\glad.dir\glad\src\glad.c.obj.d -o CMakeFiles\glad.dir\glad\src\glad.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glad\src\glad.c
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty && F:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.obj -MF CMakeFiles\glad.dir\glad\src\glad.c.obj.d -o CMakeFiles\glad.dir\glad\src\glad.c.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glad\src\glad.c
 
 engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glad.dir/glad/src/glad.c.i"
-	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glad\src\glad.c > CMakeFiles\glad.dir\glad\src\glad.c.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty && F:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glad\src\glad.c > CMakeFiles\glad.dir\glad\src\glad.c.i
 
 engine/3rdparty/CMakeFiles/glad.dir/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glad.dir/glad/src/glad.c.s"
-	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty && F:\QT\Tools\mingw810_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glad\src\glad.c -o CMakeFiles\glad.dir\glad\src\glad.c.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty && F:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glad\src\glad.c -o CMakeFiles\glad.dir\glad\src\glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \

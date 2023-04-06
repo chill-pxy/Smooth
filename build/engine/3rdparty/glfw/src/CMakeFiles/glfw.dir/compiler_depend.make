@@ -5,1293 +5,1423 @@ engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj: ../engine/3rdparty/g
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdio.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_push.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/swprintf.inl \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_pop.h
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  F:/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: ../engine/3rdparty/glfw/src/egl_context.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdio.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_push.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/swprintf.inl \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h
+  F:/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  F:/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj: ../engine/3rdparty/glfw/src/init.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdio.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_push.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/swprintf.inl \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h
+  F:/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  F:/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj: ../engine/3rdparty/glfw/src/input.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
   ../engine/3rdparty/glfw/src/mappings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/float.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/math.h
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+  F:/MinGW/x86_64-w64-mingw32/include/float.h \
+  F:/MinGW/x86_64-w64-mingw32/include/math.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: ../engine/3rdparty/glfw/src/monitor.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/math.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/float.h
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h \
+  F:/MinGW/x86_64-w64-mingw32/include/math.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+  F:/MinGW/x86_64-w64-mingw32/include/float.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: ../engine/3rdparty/glfw/src/osmesa_context.c \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
@@ -1301,632 +1431,698 @@ engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: ../engine/3rdparty/gl
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: ../engine/3rdparty/glfw/src/wgl_context.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: ../engine/3rdparty/glfw/src/win32_init.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
@@ -1936,856 +2132,942 @@ engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: ../engine/3rd
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdio.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_push.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/swprintf.inl \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/math.h
+  F:/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  F:/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/math.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: ../engine/3rdparty/glfw/src/win32_monitor.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_push.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/swprintf.inl \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_pop.h
+  F:/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  F:/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: ../engine/3rdparty/glfw/src/win32_thread.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: ../engine/3rdparty/glfw/src/win32_time.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
@@ -2795,898 +3077,984 @@ engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: ../engine/3rdpa
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windowsx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/shellapi.h
+  F:/MinGW/x86_64-w64-mingw32/include/windowsx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/shellapi.h
 
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj: ../engine/3rdparty/glfw/src/window.c \
   ../engine/3rdparty/glfw/src/internal.h \
   engine/3rdparty/glfw/src/glfw_config.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   ../engine/3rdparty/glfw/src/win32_platform.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windows.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/excpt.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/windef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwindef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/specstrings.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/basetsd.h \
+  F:/MinGW/x86_64-w64-mingw32/include/guiddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/string.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/poppack.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/debugapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/handleapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/heapapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/jobapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processenv.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/profileapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h \
+  F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/synchapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h \
+  F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wingdi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winuser.h \
+  F:/MinGW/x86_64-w64-mingw32/include/tvout.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnls.h \
+  F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wincon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winver.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winreg.h \
+  F:/MinGW/x86_64-w64-mingw32/include/reason.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wnnc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stralign.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/mcx.h \
+  F:/MinGW/x86_64-w64-mingw32/include/imm.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpc.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h \
+  F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h \
+  F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h \
+  F:/MinGW/x86_64-w64-mingw32/include/cguid.h \
+  F:/MinGW/x86_64-w64-mingw32/include/objidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/unknwn.h \
+  F:/MinGW/x86_64-w64-mingw32/include/wtypes.h \
+  F:/MinGW/x86_64-w64-mingw32/include/urlmon.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oleidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/servprov.h \
+  F:/MinGW/x86_64-w64-mingw32/include/msxml.h \
+  F:/MinGW/x86_64-w64-mingw32/include/oaidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/propidl.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
+  F:/MinGW/x86_64-w64-mingw32/include/xinput.h \
+  F:/MinGW/x86_64-w64-mingw32/include/dbt.h \
   ../engine/3rdparty/glfw/src/win32_joystick.h \
   ../engine/3rdparty/glfw/src/wgl_context.h \
   ../engine/3rdparty/glfw/src/egl_context.h \
   ../engine/3rdparty/glfw/src/osmesa_context.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h \
-  F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h \
-  F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/float.h
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+  F:/MinGW/x86_64-w64-mingw32/include/float.h
 
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h:
+F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winver.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/specstrings.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/synchapi.h:
+F:/MinGW/x86_64-w64-mingw32/include/rpcasync.h:
 
 ../engine/3rdparty/glfw/src/context.c:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
-
 ../engine/3rdparty/glfw/src/win32_monitor.c:
+
+F:/MinGW/x86_64-w64-mingw32/include/libloaderapi.h:
 
 ../engine/3rdparty/glfw/src/internal.h:
 
-../engine/3rdparty/glfw/src/vulkan.c:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ia32intrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/specstrings.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h:
 
 engine/3rdparty/glfw/src/glfw_config.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/string.h:
+../engine/3rdparty/glfw/src/win32_time.c:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/minwindef.h:
 
 ../engine/3rdparty/glfw/include/GLFW/glfw3.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/malloc.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnt.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stddef.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcsal.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_unicode.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securitybaseapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmivlintrin.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512pfintrin.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512erintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/poppack.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdint.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h:
-
-../engine/3rdparty/glfw/src/win32_platform.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windows.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winapifamily.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sdkddkver.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/excpt.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdarg.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdce.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ctype.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windef.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwindef.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sal.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/driverspecs.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apiset.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack2.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/f16cintrin.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/basetsd.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/string_s.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdlib.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/x86intrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512cdintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vldqintrin.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/limits.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errno.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/profileapi.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tbmintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx2intrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avxintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnetwk.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/ammintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/smmintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/popcntintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/immintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bwintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512dqintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/stddef.h:
 
 ../engine/3rdparty/glfw/src/win32_init.c:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnterr.h:
+F:/MinGW/x86_64-w64-mingw32/include/corecrt.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveoptintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/namespaceapi.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vlbwintrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmaintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/_mingw.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_dxhelper.h:
+F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512ifmavlintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmiintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/windef.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winerror.h:
+F:/MinGW/x86_64-w64-mingw32/include/timezoneapi.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124fmapsintrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/jobapi.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2intrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/vadefs.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/driverspecs.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winsvc.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stralign.h:
+F:/MinGW/x86_64-w64-mingw32/include/stdint.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnniintrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vnnivlintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vpopcntdqvlintrin.h:
+../engine/3rdparty/glfw/src/win32_platform.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512bitalgintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/wctype.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+F:/MinGW/x86_64-w64-mingw32/include/windows.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/shaintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcdcep.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lzcntintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/excpt.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack4.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmiintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/servprov.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/bmi2intrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/sysinfoapi.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fmaintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/stdarg.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xtestintrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/winapifamily.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vaesintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/guiddef.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/vpclmulqdqintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/sal.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/concurrencysal.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm3dnow.h:
+F:/MinGW/x86_64-w64-mingw32/include/winnt.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/prfchwintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/ctype.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fma4intrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/_mingw_unicode.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xopintrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/lwpintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/apiset.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rdseedintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/fxsrintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/basetsd.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsaveintrin.h:
+F:/MinGW/x86_64-w64-mingw32/include/string.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/sgxintrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pconfigintrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clflushoptintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavesintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xsavecintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mwaitxintrin.h:
-
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack8.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winbase.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/apisetcconv.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/minwinbase.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/bemapiset.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/debugapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dbt.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wnnc.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/errhandlingapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/swprintf.inl:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/libloaderapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/memoryapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namedpipeapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/namespaceapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processenv.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processthreadsapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/processtopologyapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/realtimeapiset.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/securityappcontainer.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sysinfoapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/systemtopologyapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoolapiset.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/utilapiset.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wow64apiset.h:
-
-../engine/3rdparty/glfw/src/osmesa_context.c:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wingdi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/pshpack1.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidlbase.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winuser.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winnls.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/datetimeapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stringapiset.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/float.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wincon.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/winreg.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/reason.h:
-
-../engine/3rdparty/glfw/src/win32_thread.c:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/virtdisk.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/mcx.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/dinput.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objbase.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpc.h:
-
-../engine/3rdparty/glfw/src/wgl_context.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcasync.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcndr.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/rpcnsip.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/combaseapi.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_push.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/cguid.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/objidl.h:
-
-../engine/3rdparty/glfw/src/win32_window.c:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypes.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oleidl.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/servprov.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/msxml.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/oaidl.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/propidl.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/xinput.h:
-
-../engine/3rdparty/glfw/src/win32_joystick.h:
-
-../engine/3rdparty/glfw/src/egl_context.h:
-
-../engine/3rdparty/glfw/src/osmesa_context.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/stdio.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_pop.h:
-
-../engine/3rdparty/glfw/src/egl_context.c:
-
-../engine/3rdparty/glfw/src/init.c:
-
-../engine/3rdparty/glfw/src/input.c:
+F:/MinGW/x86_64-w64-mingw32/include/shellapi.h:
 
 ../engine/3rdparty/glfw/src/mappings.h:
 
-F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/math.h:
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/swprintf.inl:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/cguid.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/winerror.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/systemtopologyapi.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/rpcnsi.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/msxml.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h:
+
+../engine/3rdparty/glfw/src/win32_window.c:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/stdlib.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/propidl.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/limits.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/malloc.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/errno.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/handleapi.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/reason.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h:
+
+../engine/3rdparty/glfw/src/win32_thread.c:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/unknwnbase.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/wnnc.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/fileapi.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/rpcnterr.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/ioapiset.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/pshpack4.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/poppack.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/processtopologyapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/pshpack2.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/dbt.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/pshpack8.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/winbase.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/minwinbase.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/bemapiset.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/debugapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/fibersapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/float.h:
+
+../engine/3rdparty/glfw/src/egl_context.c:
+
+F:/MinGW/x86_64-w64-mingw32/include/heapapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/interlockedapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/memoryapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/namedpipeapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/processenv.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/processthreadsapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/profileapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/realtimeapiset.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/securityappcontainer.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/securitybaseapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/synchapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/threadpoolapiset.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/threadpoollegacyapiset.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/utilapiset.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/wow64apiset.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/fltwinerror.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/wingdi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/pshpack1.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/winuser.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/tvout.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/winnls.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/datetimeapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/stringapiset.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/wincon.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/winver.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/winreg.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/winnetwk.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/virtdisk.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/stralign.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/winsvc.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/mcx.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/imm.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/dinput.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/objbase.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/rpc.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/rpcdce.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/rpcdcep.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/rpcndr.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/stdio.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/rpcnsip.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/rpcsal.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/combaseapi.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/wtypesbase.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/objidlbase.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/objidl.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/unknwn.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/wtypes.h:
+
+../engine/3rdparty/glfw/src/osmesa_context.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/urlmon.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/oleidl.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/oaidl.h:
+
+../engine/3rdparty/glfw/src/init.c:
+
+F:/MinGW/x86_64-w64-mingw32/include/_mingw_dxhelper.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/xinput.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/windowsx.h:
+
+../engine/3rdparty/glfw/src/win32_joystick.h:
+
+../engine/3rdparty/glfw/src/wgl_context.h:
+
+../engine/3rdparty/glfw/src/egl_context.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/assert.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
+../engine/3rdparty/glfw/src/input.c:
+
+F:/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
+
+F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h:
+
+F:/MinGW/x86_64-w64-mingw32/include/math.h:
 
 ../engine/3rdparty/glfw/src/monitor.c:
+
+../engine/3rdparty/glfw/src/osmesa_context.c:
+
+../engine/3rdparty/glfw/src/vulkan.c:
 
 ../engine/3rdparty/glfw/src/wgl_context.c:
 
 ../engine/3rdparty/glfw/src/win32_joystick.c:
 
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stat64.h:
-
-../engine/3rdparty/glfw/src/win32_time.c:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/windowsx.h:
-
-F:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/shellapi.h:
+F:/MinGW/x86_64-w64-mingw32/include/wchar.h:
 
 ../engine/3rdparty/glfw/src/window.c:

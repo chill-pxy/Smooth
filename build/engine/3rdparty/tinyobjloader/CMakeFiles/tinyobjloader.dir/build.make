@@ -72,15 +72,15 @@ engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.ob
 engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.obj: ../engine/3rdparty/tinyobjloader/tiny_obj_loader.cc
 engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.obj: engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.obj"
-	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\tinyobjloader && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.obj -MF CMakeFiles\tinyobjloader.dir\tiny_obj_loader.cc.obj.d -o CMakeFiles\tinyobjloader.dir\tiny_obj_loader.cc.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\tinyobjloader\tiny_obj_loader.cc
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\tinyobjloader && F:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.obj -MF CMakeFiles\tinyobjloader.dir\tiny_obj_loader.cc.obj.d -o CMakeFiles\tinyobjloader.dir\tiny_obj_loader.cc.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\tinyobjloader\tiny_obj_loader.cc
 
 engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.i"
-	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\tinyobjloader && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\3rdparty\tinyobjloader\tiny_obj_loader.cc > CMakeFiles\tinyobjloader.dir\tiny_obj_loader.cc.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\tinyobjloader && F:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\3rdparty\tinyobjloader\tiny_obj_loader.cc > CMakeFiles\tinyobjloader.dir\tiny_obj_loader.cc.i
 
 engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.s"
-	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\tinyobjloader && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\3rdparty\tinyobjloader\tiny_obj_loader.cc -o CMakeFiles\tinyobjloader.dir\tiny_obj_loader.cc.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\tinyobjloader && F:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\3rdparty\tinyobjloader\tiny_obj_loader.cc -o CMakeFiles\tinyobjloader.dir\tiny_obj_loader.cc.s
 
 # Object files for target tinyobjloader
 tinyobjloader_OBJECTS = \

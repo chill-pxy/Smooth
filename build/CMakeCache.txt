@@ -22,10 +22,10 @@ BUILD_STATIC_LIBS:BOOL=ON
 BUILD_TESTING:BOOL=OFF
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=F:/QT/Tools/mingw810_64/bin/addr2line.exe
+CMAKE_ADDR2LINE:FILEPATH=F:/MinGW/bin/addr2line.exe
 
 //Path to a program.
-CMAKE_AR:FILEPATH=F:/QT/Tools/mingw810_64/bin/ar.exe
+CMAKE_AR:FILEPATH=F:/MinGW/bin/ar.exe
 
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -34,15 +34,15 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:FILEPATH=F:/QT/Tools/mingw810_64/bin/g++.exe
+CMAKE_CXX_COMPILER:FILEPATH=F:/MinGW/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=F:/QT/Tools/mingw810_64/bin/gcc-ar.exe
+CMAKE_CXX_COMPILER_AR:FILEPATH=F:/MinGW/bin/gcc-ar.exe
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=F:/QT/Tools/mingw810_64/bin/gcc-ranlib.exe
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=F:/MinGW/bin/gcc-ranlib.exe
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -63,15 +63,15 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=F:/QT/Tools/mingw810_64/bin/gcc.exe
+CMAKE_C_COMPILER:FILEPATH=F:/MinGW/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=F:/QT/Tools/mingw810_64/bin/gcc-ar.exe
+CMAKE_C_COMPILER_AR:FILEPATH=F:/MinGW/bin/gcc-ar.exe
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=F:/QT/Tools/mingw810_64/bin/gcc-ranlib.exe
+CMAKE_C_COMPILER_RANLIB:FILEPATH=F:/MinGW/bin/gcc-ranlib.exe
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -92,7 +92,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_C_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //Path to a program.
-CMAKE_DLLTOOL:FILEPATH=F:/QT/Tools/mingw810_64/bin/dlltool.exe
+CMAKE_DLLTOOL:FILEPATH=F:/MinGW/bin/dlltool.exe
 
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=
@@ -167,7 +167,7 @@ CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
 CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=F:/QT/Tools/mingw810_64/bin/ld.exe
+CMAKE_LINKER:FILEPATH=F:/MinGW/bin/ld.exe
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=F:/QT/Tools/mingw810_64/bin/mingw32-make.exe
@@ -193,13 +193,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=F:/QT/Tools/mingw810_64/bin/nm.exe
+CMAKE_NM:FILEPATH=F:/MinGW/bin/nm.exe
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=F:/QT/Tools/mingw810_64/bin/objcopy.exe
+CMAKE_OBJCOPY:FILEPATH=F:/MinGW/bin/objcopy.exe
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=F:/QT/Tools/mingw810_64/bin/objdump.exe
+CMAKE_OBJDUMP:FILEPATH=F:/MinGW/bin/objdump.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -211,22 +211,22 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=Smooth
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=0.0.2
+CMAKE_PROJECT_VERSION:STATIC=0.1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=0
+CMAKE_PROJECT_VERSION_MINOR:STATIC=1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=2
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=F:/QT/Tools/mingw810_64/bin/ranlib.exe
+CMAKE_RANLIB:FILEPATH=F:/MinGW/bin/ranlib.exe
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=F:/QT/Tools/mingw810_64/bin/windres.exe
@@ -247,7 +247,7 @@ CMAKE_RC_FLAGS_RELEASE:STRING=
 CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=F:/QT/Tools/mingw810_64/bin/readelf.exe
+CMAKE_READELF:FILEPATH=F:/MinGW/bin/readelf.exe
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -297,7 +297,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=F:/QT/Tools/mingw810_64/bin/strip.exe
+CMAKE_STRIP:FILEPATH=F:/MinGW/bin/strip.exe
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -458,7 +458,11 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Test CMAKE_HAVE_LIBC_PTHREAD
-CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 //Have include pthread.h
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this

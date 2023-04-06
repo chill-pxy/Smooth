@@ -73,15 +73,15 @@ engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.obj: engine/3rd
 engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.obj: ../engine/3rdparty/glm/glm/detail/glm.cpp
 engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.obj: engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.obj"
-	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glm\glm && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.obj -MF CMakeFiles\glm_static.dir\detail\glm.cpp.obj.d -o CMakeFiles\glm_static.dir\detail\glm.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glm\glm\detail\glm.cpp
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glm\glm && F:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.obj -MF CMakeFiles\glm_static.dir\detail\glm.cpp.obj.d -o CMakeFiles\glm_static.dir\detail\glm.cpp.obj -c G:\Project\VsCode_project\Smooth\engine\3rdparty\glm\glm\detail\glm.cpp
 
 engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glm_static.dir/detail/glm.cpp.i"
-	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glm\glm && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glm\glm\detail\glm.cpp > CMakeFiles\glm_static.dir\detail\glm.cpp.i
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glm\glm && F:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Project\VsCode_project\Smooth\engine\3rdparty\glm\glm\detail\glm.cpp > CMakeFiles\glm_static.dir\detail\glm.cpp.i
 
 engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glm_static.dir/detail/glm.cpp.s"
-	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glm\glm && F:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glm\glm\detail\glm.cpp -o CMakeFiles\glm_static.dir\detail\glm.cpp.s
+	cd /d G:\Project\VsCode_project\Smooth\build\engine\3rdparty\glm\glm && F:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Project\VsCode_project\Smooth\engine\3rdparty\glm\glm\detail\glm.cpp -o CMakeFiles\glm_static.dir\detail\glm.cpp.s
 
 # Object files for target glm_static
 glm_static_OBJECTS = \
