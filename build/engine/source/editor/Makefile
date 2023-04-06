@@ -247,6 +247,30 @@ source/editor_input_manager.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.s
 .PHONY : source/editor_input_manager.cpp.s
 
+source/editor_scene_manager.obj: source/editor_scene_manager.cpp.obj
+.PHONY : source/editor_scene_manager.obj
+
+# target to build an object file
+source/editor_scene_manager.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_scene_manager.cpp.obj
+.PHONY : source/editor_scene_manager.cpp.obj
+
+source/editor_scene_manager.i: source/editor_scene_manager.cpp.i
+.PHONY : source/editor_scene_manager.i
+
+# target to preprocess a source file
+source/editor_scene_manager.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_scene_manager.cpp.i
+.PHONY : source/editor_scene_manager.cpp.i
+
+source/editor_scene_manager.s: source/editor_scene_manager.cpp.s
+.PHONY : source/editor_scene_manager.s
+
+# target to generate assembly for a file
+source/editor_scene_manager.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_scene_manager.cpp.s
+.PHONY : source/editor_scene_manager.cpp.s
+
 source/editor_ui.obj: source/editor_ui.cpp.obj
 .PHONY : source/editor_ui.obj
 
@@ -317,6 +341,9 @@ help:
 	@echo ... source/editor_input_manager.obj
 	@echo ... source/editor_input_manager.i
 	@echo ... source/editor_input_manager.s
+	@echo ... source/editor_scene_manager.obj
+	@echo ... source/editor_scene_manager.i
+	@echo ... source/editor_scene_manager.s
 	@echo ... source/editor_ui.obj
 	@echo ... source/editor_ui.i
 	@echo ... source/editor_ui.s

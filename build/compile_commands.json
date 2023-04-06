@@ -231,6 +231,11 @@
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/editor",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothEditor.dir\\source\\editor_scene_manager.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\editor\\source\\editor_scene_manager.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_scene_manager.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/editor",
   "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothEditor.dir\\source\\editor_ui.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\editor\\source\\editor_ui.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_ui.cpp"
 }

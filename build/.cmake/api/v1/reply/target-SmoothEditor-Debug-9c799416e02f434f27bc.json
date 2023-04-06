@@ -37,7 +37,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
@@ -58,7 +58,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 13,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -135,7 +135,8 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5
 			]
 		}
 	],
@@ -159,11 +160,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "SmoothRuntime::@0e9222390ef2a3c3b428"
+			"id" : "tinyobjloader::@2040b85fa92506764563"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "tinyobjloader::@2040b85fa92506764563"
+			"id" : "SmoothRuntime::@0e9222390ef2a3c3b428"
 		}
 	],
 	"id" : "SmoothEditor::@a2a08a0b55f399eba4b5",
@@ -228,7 +229,8 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5
 			]
 		}
 	],
@@ -256,6 +258,12 @@
 			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/editor/source/editor_input_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/editor/source/editor_scene_manager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

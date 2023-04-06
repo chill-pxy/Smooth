@@ -25,8 +25,8 @@ namespace Smooth
         void showEditorFileContentWindow(bool* p_open);
         void showEditorDetailWindow(bool* p_open);
 
-        void showTestWindow(bool* p_open);
-    
+        void drawAxisToggleButton(const char* string_id, bool check_state, int axis_mode);
+
     private:
         bool m_editor_menu_window_open         = true;
         bool m_editor_scene_window_open        = true;

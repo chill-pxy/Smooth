@@ -527,7 +527,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cp
   ../engine/3rdparty/glm/glm/ext/vector_uint1_sized.hpp \
   ../engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp \
   ../engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
-  ../engine/3rdparty/glm/glm/gtx/hash.inl
+  ../engine/3rdparty/glm/glm/gtx/hash.inl \
+  ../engine/source/editor/include/editor_scene_manager.h
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj: ../engine/source/editor/source/editor_input_manager.cpp \
   ../engine/source/editor/include/editor_input_manager.h \
@@ -893,6 +894,9 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp
   ../engine/3rdparty/glad/include/glad/glad.h \
   ../engine/3rdparty/glad/include/KHR/khrplatform.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h
+
+engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_scene_manager.cpp.obj: ../engine/source/editor/source/editor_scene_manager.cpp \
+  ../engine/source/editor/include/editor_scene_manager.h
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: ../engine/source/editor/source/editor_ui.cpp \
   F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/math.h \
@@ -1337,6 +1341,7 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: ../en
   ../engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp \
   ../engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
   ../engine/3rdparty/glm/glm/gtx/hash.inl \
+  ../engine/source/editor/include/editor_scene_manager.h \
   ../engine/source/runtime/tool/render/window_system.h \
   ../engine/3rdparty/glad/include/glad/glad.h \
   ../engine/3rdparty/glad/include/KHR/khrplatform.h \
@@ -2368,11 +2373,15 @@ F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_he
 
 ../engine/3rdparty/glm/glm/gtx/hash.inl:
 
+../engine/source/editor/include/editor_scene_manager.h:
+
 ../engine/source/editor/source/editor_input_manager.cpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/cetintrin.h:
 
 ../engine/source/runtime/tool/render/window_system.h:
+
+../engine/source/editor/source/editor_scene_manager.cpp:
 
 F:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/tmmintrin.h:
 

@@ -530,6 +530,7 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.inl
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj
  G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_input_manager.cpp
@@ -896,6 +897,10 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h
+
+engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_scene_manager.cpp.obj
+ G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_scene_manager.cpp
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj
  G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_ui.cpp
@@ -1341,6 +1346,7 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.inl
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/window_system.h
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h

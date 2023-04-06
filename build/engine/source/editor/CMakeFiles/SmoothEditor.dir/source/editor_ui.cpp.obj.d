@@ -442,6 +442,7 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl \
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/window_system.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \

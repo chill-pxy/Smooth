@@ -9,6 +9,7 @@
 #include "editor_ui.h"
 #include "editor_global_context.h"
 #include "editor_input_manager.h"
+#include "editor_scene_manager.h"
 
 #include "runtime/tool/render/window_system.h"
 #include "runtime/tool/render/render_system.h"
@@ -185,8 +186,44 @@ namespace Smooth
             return;
         }
 
+        static bool trans_button_clicked  = false;
+        static bool rotate_button_clicked = false;
+        static bool scale_button_clicked  = false;
+
+        switch (g_editor_global_context.m_scene_manager->getEditorAxisMode())
+        {
+        case EditorAxisMode::TranslateMode:
+            trans_button_clicked  = true;
+            rotate_button_clicked = false;
+            scale_button_clicked  = false;
+            break;
+        case EditorAxisMode::RotateMode:
+            trans_button_clicked  = false;
+            rotate_button_clicked = true;
+            scale_button_clicked  = false;
+            break;
+        case EditorAxisMode::ScaleMode:
+            trans_button_clicked  = false;
+            rotate_button_clicked = false;
+            scale_button_clicked  = true;
+            break;
+        default:
+            break;
+        }
+
         if(ImGui::BeginMenuBar())
         {
+            ImGui::Indent(10.0f);
+            drawAxisToggleButton("Trans", trans_button_clicked, (int)EditorAxisMode::TranslateMode);
+            ImGui::Unindent();
+
+            ImGui::SameLine();
+            drawAxisToggleButton("Rotate", rotate_button_clicked, (int)EditorAxisMode::RotateMode);
+            
+            ImGui::SameLine();
+            drawAxisToggleButton("Scale", scale_button_clicked, (int)EditorAxisMode::ScaleMode);
+
+            ImGui::SameLine();
             float indent_val = 0.0f;
             float x_scale, y_scale;
             glfwGetWindowContentScale(g_editor_global_context.m_window_system->getWindow(), &x_scale, &y_scale);
@@ -273,50 +310,29 @@ namespace Smooth
         ImGui::End();
     }
 
-    void EditorUI::showTestWindow(bool* p_open)
+    void EditorUI::drawAxisToggleButton(const char* string_id, bool check_state, int axis_mode)
     {
-        ImGuiDockNodeFlags dock_flags   = ImGuiDockNodeFlags_DockSpace;
-        ImGuiWindowFlags   window_flags = ImGuiWindowFlags_MenuBar | ImGuiWindowFlags_NoTitleBar |
-                                        ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize |
-                                        ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoBackground |
-                                        ImGuiConfigFlags_NoMouseCursorChange | ImGuiWindowFlags_NoBringToFrontOnFocus;
-        
-        const ImGuiViewport* main_viewport = ImGui::GetMainViewport();
-        ImGui::SetNextWindowPos(main_viewport->WorkPos, ImGuiCond_Always);
-        std::array<int, 2> window_size = g_editor_global_context.m_window_system->getWindowSize();
-        
-        ImGui::SetNextWindowSize(ImVec2((float)window_size[0], (float)window_size[1]), ImGuiCond_Always);
-        ImGui::SetNextWindowViewport(main_viewport->ID);
-
-        ImGui::Begin("Editor menu", p_open, window_flags);
-
-        ImGuiID main_docking_id = ImGui::GetID("Main Docking");
-        if(ImGui::DockBuilderGetNode(main_docking_id) == nullptr)
+        if (check_state)
         {
-            ImGui::DockBuilderRemoveNode(main_docking_id);
-            ImGui::DockBuilderAddNode(main_docking_id, dock_flags);
-            ImGui::DockBuilderSetNodePos(main_docking_id,
-                                         ImVec2(main_viewport->WorkPos.x, main_viewport->WorkPos.y + 18.0f));
-            ImGui::DockBuilderSetNodeSize(main_docking_id,
-                                          ImVec2((float)window_size[0], (float)window_size[1] - 18.0f));
+            ImGui::PushID(string_id);
+            ImVec4 check_button_color = ImVec4(93.0f / 255.0f, 10.0f / 255.0f, 66.0f / 255.0f, 1.00f);
+            ImGui::PushStyleColor(ImGuiCol_Button,
+                                  ImVec4(check_button_color.x, check_button_color.y, check_button_color.z, 0.40f));
+            ImGui::PushStyleColor(ImGuiCol_ButtonHovered, check_button_color);
+            ImGui::PushStyleColor(ImGuiCol_ButtonActive, check_button_color);
+            ImGui::Button(string_id);
+            ImGui::PopStyleColor(3);
+            ImGui::PopID();
         }
-
-        ImGui::DockSpace(main_docking_id);
-
-        if(ImGui::BeginMenuBar())
+        else
         {
-            if(ImGui::BeginMenu("Menu"))
+            if (ImGui::Button(string_id))
             {
-                if(ImGui::MenuItem("open"))
-                {
-
-                }
-                ImGui::EndMenu();
+                check_state = true;
+                g_editor_global_context.m_scene_manager->setEditorAxisMode((EditorAxisMode)axis_mode);
+                //g_editor_global_context.m_scene_manager->drawSelectedEntityAxis();
             }
-            ImGui::EndMenuBar();
-        }
-
-        ImGui::End();
+        }  
     }
 
 }

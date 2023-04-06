@@ -7,6 +7,7 @@ target_sources(${TARGET_NAME} PRIVATE
  source/editor.cpp
  source/editor_global_context.cpp
  source/editor_input_manager.cpp
+ source/editor_scene_manager.cpp
  source/editor_ui.cpp
 )
 

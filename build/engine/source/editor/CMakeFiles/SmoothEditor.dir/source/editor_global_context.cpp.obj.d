@@ -358,4 +358,5 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/ext/vector_uint1_sized.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl \
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h
