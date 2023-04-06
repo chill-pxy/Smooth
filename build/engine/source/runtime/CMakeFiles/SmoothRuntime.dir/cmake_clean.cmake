@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../../../../out/libSmoothRuntime.pdb"
   "CMakeFiles/SmoothRuntime.dir/engine.cpp.obj"
   "CMakeFiles/SmoothRuntime.dir/engine.cpp.obj.d"
+  "CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.obj"
+  "CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.obj.d"
   "CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj"
   "CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj.d"
   "CMakeFiles/SmoothRuntime.dir/tool/input/input_system.cpp.obj"

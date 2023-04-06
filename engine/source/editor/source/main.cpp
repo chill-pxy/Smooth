@@ -1,13 +1,17 @@
 #include <iostream>
+#include <filesystem>
 
 #include "runtime/engine.h"
 #include "editor.h"
 
-int main()
+int main(int argc, char** argv)
 {
+    std::filesystem::path executable_path(argv[0]);
+    std::filesystem::path config_file_path = executable_path.parent_path() / "SmoothEditor.ini";
+
     Smooth::SmoothEngine* engine=new Smooth::SmoothEngine();
 
-    engine->startEngine();
+    engine->startEngine(config_file_path.generic_string());
 
     Smooth::SmoothEditor* editor=new Smooth::SmoothEditor();
     

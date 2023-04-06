@@ -10,6 +10,9 @@ source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}" FILES ${HEADER_FILES} ${SOURCE_F
 
 add_library(${TARGET_NAME} ${HEADER_FILES} ${SOURCE_FILES})
 
+set_target_properties(${TARGET_NAME} PROPERTIES CXX_STANDARD 17)
+set_target_properties(${TARGET_NAME} PROPERTIES FOLDER "Engine")
+
 target_link_libraries(
   ${TARGET_NAME} PUBLIC 
   glad

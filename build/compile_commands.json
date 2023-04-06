@@ -131,6 +131,11 @@
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\resource\\config_manager\\config_manager.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\resource\\config_manager\\config_manager.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/config_manager/config_manager.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
   "command": "F:\\QT\\Tools\\mingw810_64\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\global\\global_context.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\global\\global_context.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/global/global_context.cpp"
 },

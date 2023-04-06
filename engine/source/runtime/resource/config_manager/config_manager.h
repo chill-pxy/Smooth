@@ -21,5 +21,5 @@ namespace Smooth
         std::filesystem::path m_editor_big_icon_path;
         std::filesystem::path m_editor_small_icon_path;
         std::filesystem::path m_editor_font_path;
-    }
+    };
 }

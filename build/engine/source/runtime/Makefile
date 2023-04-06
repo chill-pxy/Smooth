@@ -199,6 +199,30 @@ engine.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.s
 .PHONY : engine.cpp.s
 
+resource/config_manager/config_manager.obj: resource/config_manager/config_manager.cpp.obj
+.PHONY : resource/config_manager/config_manager.obj
+
+# target to build an object file
+resource/config_manager/config_manager.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.obj
+.PHONY : resource/config_manager/config_manager.cpp.obj
+
+resource/config_manager/config_manager.i: resource/config_manager/config_manager.cpp.i
+.PHONY : resource/config_manager/config_manager.i
+
+# target to preprocess a source file
+resource/config_manager/config_manager.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.i
+.PHONY : resource/config_manager/config_manager.cpp.i
+
+resource/config_manager/config_manager.s: resource/config_manager/config_manager.cpp.s
+.PHONY : resource/config_manager/config_manager.s
+
+# target to generate assembly for a file
+resource/config_manager/config_manager.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.s
+.PHONY : resource/config_manager/config_manager.cpp.s
+
 tool/global/global_context.obj: tool/global/global_context.cpp.obj
 .PHONY : tool/global/global_context.obj
 
@@ -599,6 +623,9 @@ help:
 	@echo ... engine.obj
 	@echo ... engine.i
 	@echo ... engine.s
+	@echo ... resource/config_manager/config_manager.obj
+	@echo ... resource/config_manager/config_manager.i
+	@echo ... resource/config_manager/config_manager.s
 	@echo ... tool/global/global_context.obj
 	@echo ... tool/global/global_context.i
 	@echo ... tool/global/global_context.s

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj.d"
+  "G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/config_manager/config_manager.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/global/global_context.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/input/input_system.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/input/input_system.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/input/input_system.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/RHI/opengl_rhi.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cpp.obj.d"

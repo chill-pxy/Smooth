@@ -4,14 +4,19 @@
 #include "runtime/tool/render/window_system.h"
 #include "runtime/tool/render/render_system.h"
 #include "runtime/tool/input/input_system.h"
+#include "runtime/resource/config_manager/config_manager.h"
 
 namespace Smooth
 {
 
     RuntimeGlobalContext g_runtime_global_context;
 
-    void RuntimeGlobalContext::startSystems()
+    void RuntimeGlobalContext::startSystems(const std::string& config_file_path)
     {
+        //config初始化
+        m_config_manager = std::make_shared<ConfigManager>();
+        m_config_manager->initialize(config_file_path);
+
         //窗口系统初始化
         m_window_system = std::make_shared<WindowSystem>();
         WindowInfo window_creat_info;
@@ -32,6 +37,8 @@ namespace Smooth
 
     void RuntimeGlobalContext::shudownSystems()
     {
+        m_config_manager.reset();
+
         m_window_system.reset();
 
         m_input_system.reset();

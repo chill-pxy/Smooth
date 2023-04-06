@@ -11,7 +11,7 @@ namespace Smooth
         static const float s_fps_alpha;
 
     public:
-        void startEngine();
+        void startEngine(const std::string& config_file_path);
         void shutdownEngine();
 
         void run();

@@ -279,6 +279,10 @@ namespace Smooth
     void EditorUI::showEditorFileContentWindow(bool* p_open)
     {
         ImGuiWindowFlags window_flags      = ImGuiWindowFlags_None;
+        static ImGuiTableFlags flags       = ImGuiTableFlags_BordersV | ImGuiTableFlags_BordersOuterH |
+                                            ImGuiTableFlags_Resizable | ImGuiTableFlags_RowBg |
+                                            ImGuiTableFlags_NoBordersInBody;
+
         const ImGuiViewport* main_viewport = ImGui::GetMainViewport();
 
         if(!*p_open)
@@ -289,6 +293,14 @@ namespace Smooth
             ImGui::End();
             return;
         }
+
+        if(ImGui::BeginTable("File Content", 2, flags))
+        {
+            ImGui::TableSetupColumn("Name", ImGuiTableColumnFlags_NoHide);
+            ImGui::TableSetupColumn("Type", ImGuiTableColumnFlags_WidthFixed);
+            ImGui::TableHeadersRow();
+        }
+        ImGui::EndTable();
 
         ImGui::End();
     }

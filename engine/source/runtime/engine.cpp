@@ -9,9 +9,9 @@
 
 namespace Smooth
 {
-    void SmoothEngine::startEngine()
+    void SmoothEngine::startEngine(const std::string& config_file_path)
     {
-        g_runtime_global_context.startSystems();
+        g_runtime_global_context.startSystems(config_file_path);
         std::cout<<"ÒýÇæÆô¶¯"<<std::endl;
     }
 
