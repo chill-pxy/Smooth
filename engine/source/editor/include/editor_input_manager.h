@@ -20,7 +20,6 @@ namespace Smooth
         scale_mode       = 1 << 8, //C
         exit             = 1 << 9, //ESC
         delete_object    = 1 << 10,//Delete
-
     };
 
     class EditorInputManager

@@ -27,20 +27,24 @@ if (NOT EXISTS ${OUT_DIR})
     file(MAKE_DIRECTORY ${OUT_DIR})
 endif ()
 
-if(NOT "${CMAKE_CURRENT_SOURCE_DIR}/engine/configs/deployment/SmoothEditor.ini")
+if(NOT "OUT_DIR/SmoothEditor.ini")
   execute_process(COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_SOURCE_DIR}/engine/configs/deployment/SmoothEditor.ini ${OUT_DIR}) 
 endif ()
 
-if(NOT "${CMAKE_CURRENT_SOURCE_DIR}/engine/source/editor/resource/SmoothEditorBigIcon.png")
+if(NOT "OUT_DIR/SmoothEditorBigIcon.png")
   execute_process(COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_SOURCE_DIR}/engine/source/editor/resource/SmoothEditorBigIcon.png ${OUT_DIR})
 endif()
 
-if(NOT "${CMAKE_CURRENT_SOURCE_DIR}/engine/source/editor/resource/SmoothEditorSmallIcon.png")
+if(NOT "OUT_DIR/SmoothEditorSmallIcon.png")
   execute_process(COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_SOURCE_DIR}/engine/source/editor/resource/SmoothEditorSmallIcon.png ${OUT_DIR})
 endif()
 
-if(NOT "${CMAKE_CURRENT_SOURCE_DIR}/engine/source/editor/resource/SmoothEditorFont.TTF")
+if(NOT "OUT_DIR/SmoothEditorFont.TTF")
   execute_process(COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_SOURCE_DIR}/engine/source/editor/resource/SmoothEditorFont.TTF ${OUT_DIR})
+endif()
+  execute_process(COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_SOURCE_DIR}/engine/source/editor/resource/SmoothEditorFont_Chinese.TTF ${OUT_DIR})
+if(NOT "OUTD_DIR/SmoothEditorFont_Chinese.TTF")
+
 endif()
 
 SET(EXECUTABLE_OUTPUT_PATH ${OUT_DIR})

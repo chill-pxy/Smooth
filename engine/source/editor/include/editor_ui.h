@@ -3,6 +3,7 @@
 #include <memory>
 
 #include "runtime/tool/ui/window_ui.h"
+#include "editor_language.h"
 
 namespace Smooth
 {
@@ -28,6 +29,8 @@ namespace Smooth
         void drawAxisToggleButton(const char* string_id, bool check_state, int axis_mode);
 
     private:
+        EditorText m_editor_text;
+
         bool m_editor_menu_window_open         = true;
         bool m_editor_scene_window_open        = true;
         bool m_editor_worldObjects_window_open = true;

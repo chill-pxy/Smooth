@@ -243,5 +243,10 @@
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/editor",
   "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/SmoothEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothEditor.dir\\source\\editor_ui.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\editor\\source\\editor_ui.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_ui.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/editor",
+  "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/SmoothEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothEditor.dir\\source\\editor_language.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\editor\\source\\editor_language.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_language.cpp"
 }
 ]

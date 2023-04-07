@@ -264,6 +264,7 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/ui/window_ui.h \
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_language.h \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_global_context.h \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_input_manager.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.h \

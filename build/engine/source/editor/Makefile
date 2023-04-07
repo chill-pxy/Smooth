@@ -247,6 +247,30 @@ source/editor_input_manager.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.s
 .PHONY : source/editor_input_manager.cpp.s
 
+source/editor_language.obj: source/editor_language.cpp.obj
+.PHONY : source/editor_language.obj
+
+# target to build an object file
+source/editor_language.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_language.cpp.obj
+.PHONY : source/editor_language.cpp.obj
+
+source/editor_language.i: source/editor_language.cpp.i
+.PHONY : source/editor_language.i
+
+# target to preprocess a source file
+source/editor_language.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_language.cpp.i
+.PHONY : source/editor_language.cpp.i
+
+source/editor_language.s: source/editor_language.cpp.s
+.PHONY : source/editor_language.s
+
+# target to generate assembly for a file
+source/editor_language.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_language.cpp.s
+.PHONY : source/editor_language.cpp.s
+
 source/editor_scene_manager.obj: source/editor_scene_manager.cpp.obj
 .PHONY : source/editor_scene_manager.obj
 
@@ -341,6 +365,9 @@ help:
 	@echo ... source/editor_input_manager.obj
 	@echo ... source/editor_input_manager.i
 	@echo ... source/editor_input_manager.s
+	@echo ... source/editor_language.obj
+	@echo ... source/editor_language.i
+	@echo ... source/editor_language.s
 	@echo ... source/editor_scene_manager.obj
 	@echo ... source/editor_scene_manager.i
 	@echo ... source/editor_scene_manager.s

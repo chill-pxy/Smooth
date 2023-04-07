@@ -17,8 +17,8 @@ namespace Smooth
         class SmoothEngine*       m_engine_runtime {nullptr};
         class EditorInputManager* m_input_manager {nullptr};
         class EditorSceneManager* m_scene_manager {nullptr};
+        class EditorLanguage*     m_editor_language {nullptr};
         
-
     public:
         void initialize(const EditorGlobalContextInitInfo& init_info);
         void clear();

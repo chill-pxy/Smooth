@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SmoothEditor.dir/source/editor_global_context.cpp.obj.d"
   "CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj"
   "CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp.obj.d"
+  "CMakeFiles/SmoothEditor.dir/source/editor_language.cpp.obj"
+  "CMakeFiles/SmoothEditor.dir/source/editor_language.cpp.obj.d"
   "CMakeFiles/SmoothEditor.dir/source/editor_scene_manager.cpp.obj"
   "CMakeFiles/SmoothEditor.dir/source/editor_scene_manager.cpp.obj.d"
   "CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj"

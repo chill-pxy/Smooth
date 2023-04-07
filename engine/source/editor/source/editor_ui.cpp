@@ -15,6 +15,7 @@
 #include "editor_input_manager.h"
 #include "editor_scene_manager.h"
 #include "editor_global_context.h"
+#include "editor_language.h"
 
 #include "runtime/tool/global/global_context.h"
 
@@ -29,6 +30,8 @@
 
 namespace Smooth
 {
+
+
     EditorUI::EditorUI()
     {
 
@@ -73,12 +76,18 @@ namespace Smooth
         io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
         io.ConfigDockingAlwaysTabBar         = true;
         io.ConfigWindowsMoveFromTitleBarOnly = true;
-        //load font
-
-        io.Fonts->AddFontFromFileTTF(
-            config_manager->getEditorFontPath().generic_string().data(), content_scale * 16, nullptr, nullptr);
-        io.Fonts->Build();
         
+        //load font
+        //io.Fonts->AddFontFromFileTTF(
+        //    config_manager->getEditorFontPath().generic_string().data(), content_scale * 16, nullptr, nullptr);
+        io.Fonts->AddFontFromFileTTF(
+            config_manager->getEditorChineseFontPath().generic_string().data(), content_scale * 16, nullptr, io.Fonts->GetGlyphRangesChineseFull());
+        io.Fonts->Build();
+
+        //initialize language
+        m_editor_text = g_editor_global_context.m_editor_language->getEditorText();
+        //std::cout<<m_editor_text.MENU<<std::endl;
+
         ImGuiStyle& style     = ImGui::GetStyle();
         style.WindowPadding   = ImVec2(1.0, 0);
         style.FramePadding    = ImVec2(14.0, 2.0f);
@@ -165,19 +174,19 @@ namespace Smooth
 
         if(ImGui::BeginMenuBar())
         {
-            if(ImGui::BeginMenu("Menu"))
+            if(ImGui::BeginMenu(m_editor_text.MENU.c_str()))
             {
-                if(ImGui::MenuItem("Reload Current Scene"))
+                if(ImGui::MenuItem("重新加载场景"))
                 {
                     
                 }
 
-                if(ImGui::MenuItem("Save Current Scene"))
+                if(ImGui::MenuItem("保存当前场景"))
                 {
 
                 }
 
-                if(ImGui::MenuItem("Exit"))
+                if(ImGui::MenuItem("退出"))
                 {
                     ImGui_ImplOpenGL3_Shutdown();
                     ImGui_ImplGlfw_Shutdown();
@@ -188,12 +197,27 @@ namespace Smooth
                 ImGui::EndMenu();
             }
 
-            if(ImGui::BeginMenu("Window"))
+            if(ImGui::BeginMenu("窗口"))
             {
-                ImGui::MenuItem("World Objects", nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem("Scene", nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem("File Content", nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem("Details", nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem("世界物体", nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem("场景", nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem("文件", nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem("属性", nullptr, &m_editor_menu_window_open);
+                ImGui::EndMenu();
+            }
+
+            if(ImGui::BeginMenu("Language"))
+            {
+                if(ImGui::MenuItem("中文", nullptr, true))
+                {
+                    g_editor_global_context.m_editor_language->SelectLanguage(LanguageType::Chinese);
+                    m_editor_text=g_editor_global_context.m_editor_language->getEditorText();
+                }
+                if(ImGui::MenuItem("English", nullptr, true))
+                {
+                    g_editor_global_context.m_editor_language->SelectLanguage(LanguageType::English);
+                    m_editor_text=g_editor_global_context.m_editor_language->getEditorText();
+                }
                 ImGui::EndMenu();
             }
             ImGui::EndMenuBar();

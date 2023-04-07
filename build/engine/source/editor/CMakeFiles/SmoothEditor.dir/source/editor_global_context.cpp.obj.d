@@ -334,4 +334,25 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl \
- G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h \
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_language.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/char_traits.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/localefwd.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/clocale \
+ F:/MinGW/x86_64-w64-mingw32/include/locale.h \
+ F:/MinGW/x86_64-w64-mingw32/include/stdio.h \
+ F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cctype \
+ F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/ostream_insert.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cxxabi_forced.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/basic_string.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string_view \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/string_view.tcc \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/string_conversions.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdio \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cerrno \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/charconv.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/basic_string.tcc

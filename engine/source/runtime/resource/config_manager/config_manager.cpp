@@ -38,10 +38,12 @@ namespace Smooth
                 {
                     m_editor_font_path = m_root_folder / value;
                 }
+                if(name == "ChineseFontFile")
+                {
+                    m_editor_chinese_font_path = m_root_folder /value;
+                }
             }
         }
-        std::cout<<m_root_folder<<std::endl;
-        std::cout<<m_editor_big_icon_path<<std::endl;
     }
 
     const std::filesystem::path& ConfigManager::getRootFolder() const { return m_root_folder; }
@@ -49,4 +51,5 @@ namespace Smooth
     const std::filesystem::path& ConfigManager::getEditorBigIconPath() const{ return m_editor_big_icon_path; }
     const std::filesystem::path& ConfigManager::getEditorSmallIconPath() const{ return m_editor_small_icon_path; }
     const std::filesystem::path& ConfigManager::getEditorFontPath() const{ return m_editor_font_path; }
+    const std::filesystem::path& ConfigManager::getEditorChineseFontPath() const { return m_editor_chinese_font_path; }
 }

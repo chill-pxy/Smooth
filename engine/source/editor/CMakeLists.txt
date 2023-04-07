@@ -9,6 +9,7 @@ target_sources(${TARGET_NAME} PRIVATE
  source/editor_input_manager.cpp
  source/editor_scene_manager.cpp
  source/editor_ui.cpp
+ source/editor_language.cpp
 )
 
 target_include_directories(${TARGET_NAME} PRIVATE
