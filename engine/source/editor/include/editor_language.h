@@ -12,24 +12,27 @@ namespace Smooth
 
     struct EditorText
     {
-        std::string MENU          = "菜单";
-        std::string RELOAD_SCENE  = "重新加载场景";
-        std::string SAVE_SCENE    = "保存当前场景";
-        std::string EXIT          = "退出";
+        std::string MENU;
+        std::string RELOAD_SCENE;
+        std::string SAVE_SCENE;
+        std::string EXIT;
 
-        std::string WINDOW        = "窗口";
-        std::string WORLD_OBJECTS = "场景物体";
-        std::string SCENE         = "场景";
-        std::string FILE_CONTENT  = "文件管理器";
-        std::string DETAILS       = "属性";
+        std::string WINDOW;
+        std::string WORLD_OBJECTS;
+        std::string SCENE;
+        std::string FILE_CONTENT;
+        std::string DETAILS;
 
-        std::string LANGUAGE      = "语言";
+        std::string LANGUAGE;
 
-        std::string TRANSLATE     = "平移";
-        std::string ROTATE        = "旋转";
-        std::string SCALE         = "缩放";
+        std::string TRANSLATE;
+        std::string ROTATE;
+        std::string SCALE;
 
-        std::string EDITOR_MODE   = "编辑模式";
+        std::string EDITOR_MODE;
+
+        std::string NAME;
+        std::string TYPE;
     };
 
     class EditorLanguage

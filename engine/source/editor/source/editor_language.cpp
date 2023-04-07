@@ -6,7 +6,7 @@ namespace Smooth
 {
     void EditorLanguage::initialize()
     {
-
+        ChangeTextContent(language_type);
     }
 
     void EditorLanguage::SelectLanguage(LanguageType language)
@@ -38,6 +38,8 @@ namespace Smooth
             editor_text.SCALE         = "缩放";
 
             editor_text.EDITOR_MODE   = "编辑模式";
+            editor_text.NAME          = "名称";
+            editor_text.TYPE          = "类型";
             break;
 
         case LanguageType::English:
@@ -59,6 +61,9 @@ namespace Smooth
             editor_text.SCALE         = "Scale";
 
             editor_text.EDITOR_MODE   = "Editor Mode";
+
+            editor_text.NAME          = "Name";
+            editor_text.TYPE          = "Type";
             break;
 
         default:

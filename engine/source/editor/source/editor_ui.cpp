@@ -162,10 +162,10 @@ namespace Smooth
             ImGuiID left_game_engine;
             ImGuiID left_asset = ImGui::DockBuilderSplitNode(left_other, ImGuiDir_Left, 0.30f, nullptr, &left_game_engine);
 
-            ImGui::DockBuilderDockWindow("World Objects", left_asset);
-            ImGui::DockBuilderDockWindow("Components Details", right);
-            ImGui::DockBuilderDockWindow("File Content", left_file_content);
-            ImGui::DockBuilderDockWindow("Game Engine", left_game_engine);
+            ImGui::DockBuilderDockWindow(m_editor_text.WORLD_OBJECTS.c_str(), left_asset);
+            ImGui::DockBuilderDockWindow(m_editor_text.DETAILS.c_str(), right);
+            ImGui::DockBuilderDockWindow(m_editor_text.FILE_CONTENT.c_str(), left_file_content);
+            ImGui::DockBuilderDockWindow(m_editor_text.SCENE.c_str(), left_game_engine);
 
             ImGui::DockBuilderFinish(main_docking_id);
         }
@@ -176,17 +176,17 @@ namespace Smooth
         {
             if(ImGui::BeginMenu(m_editor_text.MENU.c_str()))
             {
-                if(ImGui::MenuItem("重新加载场景"))
+                if(ImGui::MenuItem(m_editor_text.RELOAD_SCENE.c_str()))
                 {
                     
                 }
 
-                if(ImGui::MenuItem("保存当前场景"))
+                if(ImGui::MenuItem(m_editor_text.SAVE_SCENE.c_str()))
                 {
 
                 }
 
-                if(ImGui::MenuItem("退出"))
+                if(ImGui::MenuItem(m_editor_text.EXIT.c_str()))
                 {
                     ImGui_ImplOpenGL3_Shutdown();
                     ImGui_ImplGlfw_Shutdown();
@@ -197,16 +197,16 @@ namespace Smooth
                 ImGui::EndMenu();
             }
 
-            if(ImGui::BeginMenu("窗口"))
+            if(ImGui::BeginMenu(m_editor_text.WINDOW.c_str()))
             {
-                ImGui::MenuItem("世界物体", nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem("场景", nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem("文件", nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem("属性", nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem(m_editor_text.WORLD_OBJECTS.c_str(), nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem(m_editor_text.SCENE.c_str(), nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem(m_editor_text.FILE_CONTENT.c_str(), nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem(m_editor_text.DETAILS.c_str(), nullptr, &m_editor_menu_window_open);
                 ImGui::EndMenu();
             }
 
-            if(ImGui::BeginMenu("Language"))
+            if(ImGui::BeginMenu(m_editor_text.LANGUAGE.c_str()))
             {
                 if(ImGui::MenuItem("中文", nullptr, true))
                 {
@@ -235,7 +235,7 @@ namespace Smooth
 
         if(!*p_open)
             return;
-        if(!ImGui::Begin("Scene", p_open, window_flags))
+        if(!ImGui::Begin(m_editor_text.SCENE.c_str(), p_open, window_flags))
         {
             ImGui::End();
             return;
@@ -269,14 +269,14 @@ namespace Smooth
         if(ImGui::BeginMenuBar())
         {
             ImGui::Indent(10.0f);
-            drawAxisToggleButton("Trans", trans_button_clicked, (int)EditorAxisMode::TranslateMode);
+            drawAxisToggleButton(m_editor_text.TRANSLATE.c_str(), trans_button_clicked, (int)EditorAxisMode::TranslateMode);
             ImGui::Unindent();
 
             ImGui::SameLine();
-            drawAxisToggleButton("Rotate", rotate_button_clicked, (int)EditorAxisMode::RotateMode);
+            drawAxisToggleButton(m_editor_text.ROTATE.c_str(), rotate_button_clicked, (int)EditorAxisMode::RotateMode);
             
             ImGui::SameLine();
-            drawAxisToggleButton("Scale", scale_button_clicked, (int)EditorAxisMode::ScaleMode);
+            drawAxisToggleButton(m_editor_text.SCALE.c_str(), scale_button_clicked, (int)EditorAxisMode::ScaleMode);
 
             ImGui::SameLine();
             float indent_val = 0.0f;
@@ -287,8 +287,8 @@ namespace Smooth
             indent_val = g_editor_global_context.m_input_manager->getEngineWindowSize().x - 100.0f * indent_scale;
         
             ImGui::Indent(indent_val);
-            ImGui::PushID("Editor Mode");
-            if(ImGui::Button("Editor Mode"))
+            ImGui::PushID(m_editor_text.EDITOR_MODE.c_str());
+            if(ImGui::Button(m_editor_text.EDITOR_MODE.c_str()))
             {
 
             }
@@ -322,7 +322,7 @@ namespace Smooth
         if(!*p_open)
             return;
 
-        if(!ImGui::Begin("World Objects", p_open, window_flags))
+        if(!ImGui::Begin(m_editor_text.WORLD_OBJECTS.c_str(), p_open, window_flags))
         {
             ImGui::End();
             return;
@@ -343,16 +343,16 @@ namespace Smooth
         if(!*p_open)
             return;
 
-        if(!ImGui::Begin("File Content", p_open, window_flags))
+        if(!ImGui::Begin(m_editor_text.FILE_CONTENT.c_str(), p_open, window_flags))
         {
             ImGui::End();
             return;
         }
 
-        if(ImGui::BeginTable("File Content", 2, flags))
+        if(ImGui::BeginTable(m_editor_text.FILE_CONTENT.c_str(), 2, flags))
         {
-            ImGui::TableSetupColumn("Name", ImGuiTableColumnFlags_NoHide);
-            ImGui::TableSetupColumn("Type", ImGuiTableColumnFlags_WidthFixed);
+            ImGui::TableSetupColumn(m_editor_text.NAME.c_str(), ImGuiTableColumnFlags_NoHide);
+            ImGui::TableSetupColumn(m_editor_text.TYPE.c_str(), ImGuiTableColumnFlags_WidthFixed);
             ImGui::TableHeadersRow();
         }
         ImGui::EndTable();
@@ -368,7 +368,7 @@ namespace Smooth
         if(!*p_open)
             return;
 
-        if(!ImGui::Begin("Details", p_open, window_flags))
+        if(!ImGui::Begin(m_editor_text.DETAILS.c_str(), p_open, window_flags))
         {
             ImGui::End();
             return;
