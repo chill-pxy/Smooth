@@ -86,7 +86,6 @@ namespace Smooth
 
         //initialize language
         m_editor_text = g_editor_global_context.m_editor_language->getEditorText();
-        //std::cout<<m_editor_text.MENU<<std::endl;
 
         ImGuiStyle& style     = ImGui::GetStyle();
         style.WindowPadding   = ImVec2(1.0, 0);
@@ -199,24 +198,28 @@ namespace Smooth
 
             if(ImGui::BeginMenu(m_editor_text.WINDOW.c_str()))
             {
-                ImGui::MenuItem(m_editor_text.WORLD_OBJECTS.c_str(), nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem(m_editor_text.SCENE.c_str(), nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem(m_editor_text.FILE_CONTENT.c_str(), nullptr, &m_editor_menu_window_open);
-                ImGui::MenuItem(m_editor_text.DETAILS.c_str(), nullptr, &m_editor_menu_window_open);
+                ImGui::MenuItem(m_editor_text.WORLD_OBJECTS.c_str(), nullptr, &m_editor_worldObjects_window_open);
+                ImGui::MenuItem(m_editor_text.SCENE.c_str(), nullptr, &m_editor_scene_window_open);
+                ImGui::MenuItem(m_editor_text.FILE_CONTENT.c_str(), nullptr, &m_editor_fileContent_window_open);
+                ImGui::MenuItem(m_editor_text.DETAILS.c_str(), nullptr, &m_editor_detail_window_open);
                 ImGui::EndMenu();
             }
 
             if(ImGui::BeginMenu(m_editor_text.LANGUAGE.c_str()))
             {
-                if(ImGui::MenuItem("中文", nullptr, true))
+                if(ImGui::MenuItem("中文", nullptr, &m_editor_language_chinese))
                 {
                     g_editor_global_context.m_editor_language->SelectLanguage(LanguageType::Chinese);
                     m_editor_text=g_editor_global_context.m_editor_language->getEditorText();
+                    m_editor_language_chinese = true;
+                    m_editor_language_english = false;
                 }
-                if(ImGui::MenuItem("English", nullptr, true))
+                if(ImGui::MenuItem("English", nullptr, &m_editor_language_english))
                 {
                     g_editor_global_context.m_editor_language->SelectLanguage(LanguageType::English);
                     m_editor_text=g_editor_global_context.m_editor_language->getEditorText();
+                    m_editor_language_english = true;
+                    m_editor_language_chinese = false;
                 }
                 ImGui::EndMenu();
             }

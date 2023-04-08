@@ -36,6 +36,9 @@ namespace Smooth
         bool m_editor_worldObjects_window_open = true;
         bool m_editor_fileContent_window_open  = true;
         bool m_editor_detail_window_open       = true;
+
+        bool m_editor_language_chinese = true;
+        bool m_editor_language_english = false;
     };
 
 }
