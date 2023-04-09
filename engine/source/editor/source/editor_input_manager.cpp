@@ -25,6 +25,23 @@ namespace Smooth
     void EditorInputManager::processEditorCommand()
     {
         float camera_speed = m_camera_speed;
+        if((unsigned int)EditorCommand::camera_foward & m_editor_command)
+        {
+            g_editor_global_context.m_scene_manager->getEditorCamera()->ProcessKeyboard(CameraMovement::FORWARD);
+        }
+        if((unsigned int)EditorCommand::camera_back & m_editor_command)
+        {
+            g_editor_global_context.m_scene_manager->getEditorCamera()->ProcessKeyboard(CameraMovement::BACKWARD);
+        }
+        if((unsigned int)EditorCommand::camera_left & m_editor_command)
+        {
+            g_editor_global_context.m_scene_manager->getEditorCamera()->ProcessKeyboard(CameraMovement::LEFT);
+        }
+        if((unsigned int)EditorCommand::camera_right & m_editor_command)
+        {
+            g_editor_global_context.m_scene_manager->getEditorCamera()->ProcessKeyboard(CameraMovement::RIGHT);
+        }   
+
     }
 
     void EditorInputManager::onKey(int key, int scancode, int action, int mods)
@@ -83,7 +100,24 @@ namespace Smooth
         if(!g_is_editor_mode)
             return;
         
-        g_editor_global_context.m_scene_manager->getEditorCamera()->ProcessMouseMovement(xpos, ypos);
+        if(m_mouse_x >= 0.0f && m_mouse_y >= 0.0f)
+        {
+            if(g_editor_global_context.m_window_system->isMouseButtonDown(GLFW_MOUSE_BUTTON_RIGHT))
+            {
+                glfwSetInputMode(
+                    g_editor_global_context.m_window_system->getWindow(), GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+                g_editor_global_context.m_scene_manager->getEditorCamera()->ProcessMouseMovement(xpos, ypos);
+            }
+            else if(g_editor_global_context.m_window_system->isMouseButtonDown(GLFW_MOUSE_BUTTON_LEFT))
+            {
+                glfwSetInputMode(g_editor_global_context.m_window_system->getWindow(), GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+            }
+            else
+            {
+                glfwSetInputMode(g_editor_global_context.m_window_system->getWindow(), GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+            }
+        }
         
+
     }
 }

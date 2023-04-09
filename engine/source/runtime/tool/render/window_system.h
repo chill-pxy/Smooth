@@ -30,8 +30,10 @@ namespace Smooth
         void              swapBuffers() const { glfwSwapBuffers(m_window); }
 
         typedef std::function<void(int,int,int,int)> onKeyFunc;
+        typedef std::function<void(double, double)> onCursorPosFunc;
 
         void registerOnKeyFunc(onKeyFunc func) { m_onKeyFunc.push_back(func); }
+        void registerOnCursorPosFunc(onCursorPosFunc func) { m_onCursorFunc.push_back(func); }
 
         bool isMouseButtonDown(int button) const
         {
@@ -56,9 +58,10 @@ namespace Smooth
         GLFWwindow* m_window {nullptr};
         int         m_width {0};
         int         m_height {0};  
-            
+
         bool m_is_focus_mode{false};
 
-        std::vector<onKeyFunc> m_onKeyFunc;
+        std::vector<onKeyFunc>       m_onKeyFunc;
+        std::vector<onCursorPosFunc> m_onCursorFunc;
     };
 }

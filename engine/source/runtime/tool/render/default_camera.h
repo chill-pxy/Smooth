@@ -13,6 +13,14 @@ namespace Smooth
     const float DEFAULT_SENSITIVITY { 0.1f };
     const float DEFAULT_ZOOM { 45.0f };
 
+    enum CameraMovement
+    {
+        FORWARD,
+        BACKWARD,
+        LEFT,
+        RIGHT,
+    };
+
     class DefaultCamera
     {
     public:
@@ -40,6 +48,7 @@ namespace Smooth
         
         mat4 GetViewMatrix();
         void ProcessMouseMovement(float xoffset, float yoffset, GLboolean constrainPitch = true);
+        void ProcessKeyboard(CameraMovement direction);
 
     private:
         void UpdateCameraVectors();

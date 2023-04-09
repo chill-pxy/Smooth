@@ -55,4 +55,17 @@ namespace Smooth
         UpdateCameraVectors();
     }
 
+    void DefaultCamera::ProcessKeyboard(CameraMovement direction)
+    {
+        float velocity = m_movement_speed;
+        if(direction == CameraMovement::FORWARD)
+            m_position += m_front * velocity;
+        if(direction == CameraMovement::BACKWARD)
+            m_position -= m_front * velocity;
+        if(direction == CameraMovement::LEFT)
+            m_position -= m_right * velocity;
+        if(direction == CameraMovement::RIGHT)
+            m_position += m_right * velocity;
+    }
+
 }

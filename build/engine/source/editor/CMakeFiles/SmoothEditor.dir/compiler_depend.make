@@ -260,6 +260,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cp
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
   ../engine/source/runtime/tool/render/default_camera.h \
+  ../engine/3rdparty/glad/include/glad/glad.h \
+  ../engine/3rdparty/glad/include/KHR/khrplatform.h \
   ../engine/source/runtime/core/math.h \
   ../engine/3rdparty/glm/glm/glm.hpp \
   ../engine/3rdparty/glm/glm/detail/_fixes.hpp \
@@ -617,6 +619,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
   ../engine/source/runtime/tool/render/default_camera.h \
+  ../engine/3rdparty/glad/include/glad/glad.h \
+  ../engine/3rdparty/glad/include/KHR/khrplatform.h \
   ../engine/source/runtime/core/math.h \
   ../engine/3rdparty/glm/glm/glm.hpp \
   ../engine/3rdparty/glm/glm/detail/_fixes.hpp \
@@ -860,10 +864,40 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp
   ../engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
   ../engine/3rdparty/glm/glm/gtx/hash.inl \
   ../engine/source/editor/include/editor_global_context.h \
+  ../engine/source/editor/include/editor_scene_manager.h \
   ../engine/source/runtime/tool/render/window_system.h \
-  ../engine/3rdparty/glad/include/glad/glad.h \
-  ../engine/3rdparty/glad/include/KHR/khrplatform.h \
-  ../engine/3rdparty/glfw/include/GLFW/glfw3.h
+  ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
+  ../engine/source/runtime/engine.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ratio \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime \
+  F:/MinGW/x86_64-w64-mingw32/include/time.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+  F:/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/parse_numbers.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/char_traits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/localefwd.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/clocale \
+  F:/MinGW/x86_64-w64-mingw32/include/locale.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdio.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cctype \
+  F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/ostream_insert.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cxxabi_forced.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/basic_string.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string_view \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/string_view.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/string_conversions.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdio \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cerrno \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/charconv.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/basic_string.tcc
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_language.cpp.obj: ../engine/source/editor/source/editor_language.cpp \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iostream \
@@ -994,7 +1028,341 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_language.cpp.obj:
   ../engine/source/editor/include/editor_language.h
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_scene_manager.cpp.obj: ../engine/source/editor/source/editor_scene_manager.cpp \
-  ../engine/source/editor/include/editor_scene_manager.h
+  ../engine/source/editor/include/editor_scene_manager.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/memory \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_algobase.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/pstl_config.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/functexcept.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/exception_defines.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cpp_type_traits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/type_traits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/numeric_traits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_pair.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/type_traits \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/move.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/utility.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_iterator_base_types.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_iterator_base_funcs.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/concept_check.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/debug/assertions.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_iterator.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/ptr_traits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/debug/debug.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/predefined_ops.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/allocator.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/new_allocator.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/new \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/exception.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/memoryfwd.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_construct.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_uninitialized.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/alloc_traits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/alloc_traits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_tempbuf.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_raw_storage_iter.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/align.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bit \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/uses_allocator.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/unique_ptr.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tuple \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/invoke.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_function.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward/binders.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/functional_hash.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/hash_bytes.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iosfwd \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stringfwd.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/postypes.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cwchar \
+  F:/MinGW/x86_64-w64-mingw32/include/wchar.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  F:/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_base.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/typeinfo \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/allocated_ptr.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/refwrap.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/aligned_buffer.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/atomicity.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  F:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/concurrence.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/exception \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/exception_ptr.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cxxabi_init_exception.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/nested_exception.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_atomic.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/atomic_base.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/atomic_lockfree_defines.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward/auto_ptr.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
+  ../engine/source/runtime/tool/render/default_camera.h \
+  ../engine/3rdparty/glad/include/glad/glad.h \
+  ../engine/3rdparty/glad/include/KHR/khrplatform.h \
+  ../engine/source/runtime/core/math.h \
+  ../engine/3rdparty/glm/glm/glm.hpp \
+  ../engine/3rdparty/glm/glm/detail/_fixes.hpp \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cmath \
+  F:/MinGW/x86_64-w64-mingw32/include/math.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/std_abs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/limits.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/stdlib.h \
+  F:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/specfun.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/limits \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/gamma.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/special_function_util.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/bessel_function.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/beta_function.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/ell_integral.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/exp_integral.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/hypergeometric.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/legendre_function.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/modified_bessel_func.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/poly_hermite.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/poly_laguerre.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/riemann_zeta.tcc \
+  ../engine/3rdparty/glm/glm/detail/setup.hpp \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
+  F:/MinGW/x86_64-w64-mingw32/include/assert.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdlib \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstddef \
+  ../engine/3rdparty/glm/glm/simd/platform.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdint \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/climits \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cfloat \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+  F:/MinGW/x86_64-w64-mingw32/include/float.h \
+  ../engine/3rdparty/glm/glm/fwd.hpp \
+  ../engine/3rdparty/glm/glm/detail/qualifier.hpp \
+  ../engine/3rdparty/glm/glm/detail/setup.hpp \
+  ../engine/3rdparty/glm/glm/vec2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec2.inl \
+  ../engine/3rdparty/glm/glm/detail/compute_vector_relational.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int2_sized.hpp \
+  ../engine/3rdparty/glm/glm/ext/scalar_int_sized.hpp \
+  ../engine/3rdparty/glm/glm/detail/setup.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint2.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint2_sized.hpp \
+  ../engine/3rdparty/glm/glm/ext/scalar_uint_sized.hpp \
+  ../engine/3rdparty/glm/glm/vec3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec3.inl \
+  ../engine/3rdparty/glm/glm/ext/vector_bool3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int3_sized.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint3.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint3_sized.hpp \
+  ../engine/3rdparty/glm/glm/vec4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec4.inl \
+  ../engine/3rdparty/glm/glm/ext/vector_bool4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int4_sized.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint4.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint4_sized.hpp \
+  ../engine/3rdparty/glm/glm/mat2x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x2.inl \
+  ../engine/3rdparty/glm/glm/matrix.hpp \
+  ../engine/3rdparty/glm/glm/mat2x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x3.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat2x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat2x4.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat3x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x2.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat3x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x3.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat3x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat3x4.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double3x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float3x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat4x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x2.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x2.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat4x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x3.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x3.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x3.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x3_precision.hpp \
+  ../engine/3rdparty/glm/glm/mat4x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x4.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_mat4x4.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_double4x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x4.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float4x4_precision.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_matrix.inl \
+  ../engine/3rdparty/glm/glm/geometric.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_geometric.inl \
+  ../engine/3rdparty/glm/glm/exponential.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec1.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_vec1.inl \
+  ../engine/3rdparty/glm/glm/detail/func_exponential.inl \
+  ../engine/3rdparty/glm/glm/vector_relational.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_vector_relational.inl \
+  ../engine/3rdparty/glm/glm/detail/_vectorize.hpp \
+  ../engine/3rdparty/glm/glm/common.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_common.inl \
+  ../engine/3rdparty/glm/glm/detail/compute_common.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_double2x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x2.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_float2x2_precision.hpp \
+  ../engine/3rdparty/glm/glm/trigonometric.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_trigonometric.inl \
+  ../engine/3rdparty/glm/glm/packing.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_packing.inl \
+  ../engine/3rdparty/glm/glm/detail/type_half.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_half.inl \
+  ../engine/3rdparty/glm/glm/integer.hpp \
+  ../engine/3rdparty/glm/glm/detail/func_integer.inl \
+  ../engine/3rdparty/glm/glm/gtc/matrix_transform.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_projection.hpp \
+  ../engine/3rdparty/glm/glm/gtc/constants.hpp \
+  ../engine/3rdparty/glm/glm/ext/scalar_constants.hpp \
+  ../engine/3rdparty/glm/glm/ext/scalar_constants.inl \
+  ../engine/3rdparty/glm/glm/gtc/constants.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_projection.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_clip_space.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_clip_space.inl \
+  ../engine/3rdparty/glm/glm/ext/matrix_transform.hpp \
+  ../engine/3rdparty/glm/glm/ext/matrix_transform.inl \
+  ../engine/3rdparty/glm/glm/gtc/matrix_transform.inl \
+  ../engine/3rdparty/glm/glm/gtc/quaternion.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_relational.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_relational.inl \
+  ../engine/3rdparty/glm/glm/detail/type_float.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_common.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_geometric.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_geometric.inl \
+  ../engine/3rdparty/glm/glm/ext/quaternion_common.inl \
+  ../engine/3rdparty/glm/glm/ext/quaternion_float.hpp \
+  ../engine/3rdparty/glm/glm/detail/type_quat.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_relational.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_relational.inl \
+  ../engine/3rdparty/glm/glm/detail/type_quat.inl \
+  ../engine/3rdparty/glm/glm/ext/quaternion_float_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_double.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_double_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_trigonometric.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_trigonometric.inl \
+  ../engine/3rdparty/glm/glm/ext/quaternion_transform.hpp \
+  ../engine/3rdparty/glm/glm/ext/quaternion_transform.inl \
+  ../engine/3rdparty/glm/glm/gtc/quaternion.inl \
+  ../engine/3rdparty/glm/glm/gtc/epsilon.hpp \
+  ../engine/3rdparty/glm/glm/detail/setup.hpp \
+  ../engine/3rdparty/glm/glm/gtc/epsilon.inl \
+  ../engine/3rdparty/glm/glm/gtx/hash.hpp \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/functional \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/std_function.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/unordered_map \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/initializer_list \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/hashtable.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/hashtable_policy.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/enable_special_members.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/node_handle.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/unordered_map.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/range_access.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/erase_if.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/vector \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_vector.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_bvector.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/vector.tcc \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/array \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/compare \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_algo.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/algorithmfwd.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_heap.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/uniform_int_dist.h \
+  ../engine/3rdparty/glm/glm/gtc/vec1.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool1.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_bool1_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float1.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_float1_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double1.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_double1_precision.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int1.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_int1_sized.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint1.hpp \
+  ../engine/3rdparty/glm/glm/ext/vector_uint1_sized.hpp \
+  ../engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp \
+  ../engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
+  ../engine/3rdparty/glm/glm/gtx/hash.inl
 
 engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: ../engine/source/editor/source/editor_ui.cpp \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/math.h \
@@ -1265,6 +1633,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: ../en
   ../engine/source/editor/include/editor_global_context.h \
   ../engine/source/editor/include/editor_input_manager.h \
   ../engine/source/runtime/tool/render/default_camera.h \
+  ../engine/3rdparty/glad/include/glad/glad.h \
+  ../engine/3rdparty/glad/include/KHR/khrplatform.h \
   ../engine/source/runtime/core/math.h \
   ../engine/3rdparty/glm/glm/glm.hpp \
   ../engine/3rdparty/glm/glm/detail/_fixes.hpp \
@@ -1507,8 +1877,6 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: ../en
   ../engine/source/runtime/engine.h \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
   ../engine/source/runtime/tool/render/window_system.h \
-  ../engine/3rdparty/glad/include/glad/glad.h \
-  ../engine/3rdparty/glad/include/KHR/khrplatform.h \
   ../engine/3rdparty/glfw/include/GLFW/glfw3.h \
   ../engine/source/runtime/tool/render/render_system.h \
   ../engine/source/runtime/tool/render/render_pipeline_base.h \
@@ -1862,13 +2230,13 @@ F:/MinGW/x86_64-w64-mingw32/include/malloc.h:
 
 F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/new:
 
-../engine/3rdparty/glm/glm/mat4x3.hpp:
-
-../engine/3rdparty/glad/include/glad/glad.h:
-
 F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/type_traits:
 
 ../engine/3rdparty/glm/glm/detail/type_vec1.inl:
+
+../engine/3rdparty/glad/include/glad/glad.h:
+
+../engine/3rdparty/glm/glm/mat4x3.hpp:
 
 F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/nested_exception.h:
 
@@ -2221,6 +2589,8 @@ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/parse_numbers.h:
 F:/MinGW/x86_64-w64-mingw32/include/assert.h:
 
 ../engine/source/editor/include/editor_input_manager.h:
+
+../engine/3rdparty/glad/include/KHR/khrplatform.h:
 
 ../engine/source/runtime/core/math.h:
 
@@ -2617,8 +2987,6 @@ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_facets_nonio.
 ../engine/3rdparty/glm/glm/gtx/hash.inl:
 
 ../engine/source/runtime/tool/render/window_system.h:
-
-../engine/3rdparty/glad/include/KHR/khrplatform.h:
 
 ../engine/source/editor/source/editor_language.cpp:
 
