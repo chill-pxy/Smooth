@@ -37,17 +37,18 @@ namespace Smooth
         }
 
         glfwMakeContextCurrent(m_window);
+        if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress))
+        {
+            std::cout << "failed to load opengl";
+        }
+
+        glViewport(0,0,m_width,m_height);
         glfwSetWindowUserPointer(m_window,this);
         glfwSetKeyCallback(m_window,keyCallback);
         glfwSetWindowSizeCallback(m_window,windowSizeCallback);
         glfwSetWindowCloseCallback(m_window,windowCloseCallback);
 
-        glfwSwapInterval(1);
-
-        if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress))
-        {
-            std::cout << "failed to load opengl";
-        }
+        glfwSwapInterval(1);     
     }
 
     //-------------------------------------------------------------------------------

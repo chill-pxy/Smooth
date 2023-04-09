@@ -34,4 +34,9 @@ namespace Smooth
     {
         m_render_pipeline->initializeRenderBackend(window_ui);
     }
+
+    void RenderSystem::updateEngineContentViewport(float offset_x, float offset_y, float width, float height)
+    {
+        glViewport(offset_x, offset_y, width, height);
+    }
 }

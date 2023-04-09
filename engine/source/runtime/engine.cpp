@@ -9,6 +9,8 @@
 
 namespace Smooth
 {
+    bool g_is_editor_mode {false};
+
     void SmoothEngine::startEngine(const std::string& config_file_path)
     {
         g_runtime_global_context.startSystems(config_file_path);

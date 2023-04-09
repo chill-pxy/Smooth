@@ -33,6 +33,18 @@ namespace Smooth
 
         void registerOnKeyFunc(onKeyFunc func) { m_onKeyFunc.push_back(func); }
 
+        bool isMouseButtonDown(int button) const
+        {
+            if(button < GLFW_MOUSE_BUTTON_1 || button > GLFW_MOUSE_BUTTON_LAST)
+            {
+                return false;
+            }
+            return glfwGetMouseButton(m_window, button) == GLFW_PRESS;
+        }
+
+        bool getFocusMode() const { return m_is_focus_mode; }
+        void setFocusMode(bool mode);
+
     protected:
         static void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
         static void windowSizeCallback(GLFWwindow* window, int width, int height);
@@ -43,7 +55,9 @@ namespace Smooth
     private:
         GLFWwindow* m_window {nullptr};
         int         m_width {0};
-        int         m_height {0};
+        int         m_height {0};  
+            
+        bool m_is_focus_mode{false};
 
         std::vector<onKeyFunc> m_onKeyFunc;
     };

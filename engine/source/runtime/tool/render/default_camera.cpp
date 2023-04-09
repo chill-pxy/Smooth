@@ -34,4 +34,25 @@ namespace Smooth
         m_up    = normalize(cross(m_right,m_right));
     }
 
+    void DefaultCamera::ProcessMouseMovement(float xoffset, float yoffset, GLboolean constrainPitch)
+    {
+        xoffset *= m_mouse_sensitivity;
+        yoffset *= m_mouse_sensitivity;
+
+        m_yaw   += xoffset;
+        m_pitch += yoffset;
+
+        // make sure that when m_pitch is out of bounds, screen doesn't get flipped
+        if (constrainPitch)
+        {
+            if (m_pitch > 89.0f)
+                m_pitch = 89.0f;
+            if (m_pitch < -89.0f)
+                m_pitch = -89.0f;
+        }
+
+        // update Front, Right and Up Vectors using the updated Euler angles
+        UpdateCameraVectors();
+    }
+
 }

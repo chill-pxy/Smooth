@@ -692,6 +692,19 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/RHI/opengl_rhi.cp
 
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cpp.obj: ../engine/source/runtime/tool/render/default_camera.cpp \
   ../engine/source/runtime/tool/render/default_camera.h \
+  ../engine/3rdparty/glad/include/glad/glad.h \
+  ../engine/3rdparty/glad/include/KHR/khrplatform.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
   ../engine/source/runtime/core/math.h \
   ../engine/3rdparty/glm/glm/glm.hpp \
   ../engine/3rdparty/glm/glm/detail/_fixes.hpp \
@@ -703,13 +716,6 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cp
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cpp_type_traits.h \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/type_traits.h \
   F:/MinGW/x86_64-w64-mingw32/include/math.h \
-  F:/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
-  F:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
-  F:/MinGW/x86_64-w64-mingw32/include/_mingw.h \
-  F:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
-  F:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  F:/MinGW/x86_64-w64-mingw32/include/vadefs.h \
-  F:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/std_abs.h \
   F:/MinGW/x86_64-w64-mingw32/include/stdlib.h \
   F:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
@@ -756,12 +762,8 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/default_camera.cp
   F:/MinGW/x86_64-w64-mingw32/include/assert.h \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdlib \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstddef \
-  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
-  F:/MinGW/x86_64-w64-mingw32/include/stddef.h \
   ../engine/3rdparty/glm/glm/simd/platform.h \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdint \
-  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
-  F:/MinGW/x86_64-w64-mingw32/include/stdint.h \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/climits \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cfloat \
   F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \

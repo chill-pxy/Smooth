@@ -31,6 +31,7 @@ namespace Smooth
         void clear();
 
         void initializeUIRenderBackend(WindowUI* window_ui);
+        void updateEngineContentViewport(float offset_x, float offset_y, float width, float height);
     
     private:
         std::shared_ptr<RenderPipelineBase> m_render_pipeline;

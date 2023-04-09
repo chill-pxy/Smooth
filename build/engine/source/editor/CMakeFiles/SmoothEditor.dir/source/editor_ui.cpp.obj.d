@@ -268,6 +268,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_global_context.h \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_input_manager.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/core/math.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/glm.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/detail/_fixes.hpp \
@@ -510,8 +512,6 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/window_system.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_system.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline_base.h \

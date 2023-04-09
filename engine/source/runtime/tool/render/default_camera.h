@@ -1,3 +1,7 @@
+#pragma once
+
+#include "glad/glad.h"
+
 #include "runtime/core/math.h"
 
 namespace Smooth
@@ -35,6 +39,7 @@ namespace Smooth
                         float yaw, float pitch);
         
         mat4 GetViewMatrix();
+        void ProcessMouseMovement(float xoffset, float yoffset, GLboolean constrainPitch = true);
 
     private:
         void UpdateCameraVectors();

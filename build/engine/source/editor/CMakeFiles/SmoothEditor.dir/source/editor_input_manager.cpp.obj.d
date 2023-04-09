@@ -91,6 +91,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/core/math.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/glm.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/detail/_fixes.hpp \
@@ -334,7 +336,37 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_global_context.h \
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/window_system.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ratio \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime \
+ F:/MinGW/x86_64-w64-mingw32/include/time.h \
+ F:/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
+ F:/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ F:/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+ F:/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/parse_numbers.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/char_traits.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/localefwd.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/clocale \
+ F:/MinGW/x86_64-w64-mingw32/include/locale.h \
+ F:/MinGW/x86_64-w64-mingw32/include/stdio.h \
+ F:/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cctype \
+ F:/MinGW/x86_64-w64-mingw32/include/ctype.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/ostream_insert.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cxxabi_forced.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/basic_string.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string_view \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/string_view.tcc \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/string_conversions.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdio \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cerrno \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/charconv.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/basic_string.tcc

@@ -92,6 +92,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_global_context.cp
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/core/math.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/glm.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/detail/_fixes.hpp \

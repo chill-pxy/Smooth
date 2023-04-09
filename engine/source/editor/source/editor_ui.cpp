@@ -313,6 +313,9 @@ namespace Smooth
         render_target_window_size.x = ImGui::GetWindowSize().x;
         render_target_window_size.y = (ImGui::GetWindowSize().y + ImGui::GetWindowPos().y) - menu_bar_rect.Max.y;
 
+        g_runtime_global_context.m_render_system->updateEngineContentViewport(
+            render_target_window_pos.x, render_target_window_pos.y, render_target_window_size.x, render_target_window_size.y);
+
         g_editor_global_context.m_input_manager->setEngineWindowPos(render_target_window_pos);
         g_editor_global_context.m_input_manager->setEngineWinowSize(render_target_window_size);
 

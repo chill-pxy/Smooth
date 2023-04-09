@@ -16,7 +16,7 @@ namespace Smooth
         virtual void deferredRender() override final;
     
     private:
-        Shader* m_skybox_shader;
+        Shader m_skybox_shader;
         Skybox m_skybox;
         DefaultCamera* m_default_camera;
     };
