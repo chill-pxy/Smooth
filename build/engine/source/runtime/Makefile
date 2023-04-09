@@ -391,6 +391,30 @@ tool/render/legacy/shader.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/shader.cpp.s
 .PHONY : tool/render/legacy/shader.cpp.s
 
+tool/render/legacy/skybox.obj: tool/render/legacy/skybox.cpp.obj
+.PHONY : tool/render/legacy/skybox.obj
+
+# target to build an object file
+tool/render/legacy/skybox.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/skybox.cpp.obj
+.PHONY : tool/render/legacy/skybox.cpp.obj
+
+tool/render/legacy/skybox.i: tool/render/legacy/skybox.cpp.i
+.PHONY : tool/render/legacy/skybox.i
+
+# target to preprocess a source file
+tool/render/legacy/skybox.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/skybox.cpp.i
+.PHONY : tool/render/legacy/skybox.cpp.i
+
+tool/render/legacy/skybox.s: tool/render/legacy/skybox.cpp.s
+.PHONY : tool/render/legacy/skybox.s
+
+# target to generate assembly for a file
+tool/render/legacy/skybox.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/legacy/skybox.cpp.s
+.PHONY : tool/render/legacy/skybox.cpp.s
+
 tool/render/legacy/texture.obj: tool/render/legacy/texture.cpp.obj
 .PHONY : tool/render/legacy/texture.obj
 
@@ -647,6 +671,9 @@ help:
 	@echo ... tool/render/legacy/shader.obj
 	@echo ... tool/render/legacy/shader.i
 	@echo ... tool/render/legacy/shader.s
+	@echo ... tool/render/legacy/skybox.obj
+	@echo ... tool/render/legacy/skybox.i
+	@echo ... tool/render/legacy/skybox.s
 	@echo ... tool/render/legacy/texture.obj
 	@echo ... tool/render/legacy/texture.i
 	@echo ... tool/render/legacy/texture.s

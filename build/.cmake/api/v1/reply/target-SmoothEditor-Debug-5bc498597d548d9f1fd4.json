@@ -89,7 +89,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad"
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include"
 				},
 				{
 					"backtrace" : 2,
@@ -98,10 +98,6 @@
 				{
 					"backtrace" : 2,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/source/runtime"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include"
 				},
 				{
 					"backtrace" : 2,

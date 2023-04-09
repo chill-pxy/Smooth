@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SmoothRuntime.dir/tool/render/legacy/model.cpp.obj.d"
   "CMakeFiles/SmoothRuntime.dir/tool/render/legacy/shader.cpp.obj"
   "CMakeFiles/SmoothRuntime.dir/tool/render/legacy/shader.cpp.obj.d"
+  "CMakeFiles/SmoothRuntime.dir/tool/render/legacy/skybox.cpp.obj"
+  "CMakeFiles/SmoothRuntime.dir/tool/render/legacy/skybox.cpp.obj.d"
   "CMakeFiles/SmoothRuntime.dir/tool/render/legacy/texture.cpp.obj"
   "CMakeFiles/SmoothRuntime.dir/tool/render/legacy/texture.cpp.obj.d"
   "CMakeFiles/SmoothRuntime.dir/tool/render/passes/ui_pass.cpp.obj"

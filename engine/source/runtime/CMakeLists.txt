@@ -29,7 +29,7 @@ target_link_libraries(
 
 target_include_directories(
   ${TARGET_NAME}
-  PUBLIC $<BUILD_INTERFACE:${THIRD_PARTY_DIR}/glad>)
+  PUBLIC $<BUILD_INTERFACE:${THIRD_PARTY_DIR}/glad/include>)
 
 target_include_directories(
   ${TARGET_NAME} 

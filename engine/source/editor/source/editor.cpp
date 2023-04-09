@@ -25,13 +25,13 @@ namespace Smooth
                                         g_runtime_global_context.m_render_system};
         m_editor_ui->initialize(ui_init_info);
         
-        std::cout<<"±à¼­Æ÷³õÊ¼»¯"<<std::endl;
+        std::cout<<"editor initialize"<<std::endl;
     }
 
     void SmoothEditor::clear()
     {
         g_editor_global_context.clear();
-        std::cout<<"±à¼­Æ÷¹Ø±Õ"<<std::endl;
+        std::cout<<"editor clear"<<std::endl;
     }
 
     void SmoothEditor::run()
@@ -39,7 +39,7 @@ namespace Smooth
         assert(m_engine_runtime);
         assert(m_editor_ui);
 
-        std::cout<<"±à¼­Æ÷Æô¶¯"<<std::endl;
+        std::cout<<"editor run"<<std::endl;
 
         float delta_time;
         while(true)

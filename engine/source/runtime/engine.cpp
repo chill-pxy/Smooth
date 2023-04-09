@@ -12,13 +12,13 @@ namespace Smooth
     void SmoothEngine::startEngine(const std::string& config_file_path)
     {
         g_runtime_global_context.startSystems(config_file_path);
-        std::cout<<"引擎启动"<<std::endl;
+        std::cout<<"engine started"<<std::endl;
     }
 
     void SmoothEngine::shutdownEngine()
     {
-        g_runtime_global_context.shudownSystems();
-        std::cout<<"引擎关闭"<<std::endl;
+        g_runtime_global_context.shutdownSystems();
+        std::cout<<"engine shudown"<<std::endl;
     }
 
     //--------------------------------------------------------------------------

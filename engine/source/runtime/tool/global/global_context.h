@@ -14,7 +14,7 @@ namespace Smooth
     {
     public:
         void startSystems(const std::string& config_file_path);
-        void shudownSystems();
+        void shutdownSystems();
     
     public:
         std::shared_ptr<WindowSystem>  m_window_system;

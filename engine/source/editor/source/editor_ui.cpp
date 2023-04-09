@@ -26,8 +26,6 @@
 #include "runtime/tool/render/window_system.h"
 #include "runtime/tool/render/render_system.h"
 
-#include "engine.h"
-
 namespace Smooth
 {
 
@@ -59,6 +57,11 @@ namespace Smooth
         //create imgui context
         IMGUI_CHECKVERSION();
         ImGui::CreateContext();
+
+        if(!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress))
+        {
+            std::cout<<"failed to load opengl"<<std::endl;
+        }
 
         ImGui_ImplGlfw_InitForOpenGL(init_info.window_system->getWindow(), true);
         ImGui_ImplOpenGL3_Init("#version 330");

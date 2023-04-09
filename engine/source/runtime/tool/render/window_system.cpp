@@ -14,7 +14,7 @@ namespace Smooth
     {
         if(!glfwInit())
         {
-            std::cout<<"无法初始化GLFW"<<std::endl;
+            std::cout<<"failed to init GLFW"<<std::endl;
             return;
         }
 
@@ -32,17 +32,22 @@ namespace Smooth
                                   nullptr);
         if(!m_window)
         {
-            std::cout<<"无法创建窗口"<<std::endl;
+            std::cout<<"failed to creat window"<<std::endl;
             return;
         }
 
+        glfwMakeContextCurrent(m_window);
         glfwSetWindowUserPointer(m_window,this);
         glfwSetKeyCallback(m_window,keyCallback);
         glfwSetWindowSizeCallback(m_window,windowSizeCallback);
         glfwSetWindowCloseCallback(m_window,windowCloseCallback);
 
-        glfwMakeContextCurrent(m_window);
         glfwSwapInterval(1);
+
+        if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress))
+        {
+            std::cout << "failed to load opengl";
+        }
     }
 
     //-------------------------------------------------------------------------------

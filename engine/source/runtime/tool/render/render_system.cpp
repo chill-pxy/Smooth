@@ -21,6 +21,7 @@ namespace Smooth
     void RenderSystem::tick(float delta_time)
     {
         assert(m_render_pipeline);
+        m_render_pipeline->forwardRender();
         m_render_pipeline->deferredRender();
     }
 

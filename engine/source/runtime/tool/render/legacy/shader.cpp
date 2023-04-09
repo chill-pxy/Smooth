@@ -44,6 +44,7 @@ namespace Smooth
         {
             std::cout << "ERROR::SHADER::FILE_NOT_SUCCESFULLY_READ" << std::endl;
         }
+
         const char* vShaderCode = vertexCode.c_str();
         const char * fShaderCode = fragmentCode.c_str();
         // 2. compile shaders
@@ -58,6 +59,7 @@ namespace Smooth
         glShaderSource(fragment, 1, &fShaderCode, NULL);
         glCompileShader(fragment);
         checkCompileErrors(fragment, "FRAGMENT");
+ 
         // if geometry shader is given, compile geometry shader
         unsigned int geometry;
         if(geometryPath != nullptr)
@@ -68,6 +70,7 @@ namespace Smooth
             glCompileShader(geometry);
             checkCompileErrors(geometry, "GEOMETRY");
         }
+
         // shader Program
         ID = glCreateProgram();
         glAttachShader(ID, vertex);
