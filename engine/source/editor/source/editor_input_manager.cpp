@@ -1,6 +1,10 @@
 #include "editor_input_manager.h"
 #include "editor_global_context.h"
+#include "editor_scene_manager.h"
+
 #include "runtime/tool/render/window_system.h"
+
+#include "engine.h"
 
 namespace Smooth
 {
@@ -24,6 +28,14 @@ namespace Smooth
     }
 
     void EditorInputManager::onKey(int key, int scancode, int action, int mods)
+    {
+        if(g_is_editor_mode)
+        {
+            onKeyInEditorMode(key, scancode, action, mods);
+        }
+    }
+
+    void EditorInputManager::onKeyInEditorMode(int key, int scancode, int action, int mods)
     {
         if(action == GLFW_PRESS)
         {
@@ -64,5 +76,14 @@ namespace Smooth
                 break;
             }
         }
+    }
+
+    void EditorInputManager::onCursorPos(double xpos, double ypos)
+    {
+        if(!g_is_editor_mode)
+            return;
+        
+        g_editor_global_context.m_scene_manager->getEditorCamera()->ProcessMouseMovement(xpos, ypos);
+        
     }
 }
