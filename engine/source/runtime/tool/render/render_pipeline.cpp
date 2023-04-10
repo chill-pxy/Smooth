@@ -18,7 +18,6 @@ namespace Smooth
         Skybox skybox;
         m_skybox = skybox;
 
-        m_default_camera = new DefaultCamera(vec3(0.0f, 0.0f, 0.0f));
     }
 
     void RenderPipeline::forwardRender()
@@ -27,13 +26,16 @@ namespace Smooth
 		glClear(GL_COLOR_BUFFER_BIT);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        mat4 projection = perspective(radians(m_default_camera->m_zoom),
+        mat4 projection = perspective(radians(g_editor_global_context.m_scene_manager->getEditorCamera()->m_zoom),
         (float)g_runtime_global_context.m_window_system->getWindowWidth() / 
         (float)g_runtime_global_context.m_window_system->getWindwoHeight(),
         0.1f , 100.0f);
-        mat4 view       = m_default_camera->GetViewMatrix();
-        vec3 postion    = m_default_camera->m_position;
+        mat4 view       = g_editor_global_context.m_scene_manager->getEditorCamera()->GetViewMatrix();
+        vec3 postion    = g_editor_global_context.m_scene_manager->getEditorCamera()->m_position;
 
+        std::cout<<postion[0]<<std::endl;
+        std::cout<<postion[1]<<std::endl;
+        std::cout<<postion[2]<<std::endl;
         m_skybox.draw(m_skybox_shader, projection, view);
     }
 

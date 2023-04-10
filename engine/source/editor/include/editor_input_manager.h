@@ -43,6 +43,10 @@ namespace Smooth
         void setEngineWindowPos(vec2 new_window_pos) {m_engine_window_pos = new_window_pos;}
         void setEngineWinowSize(vec2 new_window_size) {m_engine_window_size = new_window_size;}
 
+        void resetEditorCommand() { m_editor_command = 0; }
+
+        float getCameraSpeed() {return m_camera_speed;}
+
     private:
         unsigned int m_editor_command {0};
 

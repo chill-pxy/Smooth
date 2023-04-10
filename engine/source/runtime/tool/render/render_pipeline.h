@@ -4,7 +4,9 @@
 
 #include "runtime/tool/render/legacy/skybox.h"
 #include "runtime/tool/render/legacy/shader.h"
-#include "runtime/tool/render/default_camera.h"
+
+#include "editor/include/editor_scene_manager.h"
+#include "editor/include/editor_global_context.h"
 
 namespace Smooth
 {
@@ -18,6 +20,5 @@ namespace Smooth
     private:
         Shader m_skybox_shader;
         Skybox m_skybox;
-        DefaultCamera* m_default_camera;
     };
 }

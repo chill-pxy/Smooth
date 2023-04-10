@@ -20,7 +20,7 @@ namespace Smooth
         window_system->registerOnCursorPosFunc(std::bind(&InputSystem::onCursorPos,
                                                     this,
                                                     std::placeholders::_1,
-                                                    std::placeholders::_2))
+                                                    std::placeholders::_2));
     }
 
     void InputSystem::tick()

@@ -157,11 +157,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "glfw::@5aec3c3994f13e9ca945"
+			"id" : "tinyobjloader::@2040b85fa92506764563"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "tinyobjloader::@2040b85fa92506764563"
+			"id" : "glfw::@5aec3c3994f13e9ca945"
 		},
 		{
 			"backtrace" : 2,

@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "editor_input_manager.h"
 #include "editor_global_context.h"
 #include "editor_scene_manager.h"
@@ -41,7 +43,6 @@ namespace Smooth
         {
             g_editor_global_context.m_scene_manager->getEditorCamera()->ProcessKeyboard(CameraMovement::RIGHT);
         }   
-
     }
 
     void EditorInputManager::onKey(int key, int scancode, int action, int mods)

@@ -30,6 +30,7 @@ namespace Smooth
         std::string SCALE;
 
         std::string EDITOR_MODE;
+        std::string DISPLAY_MODE;
 
         std::string NAME;
         std::string TYPE;

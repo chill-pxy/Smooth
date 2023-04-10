@@ -25,6 +25,7 @@
 
 #include "runtime/tool/render/window_system.h"
 #include "runtime/tool/render/render_system.h"
+#include "runtime/tool/input/input_system.h"
 
 namespace Smooth
 {
@@ -293,16 +294,41 @@ namespace Smooth
             indent_val = g_editor_global_context.m_input_manager->getEngineWindowSize().x - 100.0f * indent_scale;
         
             ImGui::Indent(indent_val);
-            ImGui::PushID(m_editor_text.EDITOR_MODE.c_str());
-            if(ImGui::Button(m_editor_text.EDITOR_MODE.c_str()))
+            if(g_is_editor_mode)
             {
-
+                ImGui::PushID(m_editor_text.EDITOR_MODE.c_str());
+                if(ImGui::Button(m_editor_text.EDITOR_MODE.c_str()))
+                {
+                    g_is_editor_mode = false;
+                    g_editor_global_context.m_input_manager->resetEditorCommand();
+                    g_editor_global_context.m_window_system->setFocusMode(true);
+                }
+                ImGui::PopID();
             }
-            ImGui::PopID();
+            else
+            {
+                if(ImGui::Button(m_editor_text.DISPLAY_MODE.c_str()))
+                {
+                    g_is_editor_mode = true;
+                    g_runtime_global_context.m_input_system->resetDisplayCommand();
+                }
+            }
+            
             ImGui::Unindent();
             ImGui::EndMenuBar();
         }
 
+        if (!g_is_editor_mode)
+        {
+            ImGui::TextColored(ImVec4(1.0f, 0.0f, 0.0f, 1.0f), "Press Left Alt key to display the mouse cursor!");
+        }
+        else
+        {
+            ImGui::TextColored(ImVec4(0.0f, 1.0f, 0.0f, 1.0f),
+                               "Current editor camera move speed: [%f]",
+                               g_editor_global_context.m_input_manager->getCameraSpeed());
+        }
+        
         vec2 render_target_window_pos  = {0.0f, 0.0f};
         vec2 render_target_window_size = {0.0f, 0.0f};
 

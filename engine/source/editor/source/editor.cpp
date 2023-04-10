@@ -3,6 +3,8 @@
 #include "editor.h"
 #include "editor_ui.h"
 #include "editor_global_context.h"
+#include "editor_input_manager.h"
+#include "editor_scene_manager.h"
 
 #include "runtime/engine.h"
 #include "runtime/tool/global/global_context.h"
@@ -46,6 +48,8 @@ namespace Smooth
         while(true)
         {
             delta_time=m_engine_runtime->calculateDeltaTime();
+            g_editor_global_context.m_scene_manager->tick(delta_time);
+            g_editor_global_context.m_input_manager->tick(delta_time);
             if(!m_engine_runtime->tickOneFrame(delta_time)) return;
         } 
     }

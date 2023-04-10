@@ -444,8 +444,8 @@ engine/3rdparty/tinyobjloader/CMakeFiles/uninstall.dir/clean:
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/CMakeFiles/imgui.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/CMakeFiles/glad.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/CMakeFiles/stb.dir/all
-engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target SmoothRuntime"
@@ -474,8 +474,8 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/clean:
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/CMakeFiles/imgui.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/CMakeFiles/glad.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/CMakeFiles/stb.dir/all
-engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
+engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all
 	$(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/build

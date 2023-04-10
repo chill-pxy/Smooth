@@ -74,10 +74,15 @@ namespace Smooth
         glfwSetWindowShouldClose(window,true);
     }
 
-    void  WindowSystem::onKey(int key, int scancode, int action, int mods)
+    void WindowSystem::onKey(int key, int scancode, int action, int mods)
     {
         for(auto& func : m_onKeyFunc)
             func(key,scancode,action,mods);
     }
     
+    void WindowSystem::setFocusMode(bool mode)
+    {
+        m_is_focus_mode = mode;
+        glfwSetInputMode(m_window, GLFW_CURSOR, m_is_focus_mode ? GLFW_CURSOR_DISABLED : GLFW_CURSOR_NORMAL);
+    }
 }

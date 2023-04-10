@@ -515,4 +515,5 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_ui.cpp.obj: \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_system.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline_base.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pass_base.h
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pass_base.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/input/input_system.h
