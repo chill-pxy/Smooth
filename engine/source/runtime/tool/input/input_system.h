@@ -14,7 +14,7 @@ namespace Smooth
     };
 
     extern unsigned int k_complement_control_command;
-    
+
     class InputSystem
     {
     public:
@@ -25,6 +25,7 @@ namespace Smooth
 
         void onKey(int key,int scancode,int action,int mods);
         void onCursorPos(double current_cursor_x, double current_cursor_y);
+        void onMouseButtonClicked(int key, int action, int mods);
 
         void         resetDisplayCommand() { m_display_command = 0; }
         unsigned int getDisplayCommand() const { return m_display_command; }

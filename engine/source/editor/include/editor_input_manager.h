@@ -28,6 +28,7 @@ namespace Smooth
         void initialize();
         void tick(float delta_time);
     
+    public:
         void registerInput();
         void processEditorCommand();
 
@@ -36,6 +37,7 @@ namespace Smooth
         void onCursorPos(double xpos, double ypos);
         void onCursorEnter(int entered);
         void onScroll(double xoffset, double yoffset);
+        void onMouseButtonClicked(int key, int action);
         void onWindowClosed();
 
     public:

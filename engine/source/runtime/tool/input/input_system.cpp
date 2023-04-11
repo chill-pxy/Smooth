@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "runtime/tool/global/global_context.h"
 #include "runtime/tool/input/input_system.h"
 #include "runtime/tool/render/window_system.h"
@@ -24,6 +26,11 @@ namespace Smooth
                                                     this,
                                                     std::placeholders::_1,
                                                     std::placeholders::_2));
+        window_system->registerOnMouseButton(std::bind(&InputSystem::onMouseButtonClicked,
+                                                    this,
+                                                    std::placeholders::_1,
+                                                    std::placeholders::_2,
+                                                    std::placeholders::_3));
     }
 
     void InputSystem::tick()
@@ -65,6 +72,11 @@ namespace Smooth
         }
         m_last_cursor_x = current_cursor_x;
         m_last_cursor_y = current_cursor_y;
+    }
+
+    void InputSystem::onMouseButtonClicked(int key, int action, int mods)
+    {
+
     }
 
     void InputSystem::onKeyInDisplayMode(int key, int scancode, int action, int mods)

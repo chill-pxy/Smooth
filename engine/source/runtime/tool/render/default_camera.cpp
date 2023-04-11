@@ -64,11 +64,6 @@ namespace Smooth
         float velocity = m_movement_speed;
         if(direction == CameraMovement::FORWARD)
             m_position += m_front * velocity;
-            std::cout<<m_movement_speed<<std::endl;
-            std::cout<<m_position[0]<<std::endl;
-            std::cout<<m_position[1]<<std::endl;
-            std::cout<<m_position[2]<<std::endl;
-
         if(direction == CameraMovement::BACKWARD)
             m_position -= m_front * velocity;
         if(direction == CameraMovement::LEFT)

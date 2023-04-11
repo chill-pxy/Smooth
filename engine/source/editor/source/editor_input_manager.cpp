@@ -32,6 +32,10 @@ namespace Smooth
                                                                         std::placeholders::_1));
         g_editor_global_context.m_window_system->registerOnWindowClose(std::bind(&EditorInputManager::onWindowClosed,
                                                                         this));
+        g_editor_global_context.m_window_system->registerOnMouseButton(std::bind(&EditorInputManager::onMouseButtonClicked,
+                                                                        this,
+                                                                        std::placeholders::_1,
+                                                                        std::placeholders::_2));
     }
 
     void EditorInputManager::processEditorCommand()
@@ -185,6 +189,11 @@ namespace Smooth
         {
             return;
         }
+    }
+
+    void EditorInputManager::onMouseButtonClicked(int key, int action)
+    {
+        
     }
 
     void EditorInputManager::onWindowClosed(){ g_editor_global_context.m_engine_runtime->shutdownEngine(); }

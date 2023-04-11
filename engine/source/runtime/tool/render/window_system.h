@@ -30,14 +30,16 @@ namespace Smooth
         void              swapBuffers() const { glfwSwapBuffers(m_window); }
 
         typedef std::function<void(int,int,int,int)> onKeyFunc;
-        typedef std::function<void(double, double)> onCursorPosFunc;
-        typedef std::function<void(int)>            onCursorEnterFunc;
-        typedef std::function<void()>               onWindowCloseFunc;
+        typedef std::function<void(double, double)>  onCursorPosFunc;
+        typedef std::function<void(int)>             onCursorEnterFunc;
+        typedef std::function<void()>                onWindowCloseFunc;
+        typedef std::function<void(int,int,int)>     onMouseButtonFunc;
 
         void registerOnKeyFunc(onKeyFunc func) { m_onKeyFunc.push_back(func); }
-        void registerOnCursorPosFunc(onCursorPosFunc func) { m_onCursorFunc.push_back(func); }
+        void registerOnCursorPosFunc(onCursorPosFunc func) { m_onCursorPosFunc.push_back(func); }
         void registerOnCursorEnter(onCursorEnterFunc func) { m_onCursorEnterFunc.push_back(func); }
         void registerOnWindowClose(onWindowCloseFunc func) { m_onWindowCloseFunc.push_back(func); }
+        void registerOnMouseButton(onMouseButtonFunc func) { m_onMouseButtonFunc.push_back(func);}
 
         bool isMouseButtonDown(int button) const
         {
@@ -55,8 +57,14 @@ namespace Smooth
         static void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
         static void windowSizeCallback(GLFWwindow* window, int width, int height);
         static void windowCloseCallback(GLFWwindow* window);
+        static void mouseButtonCallback(GLFWwindow* window, int button, int action, int mods);
+        static void cursorPosCallback(GLFWwindow* window, double xpos, double ypos);
+        static void cursorEnterCallback(GLFWwindow* window, int entered);
 
-        void onKey(int key, int scancode, int action, int mods);  
+        void onKey(int key, int scancode, int action, int mods);
+        void onMouseButton(int button, int action, int mods);
+        void onCursorPos(double xpos, double ypos);
+        void onCursorEnter(int entered);
 
     private:
         GLFWwindow* m_window {nullptr};
@@ -66,8 +74,9 @@ namespace Smooth
         bool m_is_focus_mode{false};
 
         std::vector<onKeyFunc>         m_onKeyFunc;
-        std::vector<onCursorPosFunc>   m_onCursorFunc;
+        std::vector<onCursorPosFunc>   m_onCursorPosFunc;
         std::vector<onCursorEnterFunc> m_onCursorEnterFunc;
         std::vector<onWindowCloseFunc> m_onWindowCloseFunc;
+        std::vector<onMouseButtonFunc> m_onMouseButtonFunc;
     };
 }
