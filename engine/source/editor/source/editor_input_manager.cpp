@@ -6,6 +6,8 @@
 
 #include "runtime/tool/render/window_system.h"
 
+#include "runtime/tool/input/input_system.h"
+
 #include "engine.h"
 
 namespace Smooth
@@ -21,12 +23,19 @@ namespace Smooth
                                                                             std::placeholders::_2,
                                                                             std::placeholders::_3,
                                                                             std::placeholders::_4));
-
+        g_editor_global_context.m_window_system->registerOnCursorPosFunc(std::bind(&EditorInputManager::onCursorPos,
+                                                                        this,
+                                                                        std::placeholders::_1,
+                                                                        std::placeholders::_2));
+        g_editor_global_context.m_window_system->registerOnCursorEnter(std::bind(&EditorInputManager::onCursorEnter,
+                                                                        this,
+                                                                        std::placeholders::_1));
+        g_editor_global_context.m_window_system->registerOnWindowClose(std::bind(&EditorInputManager::onWindowClosed,
+                                                                        this));
     }
 
     void EditorInputManager::processEditorCommand()
     {
-        float camera_speed = m_camera_speed;
         if((unsigned int)EditorCommand::camera_foward & m_editor_command)
         {
             g_editor_global_context.m_scene_manager->getEditorCamera()->ProcessKeyboard(CameraMovement::FORWARD);
@@ -89,7 +98,47 @@ namespace Smooth
             case GLFW_KEY_DELETE:
                 m_editor_command |= (unsigned int)EditorCommand::delete_object;
                 break;           
-            
+            default:
+                break;
+            }
+        }
+        else if(action == GLFW_RELEASE)
+        {
+            switch(key)
+            {
+            case GLFW_KEY_ESCAPE:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::exit;
+                break;
+            case GLFW_KEY_A:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::camera_left;
+                break;
+            case GLFW_KEY_S:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::camera_back;
+                break;
+            case GLFW_KEY_D:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::camera_right;
+                break;
+            case GLFW_KEY_W:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::camera_foward;
+                break;
+            case GLFW_KEY_Q:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::camera_up;
+                break;
+            case GLFW_KEY_E:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::camera_down;
+                break;
+            case GLFW_KEY_T:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::translation_mode;
+                break;
+            case GLFW_KEY_R:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::rotation_mode;
+                break;
+            case GLFW_KEY_C:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::scale_mode;
+                break;     
+            case GLFW_KEY_DELETE:
+                m_editor_command &= (k_complement_control_command) ^ (unsigned int)EditorCommand::delete_object;
+                break;           
             default:
                 break;
             }
@@ -118,7 +167,25 @@ namespace Smooth
                 glfwSetInputMode(g_editor_global_context.m_window_system->getWindow(), GLFW_CURSOR, GLFW_CURSOR_NORMAL);
             }
         }
-        
-
+        m_mouse_x = xpos;
+        m_mouse_y = ypos;
     }
+
+    void EditorInputManager::onCursorEnter(int entered)
+    {
+        if(!entered)
+        {
+            m_mouse_x = m_mouse_y = -1.0f;
+        }
+    }
+
+    void EditorInputManager::onScroll(double xoffset, double yoffset)
+    {
+        if(!g_is_editor_mode)
+        {
+            return;
+        }
+    }
+
+    void EditorInputManager::onWindowClosed(){ g_editor_global_context.m_engine_runtime->shutdownEngine(); }
 }

@@ -382,6 +382,7 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor_input_manager.cpp
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/window_system.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/input/input_system.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \

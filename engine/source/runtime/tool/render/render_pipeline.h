@@ -18,7 +18,7 @@ namespace Smooth
         virtual void deferredRender() override final;
     
     private:
-        Shader m_skybox_shader;
-        Skybox m_skybox;
+        std::shared_ptr<Shader> m_skybox_shader;
+        std::shared_ptr<Skybox> m_skybox;
     };
 }

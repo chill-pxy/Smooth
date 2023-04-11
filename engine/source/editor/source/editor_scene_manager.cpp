@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "editor_scene_manager.h"
 
 namespace Smooth

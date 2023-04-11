@@ -337,6 +337,7 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/input/input_system.cpp.o
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include/GLFW/glfw3.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/chrono \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \

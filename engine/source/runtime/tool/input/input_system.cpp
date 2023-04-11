@@ -1,11 +1,14 @@
 #include "runtime/tool/global/global_context.h"
 #include "runtime/tool/input/input_system.h"
 #include "runtime/tool/render/window_system.h"
+#include "runtime/tool/render/default_camera.h"
 
 #include "engine.h"
 
 namespace Smooth
 {
+    unsigned int k_complement_control_command = 0xFFFFFFFF;
+
     void InputSystem::initialize()
     {
         std::shared_ptr<WindowSystem> window_system = g_runtime_global_context.m_window_system;
@@ -26,7 +29,23 @@ namespace Smooth
     void InputSystem::tick()
     {
         std::shared_ptr<WindowSystem> window_system = g_runtime_global_context.m_window_system;
-        
+        if(window_system->getFocusMode())
+        {
+             
+        }
+    }
+
+    void InputSystem::clear()
+    {
+        m_cursor_delta_x = 0;
+        m_cursor_delta_y = 0;
+    }
+
+    void InputSystem::calculateCursorDeltaAngles()
+    {
+        std::array<int, 2> window_size = g_runtime_global_context.m_window_system->getWindowSize();
+
+        if(window_size[0] <1 || window_size[1] <1){return;}
     }
 
     void InputSystem::onKey(int key,int scancode,int action,int mods)

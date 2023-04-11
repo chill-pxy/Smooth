@@ -4,11 +4,24 @@
 
 namespace Smooth
 {
+    enum class DisplayCommand : unsigned int
+    {
+        forward  = 1 <<0,
+        backward = 1 <<1,
+        left     = 1 <<2,
+        right    = 2 <<3,
+        invalid  = (unsigned int)(1 << 31)
+    };
+
+    extern unsigned int k_complement_control_command;
+    
     class InputSystem
     {
     public:
         void initialize();
         void tick();
+        void clear();
+        void calculateCursorDeltaAngles();
 
         void onKey(int key,int scancode,int action,int mods);
         void onCursorPos(double current_cursor_x, double current_cursor_y);

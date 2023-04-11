@@ -27,6 +27,8 @@
 #include "runtime/tool/render/render_system.h"
 #include "runtime/tool/input/input_system.h"
 
+#include "runtime/tool/render/default_camera.h"
+
 namespace Smooth
 {
 
@@ -326,7 +328,7 @@ namespace Smooth
         {
             ImGui::TextColored(ImVec4(0.0f, 1.0f, 0.0f, 1.0f),
                                "Current editor camera move speed: [%f]",
-                               g_editor_global_context.m_input_manager->getCameraSpeed());
+                               g_editor_global_context.m_scene_manager->getEditorCamera()->m_movement_speed);
         }
         
         vec2 render_target_window_pos  = {0.0f, 0.0f};

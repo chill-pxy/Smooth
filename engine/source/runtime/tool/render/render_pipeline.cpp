@@ -10,20 +10,18 @@ namespace Smooth
     {
         m_ui_pass = std::make_shared<UIPass>();
 
-        Shader shader("../engine/shader/skybox.vs", "../engine/shader/skybox.fs");
-        m_skybox_shader = shader;
-        m_skybox_shader.use();
-        m_skybox_shader.setInt("skybox", 0);
+        glEnable(GL_DEPTH_TEST);
+        m_skybox_shader = std::make_shared<Shader>("../engine/shader/skybox.vs", "../engine/shader/skybox.fs");
+        m_skybox_shader->use();
+        m_skybox_shader->setInt("skybox", 0);
 
-        Skybox skybox;
-        m_skybox = skybox;
+        m_skybox = std::make_shared<Skybox>();
 
     }
 
     void RenderPipeline::forwardRender()
     {
 		glClearColor(1.0,1.0,1.0,1.0);
-		glClear(GL_COLOR_BUFFER_BIT);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         mat4 projection = perspective(radians(g_editor_global_context.m_scene_manager->getEditorCamera()->m_zoom),
@@ -33,10 +31,7 @@ namespace Smooth
         mat4 view       = g_editor_global_context.m_scene_manager->getEditorCamera()->GetViewMatrix();
         vec3 postion    = g_editor_global_context.m_scene_manager->getEditorCamera()->m_position;
 
-        std::cout<<postion[0]<<std::endl;
-        std::cout<<postion[1]<<std::endl;
-        std::cout<<postion[2]<<std::endl;
-        m_skybox.draw(m_skybox_shader, projection, view);
+        m_skybox->draw(*m_skybox_shader, projection, view);
     }
 
     void RenderPipeline::deferredRender()

@@ -1,9 +1,13 @@
+#include <iostream>
+
 #include "runtime/tool/render/default_camera.h"
 
 namespace Smooth
 {
     DefaultCamera::DefaultCamera(vec3 position, vec3 up, float yaw, float pitch)
-    :m_position(position),m_worldUp(up),m_yaw(yaw),m_pitch(pitch)
+    :m_position(position),m_worldUp(up),m_yaw(yaw),m_pitch(pitch),
+    m_front(vec3(0.0f, 0.0f, -1.0f)),m_movement_speed(DEFAULT_SPEED),
+    m_mouse_sensitivity(DEFAULT_SENSITIVITY),m_zoom(DEFAULT_ZOOM)
     {
         UpdateCameraVectors();
     }
@@ -60,6 +64,11 @@ namespace Smooth
         float velocity = m_movement_speed;
         if(direction == CameraMovement::FORWARD)
             m_position += m_front * velocity;
+            std::cout<<m_movement_speed<<std::endl;
+            std::cout<<m_position[0]<<std::endl;
+            std::cout<<m_position[1]<<std::endl;
+            std::cout<<m_position[2]<<std::endl;
+
         if(direction == CameraMovement::BACKWARD)
             m_position -= m_front * velocity;
         if(direction == CameraMovement::LEFT)

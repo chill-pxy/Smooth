@@ -84,6 +84,7 @@ namespace Smooth
         mat4 view = mat4(camera_view);
         skybox_shader.setMat4("view", view);
         skybox_shader.setMat4("projection", projection);
+        
         glBindVertexArray(skyboxVAO);
         glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_CUBE_MAP, cubeMapTexture);   

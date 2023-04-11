@@ -34,7 +34,9 @@ namespace Smooth
         void onKey(int key, int scancode, int action, int mods);
         void onKeyInEditorMode(int key, int scancode, int action, int mods);
         void onCursorPos(double xpos, double ypos);
-        //void onCursorEnter(int entered);
+        void onCursorEnter(int entered);
+        void onScroll(double xoffset, double yoffset);
+        void onWindowClosed();
 
     public:
         vec2 getEngineWindowPos() const {return m_engine_window_pos;}
