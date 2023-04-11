@@ -173,7 +173,7 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cp
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_system.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline_base.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pass_base.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/input/input_system.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/core/math.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/glm.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/detail/_fixes.hpp \
@@ -383,6 +383,7 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/global/global_context.cp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/input/input_system.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/config_manager/config_manager.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/filesystem \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_fwd.h \

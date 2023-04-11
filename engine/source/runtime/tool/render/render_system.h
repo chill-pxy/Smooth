@@ -1,6 +1,7 @@
 #include <memory>
 
 #include "runtime/tool/render/render_pipeline_base.h"
+#include "runtime/tool/render/default_camera.h"
 
 namespace Smooth
 {
@@ -30,11 +31,14 @@ namespace Smooth
         void tick(float delta_time);
         void clear();
 
+        std::shared_ptr<DefaultCamera> getRenderCamera() const;
+
         void initializeUIRenderBackend(WindowUI* window_ui);
         void updateEngineContentViewport(float offset_x, float offset_y, float width, float height);
     
     private:
         std::shared_ptr<RenderPipelineBase> m_render_pipeline;
+        std::shared_ptr<DefaultCamera>      m_render_camera;
 
     };
 }

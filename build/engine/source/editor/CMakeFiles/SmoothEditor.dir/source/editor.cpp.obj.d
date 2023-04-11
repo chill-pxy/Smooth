@@ -395,4 +395,7 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/source/editor.cpp.obj: \
  F:/MinGW/x86_64-w64-mingw32/include/_timeval.h \
  F:/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/parse_numbers.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/global/global_context.h
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/global/global_context.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_system.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline_base.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pass_base.h

@@ -1,8 +1,11 @@
 #include <iostream>
 #include <assert.h>
 
+#include "runtime/tool/global/global_context.h"
+
 #include "runtime/tool/render/render_system.h"
 #include "runtime/tool/render/render_pipeline.h"
+#include "runtime/resource/config_manager/config_manager.h"
 
 namespace Smooth
 {
@@ -13,9 +16,14 @@ namespace Smooth
 
     void RenderSystem::initialize(RenderSystemInitInfo init_info)
     {
-        m_render_pipeline = std::make_shared<RenderPipeline>();
+        std::shared_ptr<ConfigManager> config_manager = g_runtime_global_context.m_config_manager;
+        assert(config_manager);
 
+        m_render_pipeline = std::make_shared<RenderPipeline>();
         m_render_pipeline->initialize();
+
+        //setup render camera
+        //const CameraPose& camera_pos = 
     }
 
     void RenderSystem::tick(float delta_time)
@@ -29,6 +37,8 @@ namespace Smooth
     {
         m_render_pipeline.reset();
     }
+
+    std::shared_ptr<DefaultCamera> RenderSystem::getRenderCamera() const { return m_render_camera; }
 
     void RenderSystem::initializeUIRenderBackend(WindowUI* window_ui)
     {

@@ -126,7 +126,7 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/istream \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/istream.tcc \
  F:/MinGW/x86_64-w64-mingw32/include/assert.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_system.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/global/global_context.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/memory \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_uninitialized.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_tempbuf.h \
@@ -147,14 +147,12 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward/auto_ptr.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/glue_memory_defs.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_system.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline_base.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pass_base.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/legacy/skybox.h \
- F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/vector \
- F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_vector.h \
- F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_bvector.h \
- F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/vector.tcc \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
+ G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/core/math.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/glm.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/detail/_fixes.hpp \
@@ -359,6 +357,10 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/node_handle.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/unordered_map.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/erase_if.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/vector \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_vector.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_bvector.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/vector.tcc \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/array \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/compare \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_algo.h \
@@ -379,6 +381,8 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.hpp \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/dual_quaternion.inl \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/gtx/hash.inl \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/render_pipeline.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/legacy/skybox.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/legacy/shader.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/fstream \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/codecvt.h \
@@ -387,8 +391,29 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fstream.tcc \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/sstream \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/sstream.tcc \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/glad/glad.h \
- G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include/KHR/khrplatform.h \
  G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_scene_manager.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/render/default_camera.h \
- G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_global_context.h
+ G:/Project/VsCode_project/Smooth/engine/source/editor/include/editor_global_context.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/config_manager/config_manager.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/filesystem \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_fwd.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/chrono.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ratio \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime \
+ F:/MinGW/x86_64-w64-mingw32/include/time.h \
+ F:/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
+ F:/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ F:/MinGW/x86_64-w64-mingw32/include/_timeval.h \
+ F:/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/parse_numbers.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_path.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/locale \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_facets_nonio.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_facets_nonio.tcc \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_conv.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iomanip \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/quoted_string.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/codecvt \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_dir.h \
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_ops.h

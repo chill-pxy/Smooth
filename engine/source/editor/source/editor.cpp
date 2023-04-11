@@ -8,6 +8,7 @@
 
 #include "runtime/engine.h"
 #include "runtime/tool/global/global_context.h"
+#include "runtime/tool/render/render_system.h"
 
 namespace Smooth
 {
@@ -22,6 +23,9 @@ namespace Smooth
                                                  engine_runtime};
                                                 
         g_editor_global_context.initialize(init_info);
+        // g_editor_global_context.m_scene_manager->setEditorCamera(
+        //     g_runtime_global_context.m_render_system->g
+        // )
 
         m_editor_ui = std::make_shared<EditorUI>();
         WindowUIInitInfo ui_init_info = {g_runtime_global_context.m_window_system,
