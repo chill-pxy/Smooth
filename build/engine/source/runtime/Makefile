@@ -223,6 +223,30 @@ resource/config_manager/config_manager.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.s
 .PHONY : resource/config_manager/config_manager.cpp.s
 
+resource/global/global_rendering.obj: resource/global/global_rendering.cpp.obj
+.PHONY : resource/global/global_rendering.obj
+
+# target to build an object file
+resource/global/global_rendering.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/global/global_rendering.cpp.obj
+.PHONY : resource/global/global_rendering.cpp.obj
+
+resource/global/global_rendering.i: resource/global/global_rendering.cpp.i
+.PHONY : resource/global/global_rendering.i
+
+# target to preprocess a source file
+resource/global/global_rendering.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/global/global_rendering.cpp.i
+.PHONY : resource/global/global_rendering.cpp.i
+
+resource/global/global_rendering.s: resource/global/global_rendering.cpp.s
+.PHONY : resource/global/global_rendering.s
+
+# target to generate assembly for a file
+resource/global/global_rendering.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/global/global_rendering.cpp.s
+.PHONY : resource/global/global_rendering.cpp.s
+
 tool/global/global_context.obj: tool/global/global_context.cpp.obj
 .PHONY : tool/global/global_context.obj
 
@@ -650,6 +674,9 @@ help:
 	@echo ... resource/config_manager/config_manager.obj
 	@echo ... resource/config_manager/config_manager.i
 	@echo ... resource/config_manager/config_manager.s
+	@echo ... resource/global/global_rendering.obj
+	@echo ... resource/global/global_rendering.i
+	@echo ... resource/global/global_rendering.s
 	@echo ... tool/global/global_context.obj
 	@echo ... tool/global/global_context.i
 	@echo ... tool/global/global_context.s

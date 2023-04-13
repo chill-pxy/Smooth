@@ -136,6 +136,11 @@
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\resource\\global\\global_rendering.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\resource\\global\\global_rendering.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/global/global_rendering.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
   "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\tool\\global\\global_context.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\tool\\global\\global_context.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/tool/global/global_context.cpp"
 },
