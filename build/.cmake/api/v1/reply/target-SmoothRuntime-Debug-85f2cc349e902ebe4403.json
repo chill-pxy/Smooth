@@ -169,12 +169,12 @@
 			"id" : "stb::@e01f7ddb2d9853d51791"
 		},
 		{
-			"backtrace" : 2,
-			"id" : "glfw::@5aec3c3994f13e9ca945"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "tinyobjloader::@2040b85fa92506764563"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@5aec3c3994f13e9ca945"
 		}
 	],
 	"folder" : 
