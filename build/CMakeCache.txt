@@ -334,6 +334,12 @@ GLFW_VULKAN_STATIC:BOOL=OFF
 
 GLM_TEST_ENABLE:BOOL=OFF
 
+//Build unit tests
+JSON11_BUILD_TESTS:BOOL=OFF
+
+//Enable canary test for DR 1467
+JSON11_ENABLE_DR1467_CANARY:BOOL=OFF
+
 //Value Computed by CMake
 Smooth_BINARY_DIR:STATIC=G:/Project/VsCode_project/Smooth/build
 
@@ -360,6 +366,15 @@ glm_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 glm_SOURCE_DIR:STATIC=G:/Project/VsCode_project/Smooth/engine/3rdparty/glm
+
+//Value Computed by CMake
+json11_BINARY_DIR:STATIC=G:/Project/VsCode_project/Smooth/build/engine/3rdparty/json11
+
+//Value Computed by CMake
+json11_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+json11_SOURCE_DIR:STATIC=G:/Project/VsCode_project/Smooth/engine/3rdparty/json11
 
 //Value Computed by CMake
 tinyobjloader_BINARY_DIR:STATIC=G:/Project/VsCode_project/Smooth/build/engine/3rdparty/tinyobjloader
@@ -517,7 +532,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -585,4 +600,6 @@ _GLFW_HAS_ASLR:INTERNAL=1
 _GLFW_HAS_DEP:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=G:/Project/VsCode_project/Smooth/bin
+//Test _flag_supported
+_flag_supported:INTERNAL=
 

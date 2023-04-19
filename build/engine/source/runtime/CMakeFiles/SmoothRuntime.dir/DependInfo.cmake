@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/reflection/reflection.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/config_manager/config_manager.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/global/global_rendering.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/global/global_rendering.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/global/global_rendering.cpp.obj.d"
@@ -34,6 +35,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/json11/CMakeFiles/json11.dir/DependInfo.cmake"
   "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/DependInfo.cmake"
   "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/CMakeFiles/glad.dir/DependInfo.cmake"
   )

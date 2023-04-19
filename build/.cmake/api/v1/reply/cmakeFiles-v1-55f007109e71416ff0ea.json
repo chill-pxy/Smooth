@@ -314,6 +314,32 @@
 			"path" : "engine/3rdparty/tinyobjloader/cmake_uninstall.cmake.in"
 		},
 		{
+			"path" : "engine/3rdparty/json11/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"path" : "engine/3rdparty/json11/json11.pc.in"
+		},
+		{
 			"path" : "engine/source/runtime/CMakeLists.txt"
 		},
 		{

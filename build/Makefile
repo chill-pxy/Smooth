@@ -266,6 +266,19 @@ uninstall/fast:
 .PHONY : uninstall/fast
 
 #=============================================================================
+# Target rules for targets named json11
+
+# Build rule for target.
+json11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 json11
+.PHONY : json11
+
+# fast build rule for target.
+json11/fast:
+	$(MAKE) $(MAKESILENT) -f engine\3rdparty\json11\CMakeFiles\json11.dir\build.make engine/3rdparty/json11/CMakeFiles/json11.dir/build
+.PHONY : json11/fast
+
+#=============================================================================
 # Target rules for targets named SmoothRuntime
 
 # Build rule for target.
@@ -311,6 +324,7 @@ help:
 	@echo ... glfw
 	@echo ... glm_static
 	@echo ... imgui
+	@echo ... json11
 	@echo ... stb
 	@echo ... tinyobjloader
 .PHONY : help

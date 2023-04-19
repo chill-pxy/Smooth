@@ -24,8 +24,8 @@
 					"childIndexes" : 
 					[
 						2,
-						8,
-						9
+						9,
+						10
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-engine-Debug-776e2b00c6520ab49d05.json",
@@ -43,7 +43,8 @@
 					[
 						3,
 						5,
-						7
+						7,
+						8
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-engine.3rdparty-Debug-a01bddc6c96620f7cf58.json",
@@ -58,7 +59,7 @@
 					[
 						2,
 						5,
-						6
+						7
 					]
 				},
 				{
@@ -119,13 +120,13 @@
 					"targetIndexes" : 
 					[
 						3,
-						9
+						10
 					]
 				},
 				{
 					"build" : "engine/3rdparty/tinyobjloader",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-engine.3rdparty.tinyobjloader-Debug-7bcab44c901c55e10c41.json",
+					"jsonFile" : "directory-engine.3rdparty.tinyobjloader-Debug-0a05e45aeba2b6dae464.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.2"
@@ -135,8 +136,24 @@
 					"source" : "engine/3rdparty/tinyobjloader",
 					"targetIndexes" : 
 					[
-						7,
-						8
+						8,
+						9
+					]
+				},
+				{
+					"build" : "engine/3rdparty/json11",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-engine.3rdparty.json11-Debug-2edc58fd7b7d0e4427b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "engine/3rdparty/json11",
+					"targetIndexes" : 
+					[
+						6
 					]
 				},
 				{
@@ -178,15 +195,16 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"directoryIndexes" : 
 					[
 						0,
 						1,
 						2,
-						8,
-						9
+						9,
+						10
 					],
 					"name" : "Smooth",
 					"targetIndexes" : 
@@ -195,7 +213,7 @@
 						1,
 						2,
 						5,
-						6
+						7
 					]
 				},
 				{
@@ -222,7 +240,7 @@
 					"targetIndexes" : 
 					[
 						3,
-						9
+						10
 					]
 				},
 				{
@@ -234,24 +252,36 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
 						8
+					],
+					"name" : "json11",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "SmoothEditor::@a2a08a0b55f399eba4b5",
-					"jsonFile" : "target-SmoothEditor-Debug-6112c84acafb20a880e6.json",
+					"jsonFile" : "target-SmoothEditor-Debug-c4bed173f0771b8a462b.json",
 					"name" : "SmoothEditor",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "SmoothRuntime::@0e9222390ef2a3c3b428",
-					"jsonFile" : "target-SmoothRuntime-Debug-85f2cc349e902ebe4403.json",
+					"jsonFile" : "target-SmoothRuntime-Debug-6d5a757464d50790c419.json",
 					"name" : "SmoothRuntime",
 					"projectIndex" : 0
 				},
@@ -282,6 +312,13 @@
 					"jsonFile" : "target-imgui-Debug-fae884859e164ab4f5fe.json",
 					"name" : "imgui",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "json11::@496dd5d6738ca6ee4b24",
+					"jsonFile" : "target-json11-Debug-b82e86fed01461e8099f.json",
+					"name" : "json11",
+					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 2,

@@ -1139,7 +1139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "10"
+			"value" : "11"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1802,6 +1802,30 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "JSON11_BUILD_TESTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build unit tests"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "JSON11_ENABLE_DR1467_CANARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable canary test for DR 1467"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "Smooth_BINARY_DIR",
 			"properties" : 
 			[
@@ -1934,6 +1958,18 @@
 			"value" : "G:/Project/VsCode_project/Smooth/bin"
 		},
 		{
+			"name" : "_flag_supported",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test _flag_supported"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
 			"name" : "glm_BINARY_DIR",
 			"properties" : 
 			[
@@ -1968,6 +2004,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glm"
+		},
+		{
+			"name" : "json11_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/json11"
+		},
+		{
+			"name" : "json11_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "json11_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/json11"
 		},
 		{
 			"name" : "tinyobjloader_BINARY_DIR",

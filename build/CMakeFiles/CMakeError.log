@@ -62,3 +62,20 @@ mingw32-make.exe: *** [Makefile:126: cmTC_cf873/fast] Error 2
 
 
 
+Performing C++ SOURCE FILE Test _flag_supported failed with the following output:
+Change Dir: G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f Makefile cmTC_5c0a1/fast && F:/QT/Tools/mingw810_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5c0a1.dir\build.make CMakeFiles/cmTC_5c0a1.dir/build
+mingw32-make.exe[1]: Entering directory 'G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c0a1.dir/src.cxx.obj
+F:\MinGW\bin\g++.exe -D_flag_supported  /W4 -std=gnu++11 -o CMakeFiles\cmTC_5c0a1.dir\src.cxx.obj -c G:\Project\VsCode_project\Smooth\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: warning: /W4: linker input file unused because linking not done
+g++.exe: error: /W4: linker input file not found: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_5c0a1.dir\build.make:77: CMakeFiles/cmTC_5c0a1.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: *** Deleting file 'CMakeFiles/cmTC_5c0a1.dir/src.cxx.obj'
+mingw32-make.exe[1]: Leaving directory 'G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_5c0a1/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

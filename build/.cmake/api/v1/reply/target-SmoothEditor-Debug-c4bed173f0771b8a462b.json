@@ -52,7 +52,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 25,
+				"line" : 26,
 				"parent" : 3
 			},
 			{
@@ -118,6 +118,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/stb"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/json11"
 				}
 			],
 			"language" : "CXX",
@@ -165,6 +169,10 @@
 		},
 		{
 			"backtrace" : 2,
+			"id" : "json11::@496dd5d6738ca6ee4b24"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "SmoothRuntime::@0e9222390ef2a3c3b428"
 		}
 	],
@@ -199,6 +207,11 @@
 			{
 				"backtrace" : 4,
 				"fragment" : "..\\..\\..\\..\\out\\libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\out\\libjson11.a",
 				"role" : "libraries"
 			},
 			{

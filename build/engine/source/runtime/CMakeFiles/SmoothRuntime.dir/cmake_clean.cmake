@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../../../../out/libSmoothRuntime.a"
   "../../../../out/libSmoothRuntime.pdb"
+  "CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.obj"
+  "CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.obj.d"
   "CMakeFiles/SmoothRuntime.dir/engine.cpp.obj"
   "CMakeFiles/SmoothRuntime.dir/engine.cpp.obj.d"
   "CMakeFiles/SmoothRuntime.dir/resource/config_manager/config_manager.cpp.obj"

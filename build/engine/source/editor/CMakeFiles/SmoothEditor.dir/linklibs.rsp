@@ -1,1 +1,1 @@
- ../../../../out/libSmoothRuntime.a ../../../../out/libimgui.dll.a ../../../../out/libglad.dll.a ../../../../out/libglfw3.a ../../../../out/libtinyobjloader.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ ../../../../out/libSmoothRuntime.a ../../../../out/libimgui.dll.a ../../../../out/libglad.dll.a ../../../../out/libglfw3.a ../../../../out/libjson11.a ../../../../out/libtinyobjloader.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

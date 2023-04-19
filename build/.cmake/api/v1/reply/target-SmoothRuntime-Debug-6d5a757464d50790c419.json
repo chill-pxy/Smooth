@@ -40,25 +40,25 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 30,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 34,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 40,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
@@ -116,6 +116,10 @@
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/stb"
 				},
 				{
+					"backtrace" : 2,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/json11"
+				},
+				{
 					"backtrace" : 3,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/tinyobjloader"
 				}
@@ -131,8 +135,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				22,
-				23,
 				24,
 				25,
 				26,
@@ -150,7 +152,10 @@
 				38,
 				39,
 				40,
-				41
+				41,
+				42,
+				43,
+				44
 			]
 		}
 	],
@@ -175,6 +180,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "glfw::@5aec3c3994f13e9ca945"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "json11::@496dd5d6738ca6ee4b24"
 		}
 	],
 	"folder" : 
@@ -199,104 +208,119 @@
 			]
 		},
 		{
+			"name" : "core\\meta",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "core\\meta\\reflection",
+			"sourceIndexes" : 
+			[
+				2,
+				24
+			]
+		},
+		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				1,
-				22
+				3,
+				25
 			]
 		},
 		{
 			"name" : "resource\\config_manager",
 			"sourceIndexes" : 
 			[
-				2,
-				23
+				4,
+				26
 			]
 		},
 		{
 			"name" : "resource\\global",
 			"sourceIndexes" : 
 			[
-				3,
-				24
+				5,
+				27
 			]
 		},
 		{
 			"name" : "tool\\global",
 			"sourceIndexes" : 
 			[
-				4,
-				25
+				6,
+				28
 			]
 		},
 		{
 			"name" : "tool\\input",
 			"sourceIndexes" : 
 			[
-				5,
-				26
+				7,
+				29
 			]
 		},
 		{
 			"name" : "tool\\render\\RHI",
 			"sourceIndexes" : 
 			[
-				6,
-				27
+				8,
+				30
 			]
 		},
 		{
 			"name" : "tool\\render",
 			"sourceIndexes" : 
 			[
-				7,
-				14,
-				15,
+				9,
 				16,
 				17,
 				18,
 				19,
 				20,
-				28,
-				35,
-				36,
-				37,
+				21,
+				22,
+				31,
 				38,
 				39,
 				40,
-				41
+				41,
+				42,
+				43,
+				44
 			]
 		},
 		{
 			"name" : "tool\\render\\legacy",
 			"sourceIndexes" : 
 			[
-				8,
-				9,
 				10,
 				11,
 				12,
-				29,
-				30,
-				31,
+				13,
+				14,
 				32,
-				33
+				33,
+				34,
+				35,
+				36
 			]
 		},
 		{
 			"name" : "tool\\render\\passes",
 			"sourceIndexes" : 
 			[
-				13,
-				34
+				15,
+				37
 			]
 		},
 		{
 			"name" : "tool\\ui",
 			"sourceIndexes" : 
 			[
-				21
+				23
 			]
 		}
 	],
@@ -309,228 +333,244 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "engine/source/runtime/engine.h",
+			"path" : "engine/source/runtime/core/meta/json.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "engine/source/runtime/resource/config_manager/config_manager.h",
+			"path" : "engine/source/runtime/core/meta/reflection/reflection.h",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 1,
-			"path" : "engine/source/runtime/resource/global/global_rendering.h",
+			"path" : "engine/source/runtime/engine.h",
 			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/global/global_context.h",
+			"path" : "engine/source/runtime/resource/config_manager/config_manager.h",
 			"sourceGroupIndex" : 4
 		},
 		{
 			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/input/input_system.h",
+			"path" : "engine/source/runtime/resource/global/global_rendering.h",
 			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/render/RHI/opengl_rhi.h",
+			"path" : "engine/source/runtime/tool/global/global_context.h",
 			"sourceGroupIndex" : 6
 		},
 		{
 			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/render/default_camera.h",
+			"path" : "engine/source/runtime/tool/input/input_system.h",
 			"sourceGroupIndex" : 7
 		},
 		{
 			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/render/legacy/mesh.h",
+			"path" : "engine/source/runtime/tool/render/RHI/opengl_rhi.h",
 			"sourceGroupIndex" : 8
 		},
 		{
 			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/render/legacy/model.h",
-			"sourceGroupIndex" : 8
-		},
-		{
-			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/render/legacy/shader.h",
-			"sourceGroupIndex" : 8
-		},
-		{
-			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/render/legacy/skybox.h",
-			"sourceGroupIndex" : 8
-		},
-		{
-			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/render/legacy/texture.h",
-			"sourceGroupIndex" : 8
-		},
-		{
-			"backtrace" : 1,
-			"path" : "engine/source/runtime/tool/render/passes/ui_pass.h",
+			"path" : "engine/source/runtime/tool/render/default_camera.h",
 			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/legacy/mesh.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/legacy/model.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/legacy/shader.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/legacy/skybox.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/legacy/texture.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/tool/render/passes/ui_pass.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/render/render_camera.h",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/render/render_pass.h",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/render/render_pass_base.h",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/render/render_pipeline.h",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/render/render_pipeline_base.h",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/render/render_system.h",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/render/window_system.h",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"path" : "engine/source/runtime/tool/ui/window_ui.h",
-			"sourceGroupIndex" : 10
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/core/meta/reflection/reflection.cpp",
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/engine.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/resource/config_manager/config_manager.cpp",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/resource/global/global_rendering.cpp",
 			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/global/global_context.cpp",
+			"path" : "engine/source/runtime/resource/config_manager/config_manager.cpp",
 			"sourceGroupIndex" : 4
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/input/input_system.cpp",
+			"path" : "engine/source/runtime/resource/global/global_rendering.cpp",
 			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/render/RHI/opengl_rhi.cpp",
+			"path" : "engine/source/runtime/tool/global/global_context.cpp",
 			"sourceGroupIndex" : 6
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/render/default_camera.cpp",
+			"path" : "engine/source/runtime/tool/input/input_system.cpp",
 			"sourceGroupIndex" : 7
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/render/legacy/mesh.cpp",
+			"path" : "engine/source/runtime/tool/render/RHI/opengl_rhi.cpp",
 			"sourceGroupIndex" : 8
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/render/legacy/model.cpp",
-			"sourceGroupIndex" : 8
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/render/legacy/shader.cpp",
-			"sourceGroupIndex" : 8
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/render/legacy/skybox.cpp",
-			"sourceGroupIndex" : 8
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/render/legacy/texture.cpp",
-			"sourceGroupIndex" : 8
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "engine/source/runtime/tool/render/passes/ui_pass.cpp",
+			"path" : "engine/source/runtime/tool/render/default_camera.cpp",
 			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/legacy/mesh.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/legacy/model.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/legacy/shader.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/legacy/skybox.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/legacy/texture.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/tool/render/passes/ui_pass.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/tool/render/render_camera.cpp",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/tool/render/render_pass.cpp",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/tool/render/render_pass_base.cpp",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/tool/render/render_pipeline.cpp",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/tool/render/render_pipeline_base.cpp",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/tool/render/render_system.cpp",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/tool/render/window_system.cpp",
-			"sourceGroupIndex" : 7
+			"sourceGroupIndex" : 9
 		}
 	],
 	"type" : "STATIC_LIBRARY"

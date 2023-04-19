@@ -198,6 +198,7 @@ SmoothEditor_EXTERNAL_OBJECTS =
 ../out/SmoothEditor.exe: ../out/libimgui.dll.a
 ../out/SmoothEditor.exe: ../out/libglad.dll.a
 ../out/SmoothEditor.exe: ../out/libglfw3.a
+../out/SmoothEditor.exe: ../out/libjson11.a
 ../out/SmoothEditor.exe: ../out/libtinyobjloader.a
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/linklibs.rsp
 ../out/SmoothEditor.exe: engine/source/editor/CMakeFiles/SmoothEditor.dir/objects1.rsp

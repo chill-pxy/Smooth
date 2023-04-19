@@ -125,6 +125,16 @@
   "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/tinyobjloader/tiny_obj_loader.cc"
 },
 {
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/3rdparty/json11",
+  "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/json11.dir/includes_CXX.rsp -g -fPIC -fno-rtti -fno-exceptions -Wall -std=gnu++11 -o CMakeFiles\\json11.dir\\json11.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\3rdparty\\json11\\json11.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/3rdparty/json11/json11.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\core\\meta\\reflection\\reflection.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\core\\meta\\reflection\\reflection.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/reflection/reflection.cpp"
+},
+{
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
   "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\engine.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\engine.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.cpp"

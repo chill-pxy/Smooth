@@ -175,6 +175,30 @@ SmoothRuntime/fast:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/build
 .PHONY : SmoothRuntime/fast
 
+core/meta/reflection/reflection.obj: core/meta/reflection/reflection.cpp.obj
+.PHONY : core/meta/reflection/reflection.obj
+
+# target to build an object file
+core/meta/reflection/reflection.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.obj
+.PHONY : core/meta/reflection/reflection.cpp.obj
+
+core/meta/reflection/reflection.i: core/meta/reflection/reflection.cpp.i
+.PHONY : core/meta/reflection/reflection.i
+
+# target to preprocess a source file
+core/meta/reflection/reflection.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.i
+.PHONY : core/meta/reflection/reflection.cpp.i
+
+core/meta/reflection/reflection.s: core/meta/reflection/reflection.cpp.s
+.PHONY : core/meta/reflection/reflection.s
+
+# target to generate assembly for a file
+core/meta/reflection/reflection.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.s
+.PHONY : core/meta/reflection/reflection.cpp.s
+
 engine.obj: engine.cpp.obj
 .PHONY : engine.obj
 
@@ -668,6 +692,9 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... SmoothRuntime
+	@echo ... core/meta/reflection/reflection.obj
+	@echo ... core/meta/reflection/reflection.i
+	@echo ... core/meta/reflection/reflection.s
 	@echo ... engine.obj
 	@echo ... engine.i
 	@echo ... engine.s

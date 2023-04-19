@@ -20,6 +20,7 @@ target_link_libraries(
   glm
   imgui
   stb
+  json11
 )
 
 target_link_libraries(

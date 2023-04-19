@@ -1,0 +1,2 @@
+F:\MinGW\bin\ar.exe qc ..\..\..\..\out\libjson11.a CMakeFiles/json11.dir/json11.cpp.obj
+F:\MinGW\bin\ranlib.exe ..\..\..\..\out\libjson11.a
