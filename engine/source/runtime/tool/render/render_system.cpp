@@ -6,6 +6,7 @@
 #include "runtime/tool/render/render_system.h"
 #include "runtime/tool/render/render_pipeline.h"
 #include "runtime/resource/config_manager/config_manager.h"
+#include "runtime/resource/global/global_rendering.h"
 
 namespace Smooth
 {
@@ -22,6 +23,10 @@ namespace Smooth
         m_render_pipeline = std::make_shared<RenderPipeline>();
         m_render_pipeline->initialize();
 
+        //global rendering resource
+        GlobalRendringRes global_rendering_res;
+        const std::string& global_rendering_res_url = config_manager->getGlobalRenderingResUrl();
+        
         //setup render camera
         //const CameraPose& camera_pos = 
     }

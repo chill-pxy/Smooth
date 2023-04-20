@@ -199,6 +199,30 @@ core/meta/reflection/reflection.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.s
 .PHONY : core/meta/reflection/reflection.cpp.s
 
+core/meta/serializer/serializer.obj: core/meta/serializer/serializer.cpp.obj
+.PHONY : core/meta/serializer/serializer.obj
+
+# target to build an object file
+core/meta/serializer/serializer.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/serializer/serializer.cpp.obj
+.PHONY : core/meta/serializer/serializer.cpp.obj
+
+core/meta/serializer/serializer.i: core/meta/serializer/serializer.cpp.i
+.PHONY : core/meta/serializer/serializer.i
+
+# target to preprocess a source file
+core/meta/serializer/serializer.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/serializer/serializer.cpp.i
+.PHONY : core/meta/serializer/serializer.cpp.i
+
+core/meta/serializer/serializer.s: core/meta/serializer/serializer.cpp.s
+.PHONY : core/meta/serializer/serializer.s
+
+# target to generate assembly for a file
+core/meta/serializer/serializer.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/serializer/serializer.cpp.s
+.PHONY : core/meta/serializer/serializer.cpp.s
+
 engine.obj: engine.cpp.obj
 .PHONY : engine.obj
 
@@ -222,6 +246,30 @@ engine.s: engine.cpp.s
 engine.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.s
 .PHONY : engine.cpp.s
+
+resource/asset_manager/asset_manager.obj: resource/asset_manager/asset_manager.cpp.obj
+.PHONY : resource/asset_manager/asset_manager.obj
+
+# target to build an object file
+resource/asset_manager/asset_manager.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/asset_manager/asset_manager.cpp.obj
+.PHONY : resource/asset_manager/asset_manager.cpp.obj
+
+resource/asset_manager/asset_manager.i: resource/asset_manager/asset_manager.cpp.i
+.PHONY : resource/asset_manager/asset_manager.i
+
+# target to preprocess a source file
+resource/asset_manager/asset_manager.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/asset_manager/asset_manager.cpp.i
+.PHONY : resource/asset_manager/asset_manager.cpp.i
+
+resource/asset_manager/asset_manager.s: resource/asset_manager/asset_manager.cpp.s
+.PHONY : resource/asset_manager/asset_manager.s
+
+# target to generate assembly for a file
+resource/asset_manager/asset_manager.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/asset_manager/asset_manager.cpp.s
+.PHONY : resource/asset_manager/asset_manager.cpp.s
 
 resource/config_manager/config_manager.obj: resource/config_manager/config_manager.cpp.obj
 .PHONY : resource/config_manager/config_manager.obj
@@ -695,9 +743,15 @@ help:
 	@echo ... core/meta/reflection/reflection.obj
 	@echo ... core/meta/reflection/reflection.i
 	@echo ... core/meta/reflection/reflection.s
+	@echo ... core/meta/serializer/serializer.obj
+	@echo ... core/meta/serializer/serializer.i
+	@echo ... core/meta/serializer/serializer.s
 	@echo ... engine.obj
 	@echo ... engine.i
 	@echo ... engine.s
+	@echo ... resource/asset_manager/asset_manager.obj
+	@echo ... resource/asset_manager/asset_manager.i
+	@echo ... resource/asset_manager/asset_manager.s
 	@echo ... resource/config_manager/config_manager.obj
 	@echo ... resource/config_manager/config_manager.i
 	@echo ... resource/config_manager/config_manager.s

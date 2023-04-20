@@ -64,5 +64,26 @@ namespace Smooth
 
     typedef std::function<void(void*, void*)> SetFunction;
     
+    namespace Reflection
+    {
+        template<typename T>
+        class ReflectionPtr
+        {
+            template<typename U>
+            friend class ReflectionPtr;
+
+        public:
+            ReflectionPtr(std::string type_name, T* instance) : m_type_name(type_name), m_instance(instance) {}
+            ReflectionPtr() : m_type_name(), m_instance(nullptr) {}
+            ReflectionPtr(const ReflectionPtr& dest) : m_type_name(dest.m_type_name), m_instance(dest.m_instance) {}
+
+            void setTypeName(std::string name){ m_type_name = name; }
+
+        private:
+            std::string m_type_name {""};
+            typedef T   m_type;
+            T*          m_instance {nullptr};
+        };
+    }
 }
 

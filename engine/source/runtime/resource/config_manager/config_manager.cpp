@@ -22,25 +22,29 @@ namespace Smooth
                 {
                     m_root_folder = config_file_path.parent_path();
                 }
-                if(name == "AssetFolder")
+                else if(name == "AssetFolder")
                 {
                     m_asset_folder = m_root_folder / value;
                 }
-                if(name == "BigIconFile")
+                else if(name == "BigIconFile")
                 {
                     m_editor_big_icon_path = m_root_folder / value;
                 }
-                if(name == "SmallIconFile")
+                else if(name == "SmallIconFile")
                 {
                     m_editor_small_icon_path = m_root_folder / value;
                 }
-                if(name == "FontFile")
+                else if(name == "FontFile")
                 {
                     m_editor_font_path = m_root_folder / value;
                 }
-                if(name == "ChineseFontFile")
+                else if(name == "ChineseFontFile")
                 {
                     m_editor_chinese_font_path = m_root_folder /value;
+                }
+                else if(name == "GlobalRendringRes")
+                {
+                    m_global_rendering_res_url = value;
                 }
             }
         }
@@ -52,4 +56,6 @@ namespace Smooth
     const std::filesystem::path& ConfigManager::getEditorSmallIconPath() const{ return m_editor_small_icon_path; }
     const std::filesystem::path& ConfigManager::getEditorFontPath() const{ return m_editor_font_path; }
     const std::filesystem::path& ConfigManager::getEditorChineseFontPath() const { return m_editor_chinese_font_path; }
+
+    const std::string& ConfigManager::getGlobalRenderingResUrl() const { return  m_global_rendering_res_url;}
 }
