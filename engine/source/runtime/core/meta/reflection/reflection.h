@@ -105,6 +105,42 @@ namespace Smooth
             bool                                                        m_is_vaild;
         };
 
+        class FieldAccessor
+        {
+            friend class TypeMeta;
+        
+        public:
+            FieldAccessor();
+
+        private:
+            FieldFunctionTuple* m_functions;
+            const char*         m_field_name;
+            const char*         m_field_type_name;
+        };
+
+        class MethodAccessor
+        {
+            friend class TypeMeta;
+        
+        public:
+            MethodAccessor();
+        
+        private:
+            MethodFunctionTuple* m_functions;
+            const char*          m_method_name;
+        };
+
+        class ReflectionInstance
+        {
+        public:
+            ReflectionInstance(TypeMeta meta, void* instance) : m_meta(meta), m_instance(instance) {}
+            ReflectionInstance() : m_meta(), m_instance(nullptr) {}
+             
+        public:
+            TypeMeta m_meta;
+            void*    m_instance;
+        };
+
         template<typename T>
         class ReflectionPtr
         {

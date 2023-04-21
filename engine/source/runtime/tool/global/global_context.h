@@ -9,6 +9,7 @@ namespace Smooth
     class InputSystem;
     class RenderSystem;
     class ConfigManager;
+    class AssetManager;
 
     class RuntimeGlobalContext
     {
@@ -21,6 +22,7 @@ namespace Smooth
         std::shared_ptr<InputSystem>   m_input_system;
         std::shared_ptr<RenderSystem>  m_render_system;
         std::shared_ptr<ConfigManager> m_config_manager;
+        std::shared_ptr<AssetManager>  m_asset_manager;
     };
 
     extern RuntimeGlobalContext g_runtime_global_context;

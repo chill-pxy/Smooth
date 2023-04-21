@@ -5,6 +5,7 @@
 #include "runtime/tool/render/render_system.h"
 #include "runtime/tool/input/input_system.h"
 #include "runtime/resource/config_manager/config_manager.h"
+#include "runtime/resource/asset_manager/asset_manager.h"
 
 namespace Smooth
 {
@@ -13,20 +14,18 @@ namespace Smooth
 
     void RuntimeGlobalContext::startSystems(const std::string& config_file_path)
     {
-        //config��ʼ��
         m_config_manager = std::make_shared<ConfigManager>();
         m_config_manager->initialize(config_file_path);
+
+        m_asset_manager = std::make_shared<AssetManager>();
         
-        //����ϵͳ��ʼ��
         m_window_system = std::make_shared<WindowSystem>();
         WindowInfo window_creat_info;
         m_window_system->initialize(window_creat_info);
         
-        //����ϵͳ��ʼ��
         m_input_system = std::make_shared<InputSystem>();
         m_input_system->initialize();
 
-        //��Ⱦϵͳ��ʼ��
         m_render_system = std::make_shared<RenderSystem>();
         RenderSystemInitInfo render_init_info;
         render_init_info.window_system = m_window_system;
