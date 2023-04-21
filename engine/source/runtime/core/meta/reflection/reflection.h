@@ -62,10 +62,49 @@ namespace Smooth
         class ReflectionInstance;
     }
 
-    typedef std::function<void(void*, void*)> SetFunction;
+    typedef std::function<void(void*, void*)>      SetFunction;
+    typedef std::function<void*(void*)>            GetFunction;
+    typedef std::function<const char*()>           GetNameFunction;
+    typedef std::function<void(int, void*, void*)> SetArrayFunc;
+    typedef std::function<void*(int, void*)>       GetArrayFunc;
+    typedef std::function<int(void*)>              GetSizeFunc;
+    typedef std::function<bool()>                  GetBoolFunc;
+    typedef std::function<void(void*)>             InvokeFunction;
+
+    typedef std::function<void*(const Json&)>                           ConstructorWithJson;
+    typedef std::function<Json(void*)>                                  WriteJsonByName;
+    typedef std::function<int(Reflection::ReflectionInstance*&, void*)> GetBaseClassReflectionInstanceListFunc;
+
+    typedef std::tuple<SetFunction, GetFunction, GetNameFunction, GetNameFunction, GetNameFunction, GetBoolFunc> FieldFunctionTuple;
+    typedef std::tuple<GetNameFunction, InvokeFunction>                                                          MethodFunctionTuple;
+    typedef std::tuple<GetBaseClassReflectionInstanceListFunc, ConstructorWithJson, WriteJsonByName>             ClassFunctionTuple;
+    typedef std::tuple<SetArrayFunc, GetArrayFunc, GetSizeFunc, GetNameFunction, GetNameFunction>                ArrayFunctionTuple;
     
     namespace Reflection
     {
+        class TypeMeta
+        {
+            friend class FieldAccessor;
+            friend class ArrayAccessor;
+            friend class TypeMetaRegisterinterface;
+
+        public:
+            TypeMeta();
+
+            static TypeMeta newMetaFromName(std::string type_name);
+
+            static ReflectionInstance newFromNameAndJson(std::string type_name, const Json& json_context);
+        
+        private:
+            TypeMeta(std::string type_name);
+        
+        private:
+            std::vector<FieldAccessor, std::allocator<FieldAccessor>>   m_fields;
+            std::vector<MethodAccessor, std::allocator<MethodAccessor>> m_methods;
+            std::string                                                 m_type_name;
+            bool                                                        m_is_vaild;
+        };
+
         template<typename T>
         class ReflectionPtr
         {

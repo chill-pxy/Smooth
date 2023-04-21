@@ -488,8 +488,8 @@ engine/3rdparty/json11/CMakeFiles/json11.dir/clean:
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/CMakeFiles/imgui.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/CMakeFiles/glad.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/CMakeFiles/stb.dir/all
-engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/json11/CMakeFiles/json11.dir/all
 	$(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/build
@@ -519,8 +519,8 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/clean:
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/CMakeFiles/imgui.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/CMakeFiles/glad.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/CMakeFiles/stb.dir/all
-engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
+engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/json11/CMakeFiles/json11.dir/all
 	$(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/depend

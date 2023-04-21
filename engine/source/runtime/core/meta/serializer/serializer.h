@@ -1,5 +1,7 @@
 #pragma once
 
+#include <assert.h>
+
 #include "runtime/core/meta/json.h"
 #include "runtime/core/meta/reflection/reflection.h"
 
