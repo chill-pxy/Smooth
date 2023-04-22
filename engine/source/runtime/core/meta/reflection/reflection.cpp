@@ -35,5 +35,21 @@ namespace Smooth
             }
             return ReflectionInstance();
         }
+
+        Json TypeMeta::writeByName(std::string type_name, void* instance)
+        {
+            auto iter = m_class_map.find(type_name);
+
+            if(iter != m_class_map.end())
+            {
+                return std::get<2>(*iter->second)(instance);
+            }
+            return Json();
+        }
+
+        std::string TypeMeta::getTypeName()
+        {
+            return m_type_name;
+        }
     }
 }

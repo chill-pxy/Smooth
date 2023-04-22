@@ -20,7 +20,7 @@ namespace Smooth
                 std::string value = config_line.substr(seperate_pos + 1, config_line.length() - seperate_pos - 1);
                 if(name == "BinaryRootFolder")
                 {
-                    m_root_folder = config_file_path.parent_path();
+                    m_root_folder = config_file_path.parent_path().parent_path().parent_path();
                 }
                 else if(name == "AssetFolder")
                 {
@@ -42,7 +42,7 @@ namespace Smooth
                 {
                     m_editor_chinese_font_path = m_root_folder /value;
                 }
-                else if(name == "GlobalRendringRes")
+                else if(name == "GlobalRenderingRes")
                 {
                     m_global_rendering_res_url = value;
                 }

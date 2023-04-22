@@ -91,10 +91,11 @@ namespace Smooth
         public:
             TypeMeta();
 
-            static TypeMeta newMetaFromName(std::string type_name);
-
+            static TypeMeta           newMetaFromName(std::string type_name);
             static ReflectionInstance newFromNameAndJson(std::string type_name, const Json& json_context);
-        
+            static Json               writeByName(std::string type_name, void* instance);
+            std::string               getTypeName();
+
         private:
             TypeMeta(std::string type_name);
         
@@ -153,6 +154,9 @@ namespace Smooth
             ReflectionPtr(const ReflectionPtr& dest) : m_type_name(dest.m_type_name), m_instance(dest.m_instance) {}
 
             void setTypeName(std::string name){ m_type_name = name; }
+
+
+            T*& getPtrReference() { return m_instance; }
 
         private:
             std::string m_type_name {""};

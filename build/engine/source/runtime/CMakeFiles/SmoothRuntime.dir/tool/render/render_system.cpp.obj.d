@@ -417,11 +417,13 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/tool/render/render_system.cpp
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/codecvt \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_dir.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fs_ops.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/global/global_rendering.h \
- G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/reflection/reflection.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/asset_manager/asset_manager.h \
  G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/json.h \
  G:/Project/VsCode_project/Smooth/engine/3rdparty/json11/json11.hpp \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/map \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_tree.h \
  F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_map.h \
- F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_multimap.h
+ F:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_multimap.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/serializer/serializer.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/reflection/reflection.h \
+ G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/global/global_rendering.h

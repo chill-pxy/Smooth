@@ -1,0 +1,24 @@
+{
+    "enable_fxaa": false,
+    "skybox_irradiance_map": {
+        "negative_x_map": "asset/texture/sky/skybox_irradiance_X-.hdr",
+        "positive_x_map": "asset/texture/sky/skybox_irradiance_X+.hdr",
+        "negative_y_map": "asset/texture/sky/skybox_irradiance_Y-.hdr",
+        "positive_y_map": "asset/texture/sky/skybox_irradiance_Y+.hdr",
+        "negative_z_map": "asset/texture/sky/skybox_irradiance_Z-.hdr",
+        "positive_z_map": "asset/texture/sky/skybox_irradiance_Z+.hdr"
+    },
+    "skybox_specular_map": {
+        "negative_x_map": "asset/texture/sky/skybox_specular_X-.hdr",
+        "positive_x_map": "asset/texture/sky/skybox_specular_X+.hdr",
+        "negative_y_map": "asset/texture/sky/skybox_specular_Y-.hdr",
+        "positive_y_map": "asset/texture/sky/skybox_specular_Y+.hdr",
+        "negative_z_map": "asset/texture/sky/skybox_specular_Z-.hdr",
+        "positive_z_map": "asset/texture/sky/skybox_specular_Z+.hdr"
+    },
+    "sky_color": {
+        "r": 0.53,
+        "g": 0.81,
+        "b": 0.98
+    }
+}

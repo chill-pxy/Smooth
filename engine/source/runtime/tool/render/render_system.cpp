@@ -30,7 +30,7 @@ namespace Smooth
         //global rendering resource
         GlobalRendringRes global_rendering_res;
         const std::string& global_rendering_res_url = config_manager->getGlobalRenderingResUrl();
-        asset_manager->loadAsset(global_rendering_res_url, global_rendering_res);
+        //asset_manager->loadAsset(global_rendering_res_url, global_rendering_res);
         
         //setup render camera
         //const CameraPose& camera_pos = 
