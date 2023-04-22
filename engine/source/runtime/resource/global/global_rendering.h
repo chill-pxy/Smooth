@@ -46,7 +46,7 @@ namespace Smooth
     };
 
     REFLECTION_TYPE(GlobalRenderingRes)
-    CLASS(GlobalRendringRes, Fields)
+    CLASS(GlobalRenderingRes, Fields)
     { 
         REFLECTION_BODY(GlobalRenderingRes);
     

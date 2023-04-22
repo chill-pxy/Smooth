@@ -4,6 +4,7 @@
 #include <filesystem>
 #include <fstream>
 #include <sstream>
+#include <iostream>
 
 #include "runtime/core/meta/json.h"
 #include "runtime/resource/asset_manager/asset_manager.h"

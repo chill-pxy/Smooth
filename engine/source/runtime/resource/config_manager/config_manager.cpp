@@ -40,7 +40,7 @@ namespace Smooth
                 }
                 else if(name == "ChineseFontFile")
                 {
-                    m_editor_chinese_font_path = m_root_folder /value;
+                    m_editor_chinese_font_path = m_root_folder / value;
                 }
                 else if(name == "GlobalRenderingRes")
                 {
