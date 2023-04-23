@@ -24,13 +24,13 @@ namespace Smooth
         std::shared_ptr<AssetManager> asset_manager = g_runtime_global_context.m_asset_manager;
         assert(asset_manager);
 
-        m_render_pipeline = std::make_shared<RenderPipeline>();
-        m_render_pipeline->initialize();
-
         //global rendering resource
         GlobalRenderingRes global_rendering_res;
         const std::string& global_rendering_res_url = config_manager->getGlobalRenderingResUrl();
         asset_manager->loadAsset(global_rendering_res_url, global_rendering_res);
+
+        m_render_pipeline = std::make_shared<RenderPipeline>();
+        m_render_pipeline->initialize();
         
         //setup render camera
         //const CameraPose& camera_pos = 

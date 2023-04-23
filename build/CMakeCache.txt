@@ -170,7 +170,7 @@ CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 CMAKE_LINKER:FILEPATH=F:/MinGW/bin/ld.exe
 
 //Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=F:/QT/Tools/mingw810_64/bin/mingw32-make.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=F:/MinGW/bin/mingw32-make.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -229,7 +229,7 @@ CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 CMAKE_RANLIB:FILEPATH=F:/MinGW/bin/ranlib.exe
 
 //RC compiler
-CMAKE_RC_COMPILER:FILEPATH=F:/QT/Tools/mingw810_64/bin/windres.exe
+CMAKE_RC_COMPILER:FILEPATH=F:/MinGW/bin/windres.exe
 
 //Flags for Windows Resource Compiler during all build types.
 CMAKE_RC_FLAGS:STRING=
@@ -532,7 +532,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

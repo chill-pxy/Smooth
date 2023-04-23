@@ -1,24 +1,24 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):F:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f Makefile cmTC_66e36/fast && F:/QT/Tools/mingw810_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_66e36.dir\build.make CMakeFiles/cmTC_66e36.dir/build
+Run Build Command(s):F:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_70461/fast && F:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_70461.dir\build.make CMakeFiles/cmTC_70461.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66e36.dir/src.c.obj
-F:\MinGW\bin\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\cmTC_66e36.dir\src.c.obj -c G:\Project\VsCode_project\Smooth\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_66e36.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_66e36.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_66e36.dir/objects.a
-F:\MinGW\bin\ar.exe qc CMakeFiles\cmTC_66e36.dir/objects.a @CMakeFiles\cmTC_66e36.dir\objects1.rsp
-F:\MinGW\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_66e36.dir/objects.a -Wl,--no-whole-archive -o cmTC_66e36.exe -Wl,--out-implib,libcmTC_66e36.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_66e36.dir\linklibs.rsp
-F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_66e36.dir/objects.a(src.c.obj):src.c:(.text+0x35): undefined reference to `pthread_create'
-F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_66e36.dir/objects.a(src.c.obj):src.c:(.text+0x41): undefined reference to `pthread_detach'
-F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_66e36.dir/objects.a(src.c.obj):src.c:(.text+0x4d): undefined reference to `pthread_cancel'
-F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_66e36.dir/objects.a(src.c.obj):src.c:(.text+0x5e): undefined reference to `pthread_join'
-F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_66e36.dir/objects.a(src.c.obj):src.c:(.text+0x68): undefined reference to `pthread_exit'
+Building C object CMakeFiles/cmTC_70461.dir/src.c.obj
+F:\MinGW\bin\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\cmTC_70461.dir\src.c.obj -c G:\Project\VsCode_project\Smooth\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_70461.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_70461.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_70461.dir/objects.a
+F:\MinGW\bin\ar.exe qc CMakeFiles\cmTC_70461.dir/objects.a @CMakeFiles\cmTC_70461.dir\objects1.rsp
+F:\MinGW\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_70461.dir/objects.a -Wl,--no-whole-archive -o cmTC_70461.exe -Wl,--out-implib,libcmTC_70461.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_70461.dir\linklibs.rsp
+F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_70461.dir/objects.a(src.c.obj):src.c:(.text+0x35): undefined reference to `pthread_create'
+F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_70461.dir/objects.a(src.c.obj):src.c:(.text+0x41): undefined reference to `pthread_detach'
+F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_70461.dir/objects.a(src.c.obj):src.c:(.text+0x4d): undefined reference to `pthread_cancel'
+F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_70461.dir/objects.a(src.c.obj):src.c:(.text+0x5e): undefined reference to `pthread_join'
+F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_70461.dir/objects.a(src.c.obj):src.c:(.text+0x68): undefined reference to `pthread_exit'
 collect2.exe: error: ld returned 1 exit status
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_66e36.dir\build.make:100: cmTC_66e36.exe] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_70461.dir\build.make:100: cmTC_70461.exe] Error 1
 mingw32-make.exe[1]: Leaving directory 'G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_66e36/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_70461/fast] Error 2
 
 
 Source file was:
@@ -45,36 +45,36 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):F:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f Makefile cmTC_cf873/fast && F:/QT/Tools/mingw810_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cf873.dir\build.make CMakeFiles/cmTC_cf873.dir/build
+Run Build Command(s):F:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_3876f/fast && F:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3876f.dir\build.make CMakeFiles/cmTC_3876f.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cf873.dir/CheckFunctionExists.c.obj
-F:\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles\cmTC_cf873.dir\CheckFunctionExists.c.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
-Linking C executable cmTC_cf873.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cf873.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_cf873.dir/objects.a
-F:\MinGW\bin\ar.exe qc CMakeFiles\cmTC_cf873.dir/objects.a @CMakeFiles\cmTC_cf873.dir\objects1.rsp
-F:\MinGW\bin\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles\cmTC_cf873.dir/objects.a -Wl,--no-whole-archive -o cmTC_cf873.exe -Wl,--out-implib,libcmTC_cf873.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cf873.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_3876f.dir/CheckFunctionExists.c.obj
+F:\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles\cmTC_3876f.dir\CheckFunctionExists.c.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_3876f.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3876f.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3876f.dir/objects.a
+F:\MinGW\bin\ar.exe qc CMakeFiles\cmTC_3876f.dir/objects.a @CMakeFiles\cmTC_3876f.dir\objects1.rsp
+F:\MinGW\bin\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles\cmTC_3876f.dir/objects.a -Wl,--no-whole-archive -o cmTC_3876f.exe -Wl,--out-implib,libcmTC_3876f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3876f.dir\linklibs.rsp
 F:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lpthreads: No such file or directory
 collect2.exe: error: ld returned 1 exit status
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_cf873.dir\build.make:100: cmTC_cf873.exe] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_3876f.dir\build.make:100: cmTC_3876f.exe] Error 1
 mingw32-make.exe[1]: Leaving directory 'G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_cf873/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_3876f/fast] Error 2
 
 
 
 Performing C++ SOURCE FILE Test _flag_supported failed with the following output:
 Change Dir: G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):F:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f Makefile cmTC_5c0a1/fast && F:/QT/Tools/mingw810_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5c0a1.dir\build.make CMakeFiles/cmTC_5c0a1.dir/build
+Run Build Command(s):F:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_08a7f/fast && F:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_08a7f.dir\build.make CMakeFiles/cmTC_08a7f.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5c0a1.dir/src.cxx.obj
-F:\MinGW\bin\g++.exe -D_flag_supported  /W4 -std=gnu++11 -o CMakeFiles\cmTC_5c0a1.dir\src.cxx.obj -c G:\Project\VsCode_project\Smooth\build\CMakeFiles\CMakeTmp\src.cxx
+Building CXX object CMakeFiles/cmTC_08a7f.dir/src.cxx.obj
+F:\MinGW\bin\g++.exe -D_flag_supported  /W4 -std=gnu++11 -o CMakeFiles\cmTC_08a7f.dir\src.cxx.obj -c G:\Project\VsCode_project\Smooth\build\CMakeFiles\CMakeTmp\src.cxx
 g++.exe: warning: /W4: linker input file unused because linking not done
 g++.exe: error: /W4: linker input file not found: No such file or directory
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_5c0a1.dir\build.make:77: CMakeFiles/cmTC_5c0a1.dir/src.cxx.obj] Error 1
-mingw32-make.exe[1]: *** Deleting file 'CMakeFiles/cmTC_5c0a1.dir/src.cxx.obj'
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_08a7f.dir\build.make:77: CMakeFiles/cmTC_08a7f.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: *** Deleting file 'CMakeFiles/cmTC_08a7f.dir/src.cxx.obj'
 mingw32-make.exe[1]: Leaving directory 'G:/Project/VsCode_project/Smooth/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_5c0a1/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_08a7f/fast] Error 2
 
 
 Source file was:
