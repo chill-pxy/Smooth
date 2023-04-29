@@ -1,0 +1,480 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "G:/Project/VsCode_project/Smooth/engine/bin/SmoothParser.exe"
+		},
+		{
+			"path" : "G:/Project/VsCode_project/Smooth/engine/bin/SmoothParser.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"engine/source/meta_parser/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /O2 /Ob2"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "TIXML_USE_STL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/3rd_party/LLVM/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/3rd_party/mustache"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/source/meta_parser"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tools"
+	},
+	"id" : "SmoothParser::@b04f5f839687af80aae5",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/O2 /Ob2",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\..\\..\\..\\engine\\source\\meta_parser\\3rd_party\\LLVM\\lib\\x64\\libclang.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "SmoothParser",
+	"nameOnDisk" : "SmoothParser.exe",
+	"paths" : 
+	{
+		"build" : "engine/source/meta_parser",
+		"source" : "engine/source/meta_parser"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "3rd_party\\LLVM\\include\\clang-c",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "3rd_party\\LLVM\\include\\llvm-c",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"name" : "parser\\common",
+			"sourceIndexes" : 
+			[
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"name" : "parser\\cursor",
+			"sourceIndexes" : 
+			[
+				11,
+				12,
+				25,
+				26
+			]
+		},
+		{
+			"name" : "parser\\generator",
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"name" : "parser\\language_types",
+			"sourceIndexes" : 
+			[
+				16,
+				17,
+				18,
+				19,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"name" : "parser\\meta",
+			"sourceIndexes" : 
+			[
+				20,
+				21,
+				22,
+				35,
+				36
+			]
+		},
+		{
+			"name" : "parser\\parser",
+			"sourceIndexes" : 
+			[
+				23,
+				37
+			]
+		},
+		{
+			"name" : "parser\\template_manager",
+			"sourceIndexes" : 
+			[
+				24,
+				38
+			]
+		},
+		{
+			"name" : "parser",
+			"sourceIndexes" : 
+			[
+				34
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/3rd_party/LLVM/include/clang-c/BuildSystem.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/3rd_party/LLVM/include/clang-c/CXCompilationDatabase.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/3rd_party/LLVM/include/clang-c/CXErrorCode.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/3rd_party/LLVM/include/clang-c/CXString.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/3rd_party/LLVM/include/clang-c/Documentation.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/3rd_party/LLVM/include/clang-c/Index.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/3rd_party/LLVM/include/clang-c/Platform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/3rd_party/LLVM/include/llvm-c/lto.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/common/namespace.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/common/precompiled.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/common/schema_module.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/cursor/cursor.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/cursor/cursor_type.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/generator/generator.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/generator/reflection_generator.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/generator/serializer_generator.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/language_types/class.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/language_types/field.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/language_types/method.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/language_types/type_info.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/meta/meta_data_config.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/meta/meta_info.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/meta/meta_utils.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/parser/parser.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/meta_parser/parser/template_manager/template_manager.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/cursor/cursor.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/cursor/cursor_type.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/generator/generator.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/generator/reflection_generator.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/generator/serializer_generator.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/language_types/class.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/language_types/field.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/language_types/method.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/language_types/type_info.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/main.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/meta/meta_info.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/meta/meta_utils.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/parser/parser.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/meta_parser/parser/template_manager/template_manager.cpp",
+			"sourceGroupIndex" : 8
+		}
+	],
+	"type" : "EXECUTABLE"
+}

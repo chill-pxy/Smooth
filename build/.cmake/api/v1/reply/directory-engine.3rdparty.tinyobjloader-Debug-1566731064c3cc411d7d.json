@@ -63,7 +63,7 @@
 				"G:/Project/VsCode_project/Smooth/out/libtinyobjloader.a"
 			],
 			"targetId" : "tinyobjloader::@2040b85fa92506764563",
-			"targetIndex" : 8,
+			"targetIndex" : 10,
 			"type" : "target"
 		},
 		{
@@ -75,7 +75,7 @@
 			[
 				{
 					"id" : "tinyobjloader::@2040b85fa92506764563",
-					"index" : 8
+					"index" : 10
 				}
 			],
 			"paths" : 

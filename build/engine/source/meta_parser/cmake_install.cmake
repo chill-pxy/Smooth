@@ -1,4 +1,4 @@
-# Install script for directory: G:/Project/VsCode_project/Smooth/engine
+# Install script for directory: G:/Project/VsCode_project/Smooth/engine/source/meta_parser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,25 +35,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "F:/MinGW/bin/objdump.exe")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("G:/Project/VsCode_project/Smooth/build/engine/3rdparty/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("G:/Project/VsCode_project/Smooth/build/engine/source/runtime/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("G:/Project/VsCode_project/Smooth/build/engine/source/editor/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser/cmake_install.cmake")
 endif()
 

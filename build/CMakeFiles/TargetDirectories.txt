@@ -4,6 +4,7 @@ G:/Project/VsCode_project/Smooth/build/CMakeFiles/list_install_components.dir
 G:/Project/VsCode_project/Smooth/build/CMakeFiles/install.dir
 G:/Project/VsCode_project/Smooth/build/CMakeFiles/install/local.dir
 G:/Project/VsCode_project/Smooth/build/CMakeFiles/install/strip.dir
+G:/Project/VsCode_project/Smooth/build/engine/CMakeFiles/SmoothPreCompile.dir
 G:/Project/VsCode_project/Smooth/build/engine/CMakeFiles/edit_cache.dir
 G:/Project/VsCode_project/Smooth/build/engine/CMakeFiles/rebuild_cache.dir
 G:/Project/VsCode_project/Smooth/build/engine/CMakeFiles/list_install_components.dir
@@ -75,3 +76,10 @@ G:/Project/VsCode_project/Smooth/build/engine/source/editor/CMakeFiles/list_inst
 G:/Project/VsCode_project/Smooth/build/engine/source/editor/CMakeFiles/install.dir
 G:/Project/VsCode_project/Smooth/build/engine/source/editor/CMakeFiles/install/local.dir
 G:/Project/VsCode_project/Smooth/build/engine/source/editor/CMakeFiles/install/strip.dir
+G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser/CMakeFiles/SmoothParser.dir
+G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser/CMakeFiles/edit_cache.dir
+G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser/CMakeFiles/rebuild_cache.dir
+G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser/CMakeFiles/list_install_components.dir
+G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser/CMakeFiles/install.dir
+G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser/CMakeFiles/install/local.dir
+G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser/CMakeFiles/install/strip.dir

@@ -77,21 +77,26 @@ clean: engine/clean
 # Directory level rules for directory engine
 
 # Recursive "all" directory target.
+engine/all: engine/CMakeFiles/SmoothPreCompile.dir/all
 engine/all: engine/3rdparty/all
 engine/all: engine/source/runtime/all
 engine/all: engine/source/editor/all
+engine/all: engine/source/meta_parser/all
 .PHONY : engine/all
 
 # Recursive "preinstall" directory target.
 engine/preinstall: engine/3rdparty/preinstall
 engine/preinstall: engine/source/runtime/preinstall
 engine/preinstall: engine/source/editor/preinstall
+engine/preinstall: engine/source/meta_parser/preinstall
 .PHONY : engine/preinstall
 
 # Recursive "clean" directory target.
+engine/clean: engine/CMakeFiles/SmoothPreCompile.dir/clean
 engine/clean: engine/3rdparty/clean
 engine/clean: engine/source/runtime/clean
 engine/clean: engine/source/editor/clean
+engine/clean: engine/source/meta_parser/clean
 .PHONY : engine/clean
 
 #=============================================================================
@@ -232,6 +237,21 @@ engine/source/editor/clean: engine/source/editor/CMakeFiles/SmoothEditor.dir/cle
 .PHONY : engine/source/editor/clean
 
 #=============================================================================
+# Directory level rules for directory engine/source/meta_parser
+
+# Recursive "all" directory target.
+engine/source/meta_parser/all: engine/source/meta_parser/CMakeFiles/SmoothParser.dir/all
+.PHONY : engine/source/meta_parser/all
+
+# Recursive "preinstall" directory target.
+engine/source/meta_parser/preinstall:
+.PHONY : engine/source/meta_parser/preinstall
+
+# Recursive "clean" directory target.
+engine/source/meta_parser/clean: engine/source/meta_parser/CMakeFiles/SmoothParser.dir/clean
+.PHONY : engine/source/meta_parser/clean
+
+#=============================================================================
 # Directory level rules for directory engine/source/runtime
 
 # Recursive "all" directory target.
@@ -247,6 +267,32 @@ engine/source/runtime/clean: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/
 .PHONY : engine/source/runtime/clean
 
 #=============================================================================
+# Target rules for target engine/CMakeFiles/SmoothPreCompile.dir
+
+# All Build rule for target.
+engine/CMakeFiles/SmoothPreCompile.dir/all: engine/source/meta_parser/CMakeFiles/SmoothParser.dir/all
+	$(MAKE) $(MAKESILENT) -f engine\CMakeFiles\SmoothPreCompile.dir\build.make engine/CMakeFiles/SmoothPreCompile.dir/depend
+	$(MAKE) $(MAKESILENT) -f engine\CMakeFiles\SmoothPreCompile.dir\build.make engine/CMakeFiles/SmoothPreCompile.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num= "Built target SmoothPreCompile"
+.PHONY : engine/CMakeFiles/SmoothPreCompile.dir/all
+
+# Build rule for subdir invocation for target.
+engine/CMakeFiles/SmoothPreCompile.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/CMakeFiles/SmoothPreCompile.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 0
+.PHONY : engine/CMakeFiles/SmoothPreCompile.dir/rule
+
+# Convenience name for target.
+SmoothPreCompile: engine/CMakeFiles/SmoothPreCompile.dir/rule
+.PHONY : SmoothPreCompile
+
+# clean rule for target.
+engine/CMakeFiles/SmoothPreCompile.dir/clean:
+	$(MAKE) $(MAKESILENT) -f engine\CMakeFiles\SmoothPreCompile.dir\build.make engine/CMakeFiles/SmoothPreCompile.dir/clean
+.PHONY : engine/CMakeFiles/SmoothPreCompile.dir/clean
+
+#=============================================================================
 # Target rules for target engine/3rdparty/CMakeFiles/imgui.dir
 
 # All Build rule for target.
@@ -254,7 +300,7 @@ engine/3rdparty/CMakeFiles/imgui.dir/all: engine/3rdparty/CMakeFiles/glad.dir/al
 engine/3rdparty/CMakeFiles/imgui.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\imgui.dir\build.make engine/3rdparty/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=53,54,55,56,57,58,59,60 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=68,69,70,71,72,73,74,75 "Built target imgui"
 .PHONY : engine/3rdparty/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
@@ -280,7 +326,7 @@ engine/3rdparty/CMakeFiles/imgui.dir/clean:
 engine/3rdparty/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\CMakeFiles\glad.dir\build.make engine/3rdparty/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=33,34 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=48,49 "Built target glad"
 .PHONY : engine/3rdparty/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
@@ -332,7 +378,7 @@ engine/3rdparty/CMakeFiles/stb.dir/clean:
 engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\glm\glm\CMakeFiles\glm_static.dir\build.make engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\glm\glm\CMakeFiles\glm_static.dir\build.make engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=51,52 "Built target glm_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=66,67 "Built target glm_static"
 .PHONY : engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/all
 
 # Build rule for subdir invocation for target.
@@ -358,7 +404,7 @@ engine/3rdparty/glm/glm/CMakeFiles/glm_static.dir/clean:
 engine/3rdparty/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\glfw\src\CMakeFiles\update_mappings.dir\build.make engine/3rdparty/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\glfw\src\CMakeFiles\update_mappings.dir\build.make engine/3rdparty/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=65 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=80 "Built target update_mappings"
 .PHONY : engine/3rdparty/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -384,7 +430,7 @@ engine/3rdparty/glfw/src/CMakeFiles/update_mappings.dir/clean:
 engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\glfw\src\CMakeFiles\glfw.dir\build.make engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\glfw\src\CMakeFiles\glfw.dir\build.make engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target glfw"
 .PHONY : engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -410,7 +456,7 @@ engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/clean:
 engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\tinyobjloader\CMakeFiles\tinyobjloader.dir\build.make engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\tinyobjloader\CMakeFiles\tinyobjloader.dir\build.make engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=63,64 "Built target tinyobjloader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=78,79 "Built target tinyobjloader"
 .PHONY : engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -462,7 +508,7 @@ engine/3rdparty/tinyobjloader/CMakeFiles/uninstall.dir/clean:
 engine/3rdparty/json11/CMakeFiles/json11.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\json11\CMakeFiles\json11.dir\build.make engine/3rdparty/json11/CMakeFiles/json11.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\3rdparty\json11\CMakeFiles\json11.dir\build.make engine/3rdparty/json11/CMakeFiles/json11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=61,62 "Built target json11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=76,77 "Built target json11"
 .PHONY : engine/3rdparty/json11/CMakeFiles/json11.dir/all
 
 # Build rule for subdir invocation for target.
@@ -485,6 +531,7 @@ engine/3rdparty/json11/CMakeFiles/json11.dir/clean:
 # Target rules for target engine/source/runtime/CMakeFiles/SmoothRuntime.dir
 
 # All Build rule for target.
+engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/CMakeFiles/SmoothPreCompile.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/CMakeFiles/imgui.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/CMakeFiles/glad.dir/all
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/CMakeFiles/stb.dir/all
@@ -493,12 +540,12 @@ engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/glfw/src
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all: engine/3rdparty/json11/CMakeFiles/json11.dir/all
 	$(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target SmoothRuntime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target SmoothRuntime"
 .PHONY : engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all
 
 # Build rule for subdir invocation for target.
 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 0
 .PHONY : engine/source/runtime/CMakeFiles/SmoothRuntime.dir/rule
@@ -521,8 +568,8 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/CMakeFiles
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/CMakeFiles/stb.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/glfw/src/CMakeFiles/glfw.dir/all
-engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/json11/CMakeFiles/json11.dir/all
 engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/source/runtime/CMakeFiles/SmoothRuntime.dir/all
+engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/3rdparty/json11/CMakeFiles/json11.dir/all
 	$(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target SmoothEditor"
@@ -530,7 +577,7 @@ engine/source/editor/CMakeFiles/SmoothEditor.dir/all: engine/source/runtime/CMak
 
 # Build rule for subdir invocation for target.
 engine/source/editor/CMakeFiles/SmoothEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 77
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/editor/CMakeFiles/SmoothEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 0
 .PHONY : engine/source/editor/CMakeFiles/SmoothEditor.dir/rule
@@ -543,6 +590,32 @@ SmoothEditor: engine/source/editor/CMakeFiles/SmoothEditor.dir/rule
 engine/source/editor/CMakeFiles/SmoothEditor.dir/clean:
 	$(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/clean
 .PHONY : engine/source/editor/CMakeFiles/SmoothEditor.dir/clean
+
+#=============================================================================
+# Target rules for target engine/source/meta_parser/CMakeFiles/SmoothParser.dir
+
+# All Build rule for target.
+engine/source/meta_parser/CMakeFiles/SmoothParser.dir/all:
+	$(MAKE) $(MAKESILENT) -f engine\source\meta_parser\CMakeFiles\SmoothParser.dir\build.make engine/source/meta_parser/CMakeFiles/SmoothParser.dir/depend
+	$(MAKE) $(MAKESILENT) -f engine\source\meta_parser\CMakeFiles\SmoothParser.dir\build.make engine/source/meta_parser/CMakeFiles/SmoothParser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Project\VsCode_project\Smooth\build\CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target SmoothParser"
+.PHONY : engine/source/meta_parser/CMakeFiles/SmoothParser.dir/all
+
+# Build rule for subdir invocation for target.
+engine/source/meta_parser/CMakeFiles/SmoothParser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine/source/meta_parser/CMakeFiles/SmoothParser.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Project\VsCode_project\Smooth\build\CMakeFiles 0
+.PHONY : engine/source/meta_parser/CMakeFiles/SmoothParser.dir/rule
+
+# Convenience name for target.
+SmoothParser: engine/source/meta_parser/CMakeFiles/SmoothParser.dir/rule
+.PHONY : SmoothParser
+
+# clean rule for target.
+engine/source/meta_parser/CMakeFiles/SmoothParser.dir/clean:
+	$(MAKE) $(MAKESILENT) -f engine\source\meta_parser\CMakeFiles\SmoothParser.dir\build.make engine/source/meta_parser/CMakeFiles/SmoothParser.dir/clean
+.PHONY : engine/source/meta_parser/CMakeFiles/SmoothParser.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

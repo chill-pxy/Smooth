@@ -162,6 +162,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named SmoothPreCompile
+
+# Build rule for target.
+SmoothPreCompile: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SmoothPreCompile
+.PHONY : SmoothPreCompile
+
+# fast build rule for target.
+SmoothPreCompile/fast:
+	$(MAKE) $(MAKESILENT) -f engine\CMakeFiles\SmoothPreCompile.dir\build.make engine/CMakeFiles/SmoothPreCompile.dir/build
+.PHONY : SmoothPreCompile/fast
+
+#=============================================================================
 # Target rules for targets named imgui
 
 # Build rule for target.
@@ -304,6 +317,19 @@ SmoothEditor/fast:
 	$(MAKE) $(MAKESILENT) -f engine\source\editor\CMakeFiles\SmoothEditor.dir\build.make engine/source/editor/CMakeFiles/SmoothEditor.dir/build
 .PHONY : SmoothEditor/fast
 
+#=============================================================================
+# Target rules for targets named SmoothParser
+
+# Build rule for target.
+SmoothParser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SmoothParser
+.PHONY : SmoothParser
+
+# fast build rule for target.
+SmoothParser/fast:
+	$(MAKE) $(MAKESILENT) -f engine\source\meta_parser\CMakeFiles\SmoothParser.dir\build.make engine/source/meta_parser/CMakeFiles/SmoothParser.dir/build
+.PHONY : SmoothParser/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -316,9 +342,11 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... SmoothPreCompile
 	@echo ... uninstall
 	@echo ... update_mappings
 	@echo ... SmoothEditor
+	@echo ... SmoothParser
 	@echo ... SmoothRuntime
 	@echo ... glad
 	@echo ... glfw

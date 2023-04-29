@@ -278,5 +278,75 @@
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/editor",
   "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/SmoothEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothEditor.dir\\source\\editor_language.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\editor\\source\\editor_language.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/editor/source/editor_language.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\cursor\\cursor.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\cursor\\cursor.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/cursor/cursor.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\cursor\\cursor_type.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\cursor\\cursor_type.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/cursor/cursor_type.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\generator\\generator.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\generator\\generator.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/generator/generator.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\generator\\reflection_generator.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\generator\\reflection_generator.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/generator/reflection_generator.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\generator\\serializer_generator.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\generator\\serializer_generator.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/generator/serializer_generator.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\language_types\\class.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\language_types\\class.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/language_types/class.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\language_types\\field.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\language_types\\field.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/language_types/field.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\language_types\\method.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\language_types\\method.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/language_types/method.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\language_types\\type_info.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\language_types\\type_info.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/language_types/type_info.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\main.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\main.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/main.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\meta\\meta_info.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\meta\\meta_info.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/meta/meta_info.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\meta\\meta_utils.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\meta\\meta_utils.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/meta/meta_utils.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\parser\\parser.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\parser\\parser.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/parser/parser.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/meta_parser",
+  "command": "F:\\MinGW\\bin\\g++.exe -DTIXML_USE_STL @CMakeFiles/SmoothParser.dir/includes_CXX.rsp  /O2 /Ob2 -std=gnu++17 -o CMakeFiles\\SmoothParser.dir\\parser\\template_manager\\template_manager.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\meta_parser\\parser\\template_manager\\template_manager.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/meta_parser/parser/template_manager/template_manager.cpp"
 }
 ]

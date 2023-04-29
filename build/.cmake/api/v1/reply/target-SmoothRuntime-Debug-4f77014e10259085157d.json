@@ -12,13 +12,15 @@
 		"commands" : 
 		[
 			"add_library",
+			"add_dependencies",
 			"target_link_libraries",
 			"target_include_directories",
 			"set_target_properties"
 		],
 		"files" : 
 		[
-			"engine/source/runtime/CMakeLists.txt"
+			"engine/source/runtime/CMakeLists.txt",
+			"engine/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -32,43 +34,52 @@
 				"parent" : 0
 			},
 			{
+				"file" : 1
+			},
+			{
 				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
 				"file" : 0,
 				"line" : 18,
 				"parent" : 0
 			},
 			{
-				"command" : 1,
+				"command" : 2,
 				"file" : 0,
 				"line" : 29,
 				"parent" : 0
 			},
 			{
-				"command" : 1,
+				"command" : 2,
 				"file" : 0,
 				"line" : 27,
 				"parent" : 0
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 0,
 				"line" : 34,
 				"parent" : 0
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 0,
 				"line" : 38,
 				"parent" : 0
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 0,
 				"line" : 44,
 				"parent" : 0
 			},
 			{
-				"command" : 3,
+				"command" : 4,
 				"file" : 0,
 				"line" : 15,
 				"parent" : 0
@@ -90,43 +101,43 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glad/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/source"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 9,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/source/runtime"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glfw/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/glm/glm/.."
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/imgui/backends"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/stb"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 6,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/json11"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 5,
 					"path" : "G:/Project/VsCode_project/Smooth/engine/3rdparty/tinyobjloader"
 				}
 			],
@@ -135,7 +146,7 @@
 			{
 				"backtraces" : 
 				[
-					8
+					10
 				],
 				"standard" : "17"
 			},
@@ -170,27 +181,31 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "imgui::@e01f7ddb2d9853d51791"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "glad::@e01f7ddb2d9853d51791"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "stb::@e01f7ddb2d9853d51791"
-		},
-		{
 			"backtrace" : 3,
-			"id" : "tinyobjloader::@2040b85fa92506764563"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "glfw::@5aec3c3994f13e9ca945"
+			"id" : "SmoothPreCompile::@4088515cb4035b412499"
 		},
 		{
 			"backtrace" : 4,
+			"id" : "imgui::@e01f7ddb2d9853d51791"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "glad::@e01f7ddb2d9853d51791"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "stb::@e01f7ddb2d9853d51791"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tinyobjloader::@2040b85fa92506764563"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "glfw::@5aec3c3994f13e9ca945"
+		},
+		{
+			"backtrace" : 6,
 			"id" : "json11::@496dd5d6738ca6ee4b24"
 		}
 	],

@@ -72,6 +72,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../engine/3rdparty/tinyobjloader/tinyobjloader.pc.in"
   "../engine/CMakeLists.txt"
   "../engine/source/editor/CMakeLists.txt"
+  "../engine/source/meta_parser/CMakeLists.txt"
+  "../engine/source/precompile/precompile.cmake"
+  "../engine/source/precompile/precompile.json.in"
   "../engine/source/runtime/CMakeLists.txt"
   )
 
@@ -84,6 +87,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../engine/bin/precompile.json"
   "engine/CMakeFiles/CMakeDirectoryInformation.cmake"
   "engine/3rdparty/CMakeFiles/CMakeDirectoryInformation.cmake"
   "engine/3rdparty/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -103,10 +107,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "engine/3rdparty/json11/CMakeFiles/CMakeDirectoryInformation.cmake"
   "engine/source/runtime/CMakeFiles/CMakeDirectoryInformation.cmake"
   "engine/source/editor/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "engine/source/meta_parser/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "engine/CMakeFiles/SmoothPreCompile.dir/DependInfo.cmake"
   "engine/3rdparty/CMakeFiles/imgui.dir/DependInfo.cmake"
   "engine/3rdparty/CMakeFiles/glad.dir/DependInfo.cmake"
   "engine/3rdparty/CMakeFiles/stb.dir/DependInfo.cmake"
@@ -118,4 +124,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "engine/3rdparty/json11/CMakeFiles/json11.dir/DependInfo.cmake"
   "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/DependInfo.cmake"
   "engine/source/editor/CMakeFiles/SmoothEditor.dir/DependInfo.cmake"
+  "engine/source/meta_parser/CMakeFiles/SmoothParser.dir/DependInfo.cmake"
   )

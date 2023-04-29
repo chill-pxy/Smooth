@@ -154,6 +154,12 @@
 			"path" : "engine/CMakeLists.txt"
 		},
 		{
+			"path" : "engine/source/precompile/precompile.cmake"
+		},
+		{
+			"path" : "engine/source/precompile/precompile.json.in"
+		},
+		{
 			"path" : "engine/3rdparty/CMakeLists.txt"
 		},
 		{
@@ -344,6 +350,9 @@
 		},
 		{
 			"path" : "engine/source/editor/CMakeLists.txt"
+		},
+		{
+			"path" : "engine/source/meta_parser/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -25,17 +25,22 @@
 					[
 						2,
 						9,
-						10
+						10,
+						11
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-engine-Debug-776e2b00c6520ab49d05.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.20"
+						"string" : "3.23.2"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "engine"
+					"source" : "engine",
+					"targetIndexes" : 
+					[
+						2
+					]
 				},
 				{
 					"build" : "engine/3rdparty",
@@ -57,9 +62,9 @@
 					"source" : "engine/3rdparty",
 					"targetIndexes" : 
 					[
-						2,
-						5,
-						7
+						4,
+						7,
+						9
 					]
 				},
 				{
@@ -89,7 +94,7 @@
 					"source" : "engine/3rdparty/glm/glm",
 					"targetIndexes" : 
 					[
-						4
+						6
 					]
 				},
 				{
@@ -119,14 +124,14 @@
 					"source" : "engine/3rdparty/glfw/src",
 					"targetIndexes" : 
 					[
-						3,
-						10
+						5,
+						12
 					]
 				},
 				{
 					"build" : "engine/3rdparty/tinyobjloader",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-engine.3rdparty.tinyobjloader-Debug-0a05e45aeba2b6dae464.json",
+					"jsonFile" : "directory-engine.3rdparty.tinyobjloader-Debug-1566731064c3cc411d7d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.2"
@@ -136,14 +141,14 @@
 					"source" : "engine/3rdparty/tinyobjloader",
 					"targetIndexes" : 
 					[
-						8,
-						9
+						10,
+						11
 					]
 				},
 				{
 					"build" : "engine/3rdparty/json11",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-engine.3rdparty.json11-Debug-2edc58fd7b7d0e4427b8.json",
+					"jsonFile" : "directory-engine.3rdparty.json11-Debug-6f459cd8b417f6b84c28.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "2.8"
@@ -153,7 +158,7 @@
 					"source" : "engine/3rdparty/json11",
 					"targetIndexes" : 
 					[
-						6
+						8
 					]
 				},
 				{
@@ -168,7 +173,7 @@
 					"source" : "engine/source/runtime",
 					"targetIndexes" : 
 					[
-						1
+						3
 					]
 				},
 				{
@@ -184,6 +189,21 @@
 					"targetIndexes" : 
 					[
 						0
+					]
+				},
+				{
+					"build" : "engine/source/meta_parser",
+					"jsonFile" : "directory-engine.source.meta_parser-Debug-30efd9972a46ed899508.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "engine/source/meta_parser",
+					"targetIndexes" : 
+					[
+						1
 					]
 				}
 			],
@@ -204,7 +224,8 @@
 						1,
 						2,
 						9,
-						10
+						10,
+						11
 					],
 					"name" : "Smooth",
 					"targetIndexes" : 
@@ -212,8 +233,10 @@
 						0,
 						1,
 						2,
-						5,
-						7
+						3,
+						4,
+						7,
+						9
 					]
 				},
 				{
@@ -226,7 +249,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						6
 					]
 				},
 				{
@@ -239,8 +262,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3,
-						10
+						5,
+						12
 					]
 				},
 				{
@@ -252,8 +275,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8,
-						9
+						10,
+						11
 					]
 				},
 				{
@@ -265,7 +288,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						8
 					]
 				}
 			],
@@ -274,14 +297,28 @@
 				{
 					"directoryIndex" : 10,
 					"id" : "SmoothEditor::@a2a08a0b55f399eba4b5",
-					"jsonFile" : "target-SmoothEditor-Debug-b7152ab1ceca50523509.json",
+					"jsonFile" : "target-SmoothEditor-Debug-87d5f584cae49423e883.json",
 					"name" : "SmoothEditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "SmoothParser::@b04f5f839687af80aae5",
+					"jsonFile" : "target-SmoothParser-Debug-d2441d852d12c9afbef1.json",
+					"name" : "SmoothParser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SmoothPreCompile::@4088515cb4035b412499",
+					"jsonFile" : "target-SmoothPreCompile-Debug-9722e3e0b859e1dd2ad4.json",
+					"name" : "SmoothPreCompile",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 9,
 					"id" : "SmoothRuntime::@0e9222390ef2a3c3b428",
-					"jsonFile" : "target-SmoothRuntime-Debug-50b3349c49c3ad990b0f.json",
+					"jsonFile" : "target-SmoothRuntime-Debug-4f77014e10259085157d.json",
 					"name" : "SmoothRuntime",
 					"projectIndex" : 0
 				},
