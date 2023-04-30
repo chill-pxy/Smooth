@@ -69,7 +69,7 @@ engine/CMakeFiles/SmoothPreCompile:
 	cd /d G:\Project\VsCode_project\Smooth\build\engine && "C:\Program Files\CMake\bin\cmake.exe" -E echo "************************************************************* "
 	cd /d G:\Project\VsCode_project\Smooth\build\engine && "C:\Program Files\CMake\bin\cmake.exe" -E echo "**** [Precompile] BEGIN "
 	cd /d G:\Project\VsCode_project\Smooth\build\engine && "C:\Program Files\CMake\bin\cmake.exe" -E echo "************************************************************* "
-	cd /d G:\Project\VsCode_project\Smooth\build\engine && ..\..\engine\bin\SmoothParser.exe  G:/Project/VsCode_project/Smooth/build/parser_header.h G:/Project/VsCode_project/Smooth/engine/source * Piccolo 0
+	cd /d G:\Project\VsCode_project\Smooth\build\engine && ..\..\engine\bin\SmoothParser.exe G:/Project/VsCode_project/Smooth/engine/bin/precompile.json G:/Project/VsCode_project/Smooth/build/parser_header.h G:/Project/VsCode_project/Smooth/engine/source * Smooth 0
 	cd /d G:\Project\VsCode_project\Smooth\build\engine && "C:\Program Files\CMake\bin\cmake.exe" -E echo "+++ Precompile finished +++"
 
 SmoothPreCompile: engine/CMakeFiles/SmoothPreCompile

@@ -32,6 +32,11 @@ target_link_libraries(
 )
 
 target_include_directories(
+  ${TARGET_NAME} 
+  PUBLIC $<BUILD_INTERFACE:${JSON_INCLUDE}>
+)
+
+target_include_directories(
   ${TARGET_NAME}
   PUBLIC $<BUILD_INTERFACE:${THIRD_PARTY_DIR}/glad/include>)
 
@@ -47,3 +52,6 @@ target_include_directories(
   $<INSTALL_INTERFACE:include/${TARGET_NAME}-${PROJECT_VERSION}>
 )
 
+##precompile
+#set gloval vari used by precompile
+set(SMOOTH_RUNTIME_HEADS "${HEADER_FILES}" PARENT_SCOPE)

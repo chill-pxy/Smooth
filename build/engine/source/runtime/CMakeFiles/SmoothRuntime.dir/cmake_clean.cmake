@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../../../../out/libSmoothRuntime.pdb"
   "CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.obj"
   "CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.obj.d"
+  "CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection_register.cpp.obj"
+  "CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection_register.cpp.obj.d"
   "CMakeFiles/SmoothRuntime.dir/core/meta/serializer/serializer.cpp.obj"
   "CMakeFiles/SmoothRuntime.dir/core/meta/serializer/serializer.cpp.obj.d"
   "CMakeFiles/SmoothRuntime.dir/engine.cpp.obj"

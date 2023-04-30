@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/reflection/reflection.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.obj.d"
+  "G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/reflection/reflection_register.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection_register.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection_register.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/serializer/serializer.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/serializer/serializer.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/serializer/serializer.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/engine.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/engine.cpp.obj.d"
   "G:/Project/VsCode_project/Smooth/engine/source/runtime/resource/asset_manager/asset_manager.cpp" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/asset_manager/asset_manager.cpp.obj" "gcc" "engine/source/runtime/CMakeFiles/SmoothRuntime.dir/resource/asset_manager/asset_manager.cpp.obj.d"

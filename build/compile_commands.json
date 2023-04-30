@@ -136,6 +136,11 @@
 },
 {
   "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
+  "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\core\\meta\\reflection\\reflection_register.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\core\\meta\\reflection\\reflection_register.cpp",
+  "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/reflection/reflection_register.cpp"
+},
+{
+  "directory": "G:/Project/VsCode_project/Smooth/build/engine/source/runtime",
   "command": "F:\\MinGW\\bin\\g++.exe  @CMakeFiles/SmoothRuntime.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SmoothRuntime.dir\\core\\meta\\serializer\\serializer.cpp.obj -c G:\\Project\\VsCode_project\\Smooth\\engine\\source\\runtime\\core\\meta\\serializer\\serializer.cpp",
   "file": "G:/Project/VsCode_project/Smooth/engine/source/runtime/core/meta/serializer/serializer.cpp"
 },

@@ -82,6 +82,18 @@ namespace Smooth
     
     namespace Reflection
     {
+        class TypeMetaRegisterinterface
+        {
+        public:
+            static void registerToClassMap(const char* name, ClassFunctionTuple* value);
+            static void registerToFieldMap(const char* name, FieldFunctionTuple* value);
+
+            static void registerToMethodMap(const char* name, MethodFunctionTuple* value);
+            static void registerToArrayMap(const char* name, ArrayFunctionTuple* value);
+
+            static void unregisterAll();
+        };
+
         class TypeMeta
         {
             friend class FieldAccessor;

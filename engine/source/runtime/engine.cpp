@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "runtime/core/meta/reflection/reflection_register.h"
+
 #include "runtime/engine.h"
 #include "runtime/tool/global/global_context.h"
 
@@ -13,6 +15,8 @@ namespace Smooth
 
     void SmoothEngine::startEngine(const std::string& config_file_path)
     {
+        Reflection::TypeMetaRegister::metaRegister();
+
         g_runtime_global_context.startSystems(config_file_path);
         std::cout<<"engine started"<<std::endl;
     }
@@ -20,6 +24,9 @@ namespace Smooth
     void SmoothEngine::shutdownEngine()
     {
         g_runtime_global_context.shutdownSystems();
+
+        Reflection::TypeMetaRegister::metaUnregister();
+
         std::cout<<"engine shudown"<<std::endl;
     }
 

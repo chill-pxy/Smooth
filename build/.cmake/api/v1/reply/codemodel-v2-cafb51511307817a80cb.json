@@ -297,7 +297,7 @@
 				{
 					"directoryIndex" : 10,
 					"id" : "SmoothEditor::@a2a08a0b55f399eba4b5",
-					"jsonFile" : "target-SmoothEditor-Debug-87d5f584cae49423e883.json",
+					"jsonFile" : "target-SmoothEditor-Debug-b7152ab1ceca50523509.json",
 					"name" : "SmoothEditor",
 					"projectIndex" : 0
 				},
@@ -318,7 +318,7 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "SmoothRuntime::@0e9222390ef2a3c3b428",
-					"jsonFile" : "target-SmoothRuntime-Debug-4f77014e10259085157d.json",
+					"jsonFile" : "target-SmoothRuntime-Debug-e862685c602eb46cc0c4.json",
 					"name" : "SmoothRuntime",
 					"projectIndex" : 0
 				},

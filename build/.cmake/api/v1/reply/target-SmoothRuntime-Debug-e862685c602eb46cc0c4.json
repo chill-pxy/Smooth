@@ -63,19 +63,19 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 34,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 38,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 44,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
@@ -152,7 +152,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				26,
 				27,
 				28,
 				29,
@@ -174,7 +173,9 @@
 				45,
 				46,
 				47,
-				48
+				48,
+				49,
+				50
 			]
 		}
 	],
@@ -242,124 +243,126 @@
 			"sourceIndexes" : 
 			[
 				2,
-				26
+				3,
+				27,
+				28
 			]
 		},
 		{
 			"name" : "core\\meta\\serializer",
 			"sourceIndexes" : 
 			[
-				3,
-				27
+				4,
+				29
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				4,
-				28
+				5,
+				30
 			]
 		},
 		{
 			"name" : "resource\\asset_manager",
 			"sourceIndexes" : 
 			[
-				5,
-				29
+				6,
+				31
 			]
 		},
 		{
 			"name" : "resource\\config_manager",
 			"sourceIndexes" : 
 			[
-				6,
-				30
+				7,
+				32
 			]
 		},
 		{
 			"name" : "resource\\global",
 			"sourceIndexes" : 
 			[
-				7,
-				31
+				8,
+				33
 			]
 		},
 		{
 			"name" : "tool\\global",
 			"sourceIndexes" : 
 			[
-				8,
-				32
+				9,
+				34
 			]
 		},
 		{
 			"name" : "tool\\input",
 			"sourceIndexes" : 
 			[
-				9,
-				33
+				10,
+				35
 			]
 		},
 		{
 			"name" : "tool\\render\\RHI",
 			"sourceIndexes" : 
 			[
-				10,
-				34
+				11,
+				36
 			]
 		},
 		{
 			"name" : "tool\\render",
 			"sourceIndexes" : 
 			[
-				11,
-				18,
+				12,
 				19,
 				20,
 				21,
 				22,
 				23,
 				24,
-				35,
-				42,
-				43,
+				25,
+				37,
 				44,
 				45,
 				46,
 				47,
-				48
+				48,
+				49,
+				50
 			]
 		},
 		{
 			"name" : "tool\\render\\legacy",
 			"sourceIndexes" : 
 			[
-				12,
 				13,
 				14,
 				15,
 				16,
-				36,
-				37,
+				17,
 				38,
 				39,
-				40
+				40,
+				41,
+				42
 			]
 		},
 		{
 			"name" : "tool\\render\\passes",
 			"sourceIndexes" : 
 			[
-				17,
-				41
+				18,
+				43
 			]
 		},
 		{
 			"name" : "tool\\ui",
 			"sourceIndexes" : 
 			[
-				25
+				26
 			]
 		}
 	],
@@ -378,6 +381,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "engine/source/runtime/core/meta/reflection/reflection.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "engine/source/runtime/core/meta/reflection/reflection_register.h",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -499,6 +507,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "engine/source/runtime/core/meta/reflection/reflection.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine/source/runtime/core/meta/reflection/reflection_register.cpp",
 			"sourceGroupIndex" : 2
 		},
 		{

@@ -199,6 +199,30 @@ core/meta/reflection/reflection.cpp.s:
 	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection.cpp.s
 .PHONY : core/meta/reflection/reflection.cpp.s
 
+core/meta/reflection/reflection_register.obj: core/meta/reflection/reflection_register.cpp.obj
+.PHONY : core/meta/reflection/reflection_register.obj
+
+# target to build an object file
+core/meta/reflection/reflection_register.cpp.obj:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection_register.cpp.obj
+.PHONY : core/meta/reflection/reflection_register.cpp.obj
+
+core/meta/reflection/reflection_register.i: core/meta/reflection/reflection_register.cpp.i
+.PHONY : core/meta/reflection/reflection_register.i
+
+# target to preprocess a source file
+core/meta/reflection/reflection_register.cpp.i:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection_register.cpp.i
+.PHONY : core/meta/reflection/reflection_register.cpp.i
+
+core/meta/reflection/reflection_register.s: core/meta/reflection/reflection_register.cpp.s
+.PHONY : core/meta/reflection/reflection_register.s
+
+# target to generate assembly for a file
+core/meta/reflection/reflection_register.cpp.s:
+	cd /d G:\Project\VsCode_project\Smooth\build && $(MAKE) $(MAKESILENT) -f engine\source\runtime\CMakeFiles\SmoothRuntime.dir\build.make engine/source/runtime/CMakeFiles/SmoothRuntime.dir/core/meta/reflection/reflection_register.cpp.s
+.PHONY : core/meta/reflection/reflection_register.cpp.s
+
 core/meta/serializer/serializer.obj: core/meta/serializer/serializer.cpp.obj
 .PHONY : core/meta/serializer/serializer.obj
 
@@ -743,6 +767,9 @@ help:
 	@echo ... core/meta/reflection/reflection.obj
 	@echo ... core/meta/reflection/reflection.i
 	@echo ... core/meta/reflection/reflection.s
+	@echo ... core/meta/reflection/reflection_register.obj
+	@echo ... core/meta/reflection/reflection_register.i
+	@echo ... core/meta/reflection/reflection_register.s
 	@echo ... core/meta/serializer/serializer.obj
 	@echo ... core/meta/serializer/serializer.i
 	@echo ... core/meta/serializer/serializer.s
